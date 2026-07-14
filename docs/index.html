@@ -97,6 +97,15 @@
   .price{font-size:12px;}
   .price .label{color:var(--mist); display:block; font-size:10px; text-transform:uppercase;}
   .price .value{font-weight:600; font-variant-numeric:tabular-nums;}
+  .price .value.changed{color:var(--brass-soft);}
+  .price .old-value{color:var(--mist); text-decoration:line-through; font-size:11px; margin-right:4px; font-weight:400;}
+  .price .arrow{font-size:11px; margin-left:3px;}
+  .price .arrow.down{color:var(--ok);}
+  .price .arrow.up{color:var(--up);}
+
+  .offer.is-new{border-color:rgba(78,154,107,0.5);}
+  .offer.has-price-change{border-color:rgba(201,162,39,0.5);}
+  .offer-badges{display:flex; gap:6px; margin-bottom:8px;}
 
   footer{
     position:fixed; bottom:0; left:0; right:0;
@@ -119,12 +128,12 @@
 
 <main>
   <div class="tabs">
-    <div class="tab active" data-tab="changes">Zmiany</div>
-    <div class="tab" data-tab="all">Wszystkie oferty</div>
+    <div class="tab" data-tab="changes">Zmiany</div>
+    <div class="tab active" data-tab="all">Wszystkie oferty</div>
   </div>
 
-  <div id="view-changes"></div>
-  <div id="view-all" style="display:none;"></div>
+  <div id="view-changes" style="display:none;"></div>
+  <div id="view-all"></div>
 </main>
 
 <footer>Dane odświeżane automatycznie raz dziennie · źródła: alerejsy.pl, rejsujznami.com</footer>
@@ -144,15 +153,36 @@ async function loadJSON(path){
   }catch(e){ return null; }
 }
 
-function renderOfferCard(o){
+function renderOfferCard(o, changeInfo){
   const p = o.prices_eur || {};
+  const priceDiffs = (changeInfo && changeInfo.priceChange) ? changeInfo.priceChange.changes : {};
+
   const priceEntries = [
-    ['Wewnętrzna', p.wewnetrzna], ['Z oknem', p.z_oknem ?? p['z oknem']],
-    ['Z balkonem', p.z_balkonem ?? p['z balkonem']], ['Apartament', p.apartament ?? p.typu_suite]
-  ].filter(([,v]) => v !== undefined);
+    ['wewnetrzna', 'Wewnętrzna', p.wewnetrzna],
+    ['z_oknem', 'Z oknem', p.z_oknem ?? p['z oknem']],
+    ['z_balkonem', 'Z balkonem', p.z_balkonem ?? p['z balkonem']],
+    ['apartament', 'Apartament', p.apartament ?? p.typu_suite]
+  ].filter(([,,v]) => v !== undefined);
+
+  const priceHtml = priceEntries.map(([key, label, v]) => {
+    const diff = priceDiffs[key];
+    if(diff){
+      const dir = diff.delta < 0 ? 'down' : 'up';
+      const arrow = diff.delta < 0 ? '↓' : '↑';
+      return `<div class="price"><span class="label">${label}</span>
+        <span class="value changed"><span class="old-value">${fmtEUR(diff.old)}</span>${fmtEUR(diff.new)}<span class="arrow ${dir}">${arrow}</span></span></div>`;
+    }
+    return `<div class="price"><span class="label">${label}</span><span class="value">${fmtEUR(v)}</span></div>`;
+  }).join('');
+
+  const badges = [];
+  if(changeInfo && changeInfo.isNew) badges.push('<span class="badge new">Nowa</span>');
+  if(changeInfo && changeInfo.priceChange) badges.push('<span class="badge price">Zmiana ceny</span>');
+  const cardClass = 'offer' + (changeInfo && changeInfo.isNew ? ' is-new' : '') + (changeInfo && changeInfo.priceChange ? ' has-price-change' : '');
 
   return `
-  <a class="offer" href="${o.url}" target="_blank" rel="noopener">
+  <a class="${cardClass}" href="${o.url}" target="_blank" rel="noopener">
+    ${badges.length ? `<div class="offer-badges">${badges.join('')}</div>` : ''}
     <div class="top">
       <div>
         <div class="ship">${o.ship || 'Statek nieznany'}</div>
@@ -161,9 +191,7 @@ function renderOfferCard(o){
       <div class="dates">${fmtDate(o.start_date)} → ${fmtDate(o.end_date)}${o.nights ? ' · ' + o.nights + ' nocy' : ''}</div>
     </div>
     ${o.route ? `<div class="route">${o.route}</div>` : ''}
-    <div class="prices">
-      ${priceEntries.map(([label, v]) => `<div class="price"><span class="label">${label}</span><span class="value">${fmtEUR(v)}</span></div>`).join('')}
-    </div>
+    <div class="prices">${priceHtml}</div>
   </a>`;
 }
 
@@ -233,9 +261,21 @@ async function init(){
   if(!latest || !latest.offers.length){
     allView.innerHTML = `<div class="empty">Jeszcze nie ma danych.</div>`;
   } else {
+    const newUrls = new Set((changes ? changes.new_offers : []).map(o => o.url));
+    const priceChangeByUrl = {};
+    (changes ? changes.price_changes : []).forEach(c => { priceChangeByUrl[c.url] = c; });
+
     const sorted = [...latest.offers].sort((a,b) => a.start_date.localeCompare(b.start_date));
-    allView.innerHTML = `<div class="section-title">${sorted.length} ofert w terminie</div>` +
-      sorted.map(renderOfferCard).join('');
+    const changedCount = newUrls.size + Object.keys(priceChangeByUrl).length;
+    const summaryLine = changedCount > 0
+      ? `${sorted.length} ofert w terminie · <span style="color:var(--brass-soft);">${changedCount} zmienionych od ostatniego sprawdzenia</span>`
+      : `${sorted.length} ofert w terminie`;
+
+    allView.innerHTML = `<div class="section-title">${summaryLine}</div>` +
+      sorted.map(o => renderOfferCard(o, {
+        isNew: newUrls.has(o.url),
+        priceChange: priceChangeByUrl[o.url] || null,
+      })).join('');
   }
 }
 
