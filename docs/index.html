@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kurs Rejsów — tracker ofert</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0B1D2E">
+<style>
+  :root{
+    --navy:#0B1D2E;
+    --navy-deep:#071522;
+    --brass:#C9A227;
+    --brass-soft:#E8CE7A;
+    --foam:#EDEFEF;
+    --mist:#8FA3B0;
+    --ok:#4E9A6B;
+    --down:#4E9A6B;
+    --up:#B85C4A;
+    --card:#122A40;
+    --line:rgba(200,210,220,0.12);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--navy);
+    color:var(--foam);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding-bottom:70px;
+  }
+  header{
+    padding:28px 20px 22px;
+    background:
+      radial-gradient(120% 140% at 100% 0%, rgba(201,162,39,0.16), transparent 60%),
+      var(--navy-deep);
+    border-bottom:1px solid var(--line);
+    position:sticky; top:0; z-index:10;
+  }
+  .wordmark{
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:26px;
+    letter-spacing:0.5px;
+    display:flex; align-items:baseline; gap:8px;
+  }
+  .wordmark .dot{color:var(--brass); font-size:20px;}
+  .sub{color:var(--mist); font-size:13px; margin-top:4px;}
+  .updated{color:var(--mist); font-size:11px; margin-top:10px; display:flex; justify-content:space-between; align-items:center;}
+  .refresh-btn{
+    background:none;border:1px solid var(--line); color:var(--brass-soft);
+    padding:5px 10px; border-radius:20px; font-size:11px; cursor:pointer;
+  }
+  main{padding:16px;}
+  .tabs{display:flex; gap:8px; margin-bottom:16px; overflow-x:auto; padding-bottom:2px;}
+  .tab{
+    flex:none; padding:8px 14px; border-radius:20px; font-size:13px;
+    border:1px solid var(--line); color:var(--mist); cursor:pointer; white-space:nowrap;
+  }
+  .tab.active{ background:var(--brass); color:var(--navy-deep); border-color:var(--brass); font-weight:600;}
+
+  .section-title{
+    font-size:12px; text-transform:uppercase; letter-spacing:1.4px;
+    color:var(--brass-soft); margin:22px 0 10px; display:flex; align-items:center; gap:8px;
+  }
+  .section-title::after{content:""; flex:1; height:1px; background:var(--line);}
+
+  .empty{ color:var(--mist); font-size:14px; padding:20px 4px; line-height:1.5;}
+
+  .change-card{
+    background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:14px; margin-bottom:10px;
+  }
+  .change-card .ship{font-weight:600; font-size:15px;}
+  .change-card .meta{color:var(--mist); font-size:12px; margin-top:2px;}
+  .price-row{display:flex; justify-content:space-between; font-size:13px; margin-top:8px; padding-top:8px; border-top:1px solid var(--line);}
+  .price-row .old{color:var(--mist); text-decoration:line-through; margin-right:6px;}
+  .price-row .delta.down{color:var(--ok);}
+  .price-row .delta.up{color:var(--up);}
+  .badge{
+    display:inline-block; font-size:10px; padding:2px 8px; border-radius:10px;
+    text-transform:uppercase; letter-spacing:0.5px; font-weight:700; margin-bottom:6px;
+  }
+  .badge.new{background:rgba(78,154,107,0.18); color:#7fd39c;}
+  .badge.removed{background:rgba(184,92,74,0.18); color:#e08a76;}
+  .badge.price{background:rgba(201,162,39,0.18); color:var(--brass-soft);}
+
+  .offer{
+    background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:14px; margin-bottom:10px; display:block; text-decoration:none; color:inherit;
+  }
+  .offer .top{display:flex; justify-content:space-between; align-items:flex-start; gap:10px;}
+  .offer .ship{font-weight:600; font-size:15px;}
+  .offer .source{font-size:10px; color:var(--mist); text-transform:uppercase; letter-spacing:0.5px; margin-top:3px;}
+  .offer .dates{font-size:12px; color:var(--brass-soft); font-variant-numeric:tabular-nums; white-space:nowrap;}
+  .offer .route{font-size:12px; color:var(--mist); margin-top:8px; line-height:1.4;}
+  .prices{display:flex; gap:14px; margin-top:10px; flex-wrap:wrap;}
+  .price{font-size:12px;}
+  .price .label{color:var(--mist); display:block; font-size:10px; text-transform:uppercase;}
+  .price .value{font-weight:600; font-variant-numeric:tabular-nums;}
+
+  footer{
+    position:fixed; bottom:0; left:0; right:0;
+    background:var(--navy-deep); border-top:1px solid var(--line);
+    padding:10px 16px calc(10px + env(safe-area-inset-bottom));
+    font-size:11px; color:var(--mist); text-align:center;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wordmark">Kurs Rejsów<span class="dot">•</span></div>
+  <div class="sub">Fiordy, Europa Północna i Śródziemne — 20–31 sierpnia 2026</div>
+  <div class="updated">
+    <span id="updated-text">Ładowanie…</span>
+    <button class="refresh-btn" onclick="location.reload()">Odśwież</button>
+  </div>
+</header>
+
+<main>
+  <div class="tabs">
+    <div class="tab active" data-tab="changes">Zmiany</div>
+    <div class="tab" data-tab="all">Wszystkie oferty</div>
+  </div>
+
+  <div id="view-changes"></div>
+  <div id="view-all" style="display:none;"></div>
+</main>
+
+<footer>Dane odświeżane automatycznie raz dziennie · źródła: alerejsy.pl, rejsujznami.com</footer>
+
+<script>
+const fmtEUR = n => n == null ? "—" : n.toLocaleString('pl-PL') + " €";
+const fmtDate = iso => {
+  const d = new Date(iso);
+  return d.toLocaleDateString('pl-PL', {day:'2-digit', month:'2-digit', year:'numeric'});
+};
+
+async function loadJSON(path){
+  try{
+    const res = await fetch(path + '?t=' + Date.now());
+    if(!res.ok) return null;
+    return await res.json();
+  }catch(e){ return null; }
+}
+
+function renderOfferCard(o){
+  const p = o.prices_eur || {};
+  const priceEntries = [
+    ['Wewnętrzna', p.wewnetrzna], ['Z oknem', p.z_oknem ?? p['z oknem']],
+    ['Z balkonem', p.z_balkonem ?? p['z balkonem']], ['Apartament', p.apartament ?? p.typu_suite]
+  ].filter(([,v]) => v !== undefined);
+
+  return `
+  <a class="offer" href="${o.url}" target="_blank" rel="noopener">
+    <div class="top">
+      <div>
+        <div class="ship">${o.ship || 'Statek nieznany'}</div>
+        <div class="source">${o.source}</div>
+      </div>
+      <div class="dates">${fmtDate(o.start_date)} → ${fmtDate(o.end_date)}${o.nights ? ' · ' + o.nights + ' nocy' : ''}</div>
+    </div>
+    ${o.route ? `<div class="route">${o.route}</div>` : ''}
+    <div class="prices">
+      ${priceEntries.map(([label, v]) => `<div class="price"><span class="label">${label}</span><span class="value">${fmtEUR(v)}</span></div>`).join('')}
+    </div>
+  </a>`;
+}
+
+function renderChangeCard(kind, item){
+  if(kind === 'price'){
+    const rows = Object.entries(item.changes).map(([cabin, c]) => {
+      const dir = c.delta < 0 ? 'down' : 'up';
+      const arrow = c.delta < 0 ? '↓' : '↑';
+      return `<div class="price-row">
+        <span>${cabin.replace('_',' ')}</span>
+        <span><span class="old">${fmtEUR(c.old)}</span><b>${fmtEUR(c.new)}</b> <span class="delta ${dir}">${arrow} ${Math.abs(c.delta)} €</span></span>
+      </div>`;
+    }).join('');
+    return `<div class="change-card">
+      <span class="badge price">Zmiana ceny</span>
+      <div class="ship">${item.ship || ''}</div>
+      <div class="meta">${item.source} · wypłynięcie ${fmtDate(item.start_date)}</div>
+      ${rows}
+      <div class="meta" style="margin-top:8px;"><a href="${item.url}" target="_blank" style="color:var(--brass-soft);">Zobacz ofertę →</a></div>
+    </div>`;
+  }
+  const badgeClass = kind === 'new' ? 'new' : 'removed';
+  const badgeText = kind === 'new' ? 'Nowa oferta' : 'Oferta zniknęła';
+  return `<div class="change-card">
+    <span class="badge ${badgeClass}">${badgeText}</span>
+    <div class="ship">${item.ship || ''}</div>
+    <div class="meta">${item.source} · ${fmtDate(item.start_date)} → ${fmtDate(item.end_date)}</div>
+    ${kind === 'new' ? `<div class="meta" style="margin-top:8px;"><a href="${item.url}" target="_blank" style="color:var(--brass-soft);">Zobacz ofertę →</a></div>` : ''}
+  </div>`;
+}
+
+async function init(){
+  const [latest, changes] = await Promise.all([
+    loadJSON('data/offers_latest.json'),
+    loadJSON('data/changes_latest.json'),
+  ]);
+
+  const updatedEl = document.getElementById('updated-text');
+  if(latest){
+    updatedEl.textContent = 'Ostatnia aktualizacja: ' + new Date(latest.generated_at).toLocaleString('pl-PL');
+  } else {
+    updatedEl.textContent = 'Brak danych — scraper jeszcze się nie uruchomił.';
+  }
+
+  const changesView = document.getElementById('view-changes');
+  const allView = document.getElementById('view-all');
+
+  if(!changes || (changes.new_offers.length + changes.removed_offers.length + changes.price_changes.length === 0)){
+    changesView.innerHTML = `<div class="empty">Brak zmian od ostatniego sprawdzenia. To normalne przy pierwszym uruchomieniu — zmiany pojawią się po kolejnym scrapowaniu.</div>`;
+  } else {
+    let html = '';
+    if(changes.price_changes.length){
+      html += `<div class="section-title">Zmiany cen (${changes.price_changes.length})</div>`;
+      html += changes.price_changes.map(c => renderChangeCard('price', c)).join('');
+    }
+    if(changes.new_offers.length){
+      html += `<div class="section-title">Nowe oferty (${changes.new_offers.length})</div>`;
+      html += changes.new_offers.map(c => renderChangeCard('new', c)).join('');
+    }
+    if(changes.removed_offers.length){
+      html += `<div class="section-title">Zniknęły (${changes.removed_offers.length})</div>`;
+      html += changes.removed_offers.map(c => renderChangeCard('removed', c)).join('');
+    }
+    changesView.innerHTML = html;
+  }
+
+  if(!latest || !latest.offers.length){
+    allView.innerHTML = `<div class="empty">Jeszcze nie ma danych.</div>`;
+  } else {
+    const sorted = [...latest.offers].sort((a,b) => a.start_date.localeCompare(b.start_date));
+    allView.innerHTML = `<div class="section-title">${sorted.length} ofert w terminie</div>` +
+      sorted.map(renderOfferCard).join('');
+  }
+}
+
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    const which = tab.dataset.tab;
+    document.getElementById('view-changes').style.display = which === 'changes' ? 'block' : 'none';
+    document.getElementById('view-all').style.display = which === 'all' ? 'block' : 'none';
+  });
+});
+
+init();
+</script>
+</body>
+</html>

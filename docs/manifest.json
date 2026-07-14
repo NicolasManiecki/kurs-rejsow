@@ -1,0 +1,9 @@
+{
+  "name": "Kurs Rejsów - tracker ofert",
+  "short_name": "Kurs Rejsów",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0B1D2E",
+  "theme_color": "#0B1D2E",
+  "icons": []
+}
