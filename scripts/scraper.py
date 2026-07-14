@@ -35,9 +35,14 @@ log = logging.getLogger("scraper")
 
 
 def load_previous():
+    """Zwraca listę ofert z poprzedniego zapisu (albo None, jeśli nie ma jeszcze pliku
+    albo plik jest jeszcze pustym placeholderem bez wcześniejszych danych)."""
     if os.path.exists(config.LATEST_FILE):
         with open(config.LATEST_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+            data = json.load(f)
+        if data.get("generated_at") is None:
+            return None  # to jeszcze pusty placeholder, nie prawdziwy poprzedni odczyt
+        return data.get("offers", [])
     return None
 
 

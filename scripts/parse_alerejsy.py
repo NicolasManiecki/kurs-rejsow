@@ -105,6 +105,16 @@ def scrape_category(category_key, base_url, target_start, target_end, session=No
     offers = []
     seen_links = set()
 
+    # "Rozgrzewka" - odwiedzamy stronę główną, żeby dostać normalne ciasteczka sesji,
+    # zanim wejdziemy na stronę kategorii. Niektóre zabezpieczenia antybotowe (WAF)
+    # blokują (np. błędem 415) pierwsze żądanie idące bezpośrednio na podstronę.
+    if not session.cookies:
+        try:
+            session.get("https://www.alerejsy.pl/", headers=HEADERS, timeout=REQUEST_TIMEOUT)
+            time.sleep(REQUEST_DELAY)
+        except requests.RequestException as e:
+            log.warning("Rozgrzewka (strona główna) nie powiodła się: %s", e)
+
     for page in range(1, MAX_PAGES + 1):
         url = base_url if page == 1 else f"{base_url}?page={page}"
         try:
