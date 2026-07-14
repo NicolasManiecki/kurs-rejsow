@@ -1,1 +1,40 @@
+name: Scrapuj oferty rejsów
 
+on:
+  schedule:
+    # codziennie o 6:00 UTC (8:00 czasu polskiego latem)
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}  # pozwala odpalić ręcznie z zakładki Actions na GitHubie
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Zainstaluj zależności
+        run: pip install -r requirements.txt
+
+      - name: Uruchom scraper
+        run: python scripts/scraper.py
+
+      - name: Skopiuj dane do docs/ (dla dashboardu / GitHub Pages)
+        run: |
+          mkdir -p docs/data
+          cp data/offers_latest.json docs/data/offers_latest.json
+          cp data/changes_latest.json docs/data/changes_latest.json
+
+      - name: Zapisz zmiany w repo
+        run: |
+          git config user.name "cruise-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ docs/data/
+          git diff --quiet --cached || git commit -m "Aktualizacja ofert rejsów [automatycznie]"
+          git push
