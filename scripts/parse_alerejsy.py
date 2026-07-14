@@ -17,6 +17,7 @@ import re
 import time
 import logging
 from datetime import date, datetime
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -29,7 +30,7 @@ DETAIL_LINK_RE = re.compile(r"/rejsy/[a-z0-9\-]+-\d{4}-\d{2}-\d{2}-\d+")
 DATE_RANGE_RE = re.compile(
     r"(\d{2}\.\d{2})\s*-\s*(\d{2}\.\d{2}\.\d{4})\s*\((\d+)\s*dni\)"
 )
-ROUTE_RE = re.compile(r"trasa:\s*(.+)")
+ROUTE_RE = re.compile(r"trasa:\s*(.+?)(?:\s*Cena za osob|\s*\*ceny|$)")
 PRICE_LABELS = ["Kabina wewnętrzna", "Kabina z oknem", "Kabina z balkonem", "Apartament"]
 
 
@@ -47,24 +48,19 @@ def _parse_price(text):
     return None  # 'zadzwoń', 'brak', puste itp.
 
 
-def _extract_prices(block_text):
-    """Wyciąga ceny 4 typów kabin z tekstu bloku oferty."""
+_PRICE_BLOCK_RE = re.compile(
+    "(" + "|".join(re.escape(l) for l in PRICE_LABELS) + r")\s*"
+    r"(od\s*[\d\s]+\s*€|zadzwoń|brak|n\.d\.)",
+    re.IGNORECASE,
+)
+
+
+def _extract_prices(normalized_text):
+    """Wyciąga ceny 4 typów kabin z jednoliniowego, znormalizowanego tekstu bloku oferty."""
     prices = {}
-    lines = [l.strip() for l in block_text.splitlines() if l.strip()]
-    for i, line in enumerate(lines):
-        for label in PRICE_LABELS:
-            if line == label or line.startswith(label):
-                # cena zwykle w następnej niepustej linii
-                value = None
-                for j in range(i + 1, min(i + 3, len(lines))):
-                    candidate = lines[j]
-                    if candidate in PRICE_LABELS:
-                        break
-                    value = _parse_price(candidate)
-                    if value is not None or "zadzwoń" in candidate or "brak" in candidate:
-                        break
-                key = label.lower().replace("kabina ", "").replace(" ", "_")
-                prices[key] = value
+    for label, raw_val in _PRICE_BLOCK_RE.findall(normalized_text):
+        key = label.lower().replace("kabina ", "").replace(" ", "_")
+        prices[key] = _parse_price(raw_val)
     return prices
 
 
@@ -141,7 +137,7 @@ def scrape_category(category_key, base_url, target_start, target_end, session=No
         page_had_new = False
         for a in detail_links:
             href = a["href"]
-            full_url = href if href.startswith("http") else f"https://www.alerejsy.pl{href}"
+            full_url = urljoin(url, href)
             if full_url in seen_links:
                 continue
             seen_links.add(full_url)
@@ -152,7 +148,10 @@ def scrape_category(category_key, base_url, target_start, target_end, session=No
                 log.warning("Nie znaleziono kontenera oferty dla linku %s", full_url)
                 continue
 
-            block_text = container.get_text("\n")
+            raw_block_text = container.get_text("\n")
+            # normalizacja: wszystkie białe znaki (nbsp, nowe linie) -> pojedyncza spacja,
+            # żeby dopasowanie nie zależało od dokładnej struktury HTML
+            block_text = re.sub(r"\s+", " ", raw_block_text.replace("\xa0", " "))
             date_match = DATE_RANGE_RE.search(block_text)
             if not date_match:
                 continue
@@ -180,6 +179,12 @@ def scrape_category(category_key, base_url, target_start, target_end, session=No
             route_match = ROUTE_RE.search(block_text)
             route = route_match.group(1).strip() if route_match else None
             prices = _extract_prices(block_text)
+
+            if not any(v is not None for v in prices.values()):
+                log.warning(
+                    "Wszystkie ceny puste dla %s - fragment tekstu: %r",
+                    full_url, block_text[:300],
+                )
 
             offers.append({
                 "source": "alerejsy.pl",

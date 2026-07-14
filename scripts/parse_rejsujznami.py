@@ -14,6 +14,7 @@ import re
 import time
 import logging
 from datetime import date, datetime
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -120,7 +121,7 @@ def scrape_zone(zone_key, base_url, target_start, target_end, session=None):
 
         for a in detail_links:
             href = a["href"]
-            full_url = href if href.startswith("http") else f"https://www.rejsujznami.com{href}"
+            full_url = urljoin(url, href)
             if full_url in seen_links:
                 continue
             seen_links.add(full_url)
@@ -130,8 +131,12 @@ def scrape_zone(zone_key, base_url, target_start, target_end, session=None):
             if container is None:
                 continue
             block_text = container.get_text("\n")
+            # normalizacja: zamieniamy wszystkie białe znaki (w tym nbsp i nowe linie)
+            # na pojedyncze spacje, żeby dopasowanie regexów nie zależało od tego,
+            # jak dokładnie przeglądarka/HTML łamie tekst na linie
+            norm_text = re.sub(r"\s+", " ", block_text.replace("\xa0", " "))
 
-            dates_found = DATE_LINE_RE.findall(block_text)
+            dates_found = DATE_LINE_RE.findall(norm_text)
             if len(dates_found) < 2:
                 continue
             start_d = _parse_pl_date(*dates_found[0])
@@ -145,15 +150,21 @@ def scrape_zone(zone_key, base_url, target_start, target_end, session=None):
                 continue
 
             ship = _extract_ship_name(container)
-            nights_match = re.search(r"Liczba nocy:\s*(\d+)", block_text)
+            nights_match = re.search(r"Liczba nocy:\s*(\d+)", norm_text)
             nights = int(nights_match.group(1)) if nights_match else None
-            from_port_match = re.search(r"Z portu:\s*([^\n]+)", block_text)
+            from_port_match = re.search(r"Z portu:\s*([^\n]+?)(?:\s+Do portu:|$)", norm_text)
             from_port = from_port_match.group(1).strip() if from_port_match else None
 
             prices = {}
-            for label, raw_val in PRICE_LINE_RE.findall(block_text):
+            for label, raw_val in PRICE_LINE_RE.findall(norm_text):
                 key = _strip_pl(label).replace(" ", "_")
                 prices[key] = _parse_price(raw_val)
+
+            if not any(v is not None for v in prices.values()):
+                log.warning(
+                    "Wszystkie ceny puste dla %s - fragment tekstu: %r",
+                    full_url, norm_text[:300],
+                )
 
             offers.append({
                 "source": "rejsujznami.com",
