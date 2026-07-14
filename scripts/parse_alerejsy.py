@@ -129,6 +129,13 @@ def scrape_category(category_key, base_url, target_start, target_end, session=No
 
         if not detail_links:
             log.info("Brak ofert na stronie %s (koniec paginacji albo zmieniona struktura)", page)
+            if page == 1:
+                title = soup.title.get_text(strip=True) if soup.title else "(brak <title>)"
+                visible_text = soup.get_text(" ", strip=True)[:400]
+                log.warning(
+                    "DIAGNOSTYKA %s: status=%s, dlugosc_html=%s, title=%r, poczatek_tekstu=%r",
+                    category_key, resp.status_code, len(resp.text), title, visible_text,
+                )
             break
 
         page_had_new = False
