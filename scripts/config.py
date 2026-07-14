@@ -11,7 +11,7 @@ TARGET_END = date(2026, 8, 31)
 # Kategorie do sprawdzenia na alerejsy.pl (slug używany w URL)
 ALEREJSY_CATEGORIES = {
     "fiordy_europa_polnocna": "https://www.alerejsy.pl/rejsy-po-fiordach-norweskich",
-    "morze_srodziemne": "https://www.alerejsy.pl/rejsy-po-morzu-srodziemnym",
+    "morze_srodziemne": "https://www.alerejsy.pl/morze-srodziemne",
 }
 
 # Strefy do sprawdzenia na rejsujznami.com (slug z polskimi znakami zakodowany w URL)
@@ -34,7 +34,9 @@ HEADERS = {
         "image/avif,image/webp,*/*;q=0.8"
     ),
     "Accept-Language": "pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Accept-Encoding": "gzip, deflate, br",
+    # UWAGA: celowo NIE ustawiamy tu Accept-Encoding. Jeśli ustawimy je ręcznie,
+    # biblioteka `requests` przestaje samodzielnie rozpakowywać odpowiedź (gzip/br)
+    # i `resp.text` zwraca surowe skompresowane bajty zamiast czytelnego HTML.
     "Connection": "keep-alive",
     "Upgrade-Insecure-Requests": "1",
     "Sec-Fetch-Dest": "document",

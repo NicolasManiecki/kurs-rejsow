@@ -44,7 +44,8 @@ DATE_LINE_RE = re.compile(
 )
 
 PRICE_LINE_RE = re.compile(
-    r"(WEWN[ĘE]TRZNA|Z OKNEM|Z BALKONEM|TYPU SUITE):\s*([\d.,\s]+|n\.d\.|brak)",
+    r"(WEWN[ĘE]TRZNA|Z OKNEM|Z BALKONEM|TYPU SUITE):\s*(?:od\.?\s*)?"
+    r"(\d[\d.,\s]*|n\.d\.|brak)",
     re.IGNORECASE,
 )
 
