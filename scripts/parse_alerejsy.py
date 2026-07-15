@@ -22,6 +22,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+import config
 from config import HEADERS, REQUEST_TIMEOUT, REQUEST_DELAY, MAX_PAGES
 
 log = logging.getLogger("alerejsy")
@@ -180,6 +181,10 @@ def scrape_category(category_key, base_url, target_start, target_end, session=No
             ship = _extract_ship_name(container, href)
             route_match = ROUTE_RE.search(block_text)
             route = route_match.group(1).strip() if route_match else None
+
+            if config.is_non_european_departure(route):
+                continue
+
             prices = _extract_prices(block_text)
 
             if not any(v is not None for v in prices.values()):

@@ -23,6 +23,18 @@ REJSUJZNAMI_ZONES = {
 # Maksymalna liczba stron paginacji do przejrzenia na kategorię (bezpiecznik)
 MAX_PAGES = 60
 
+# Jeśli port/trasa wypłynięcia zawiera którekolwiek z tych słów (bez rozróżniania
+# wielkości liter), ofertę odrzucamy - to zwykle rejsy transatlantyckie/przebazowania
+# wypływające z USA, Karaibów itp., a nie z Europy.
+NON_EUROPEAN_KEYWORDS = [
+    "united states", "usa", "u.s.a", "stany zjednoczone", "stanow zjednoczonych",
+    "florida", "floryda", "new york", "fort lauderdale", "miami", "port canaveral",
+    "port everglades", "galveston", "los angeles", "san diego", "seattle",
+    "vancouver", "canada", "kanada", "bahamas", "bahamy", "caribbean", "karaiby",
+    "puerto rico", "jamaica", "jamajka", "mexico", "meksyk", "brazil", "brazylia",
+    "dubai", "zjednoczone emiraty", "singapore", "singapur", "australia", "japan", "japonia",
+]
+
 # Nagłówki HTTP - udajemy zwykłą przeglądarkę, żeby nie być blokowanym
 HEADERS = {
     "User-Agent": (
@@ -53,3 +65,12 @@ DATA_DIR = "data"
 LATEST_FILE = f"{DATA_DIR}/offers_latest.json"
 CHANGES_FILE = f"{DATA_DIR}/changes_latest.json"
 HISTORY_DIR = f"{DATA_DIR}/history"
+
+
+def is_non_european_departure(port_text):
+    """True, jeśli podany tekst portu/trasy wskazuje na wypłynięcie spoza Europy
+    (np. rejs transatlantycki startujący z USA)."""
+    if not port_text:
+        return False
+    lowered = port_text.lower()
+    return any(keyword in lowered for keyword in NON_EUROPEAN_KEYWORDS)

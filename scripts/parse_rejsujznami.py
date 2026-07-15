@@ -19,6 +19,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+import config
 from config import HEADERS, REQUEST_TIMEOUT, REQUEST_DELAY, MAX_PAGES
 
 log = logging.getLogger("rejsujznami")
@@ -157,6 +158,9 @@ def scrape_zone(zone_key, base_url, target_start, target_end, session=None):
             nights = int(nights_match.group(1)) if nights_match else None
             from_port_match = re.search(r"Z portu:\s*([^\n]+?)(?:\s+Do portu:|$)", norm_text)
             from_port = from_port_match.group(1).strip() if from_port_match else None
+
+            if config.is_non_european_departure(from_port):
+                continue
 
             prices = {}
             for label, raw_val in PRICE_LINE_RE.findall(norm_text):
