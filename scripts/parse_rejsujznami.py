@@ -89,8 +89,10 @@ def _extract_ship_name(container):
     return None
 
 
-def _overlaps(start_d, end_d, target_start, target_end):
-    return start_d <= target_end and end_d >= target_start
+def _departs_in_range(start_d, target_start, target_end):
+    """Rejs kwalifikuje się, jeśli DATA WYPŁYNIĘCIA mieści się w zadanym zakresie
+    (a nie tylko jakikolwiek dzień rejsu nakłada się z zakresem)."""
+    return target_start <= start_d <= target_end
 
 
 def scrape_zone(zone_key, base_url, target_start, target_end, session=None):
@@ -147,7 +149,7 @@ def scrape_zone(zone_key, base_url, target_start, target_end, session=None):
 
             page_max_start = max(page_max_start, start_d) if page_max_start else start_d
 
-            if not _overlaps(start_d, end_d, target_start, target_end):
+            if not _departs_in_range(start_d, target_start, target_end):
                 continue
 
             ship = _extract_ship_name(container)

@@ -91,8 +91,10 @@ def _extract_ship_name(container, detail_href):
     return None
 
 
-def _overlaps(start_d, end_d, target_start, target_end):
-    return start_d <= target_end and end_d >= target_start
+def _departs_in_range(start_d, target_start, target_end):
+    """Rejs kwalifikuje się, jeśli DATA WYPŁYNIĘCIA mieści się w zadanym zakresie
+    (a nie tylko jakikolwiek dzień rejsu nakłada się z zakresem)."""
+    return target_start <= start_d <= target_end
 
 
 def scrape_category(category_key, base_url, target_start, target_end, session=None):
@@ -172,7 +174,7 @@ def scrape_category(category_key, base_url, target_start, target_end, session=No
             except ValueError:
                 continue
 
-            if not _overlaps(start_d, end_d, target_start, target_end):
+            if not _departs_in_range(start_d, target_start, target_end):
                 continue
 
             ship = _extract_ship_name(container, href)
