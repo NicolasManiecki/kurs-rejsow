@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-15T08:15:01.707575+00:00",
+  "generated_at": "2026-07-15T19:26:44.939433+00:00",
   "target_start": "2026-08-20",
   "target_end": "2026-08-31",
-  "offer_count": 930,
+  "offer_count": 931,
   "offers": [
     {
       "source": "alerejsy.pl",
@@ -262,22 +262,6 @@
     {
       "source": "alerejsy.pl",
       "category": "fiordy_europa_polnocna",
-      "ship": "AIDAnova (2018)",
-      "start_date": "2026-08-15",
-      "end_date": "2026-08-29",
-      "nights": 15,
-      "route": "Kiel (Niemcy) >> Skagen (Dania) >> Oslo (Norwegia) >> Kopenhaga (Dania) >> Aarhus (Dania) >> Kiel (Niemcy) >> Dzień na morzu >> Bergen (Norwegia) >> Flaam (Norwegia) >> Alesund (Norwegia) >> Haugesund (Norwegia) >> Dzień na morzu >> Kiel (Niemcy)",
-      "prices_eur": {
-        "wewnętrzna": 2060,
-        "z_oknem": 2580,
-        "z_balkonem": 2955,
-        "apartament": 4680
-      },
-      "url": "https://www.alerejsy.pl/rejsy/wielki-rejs-skandynawia-z-kilonii-xx-aidanova-2026-08-15-15"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "fiordy_europa_polnocna",
       "ship": "Celebrity Apex (2021)",
       "start_date": "2026-08-15",
       "end_date": "2026-08-22",
@@ -290,6 +274,22 @@
         "apartament": 4625
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-fiordy-norweskie-z-southampton-celebrity-apex-2026-08-15-8"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "fiordy_europa_polnocna",
+      "ship": "AIDAnova (2018)",
+      "start_date": "2026-08-15",
+      "end_date": "2026-08-29",
+      "nights": 15,
+      "route": "Kiel (Niemcy) >> Skagen (Dania) >> Oslo (Norwegia) >> Kopenhaga (Dania) >> Aarhus (Dania) >> Kiel (Niemcy) >> Dzień na morzu >> Bergen (Norwegia) >> Flaam (Norwegia) >> Alesund (Norwegia) >> Haugesund (Norwegia) >> Dzień na morzu >> Kiel (Niemcy)",
+      "prices_eur": {
+        "wewnętrzna": 2060,
+        "z_oknem": 2580,
+        "z_balkonem": 2955,
+        "apartament": 4680
+      },
+      "url": "https://www.alerejsy.pl/rejsy/wielki-rejs-skandynawia-z-kilonii-xx-aidanova-2026-08-15-15"
     },
     {
       "source": "alerejsy.pl",
@@ -432,6 +432,22 @@
         "apartament": 1969
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-kiel-na-costa-diadema-2026-08-21-8-14b3c2c8df"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "fiordy_europa_polnocna",
+      "ship": "Costa Diadema",
+      "start_date": "2026-08-21",
+      "end_date": "2026-08-28",
+      "nights": 8,
+      "route": "Przejazd autokarem z Poznania >> Kiel (Niemcy) >> Kopenhaga (Dania) >> Dzień na morzu >> Hellesylt (Norwegia) >> Geiranger (Norwegia) >> Bergen (Norwegia) >> Stavanger (Norwegia) >> Dzień na morzu >> Kiel (Niemcy) >> Przyjazd autokarem do Poznania",
+      "prices_eur": {
+        "wewnętrzna": null,
+        "z_oknem": null,
+        "z_balkonem": 1630,
+        "apartament": null
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-fiordy-norweskie-i-kopenhaga-pl-pilot-2026-08-21-8"
     },
     {
       "source": "alerejsy.pl",
@@ -692,6 +708,20 @@
     {
       "source": "alerejsy.pl",
       "category": "fiordy_europa_polnocna",
+      "ship": "Mein Schiff 2",
+      "start_date": "2026-08-26",
+      "end_date": "2026-09-05",
+      "nights": 11,
+      "route": "Hamburg (Niemcy) >> Dzień na morzu >> Invergordon (Szkocja/Wielka Brytania) >> Dzień na morzu >> Greenock/Glasgow (Wielka Brytania) >> Belfast (Irlandia Północna/Wielka Brytania) >> Liverpool (Wielka Brytania) >> Dzień na morzu >> Dover/Londyn (Wielka Brytania) >> Dzień na morzu >> Hamburg (Niemcy)",
+      "prices_eur": {
+        "wewnętrzna": 2399,
+        "z_balkonem": 2929
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-hamburga-mein-schiff-2-2026-08-26-11"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "fiordy_europa_polnocna",
       "ship": "Majestic Princess",
       "start_date": "2026-08-26",
       "end_date": "2026-09-07",
@@ -703,20 +733,6 @@
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-southampton-na-majestic-princess-2026-08-26-13-7edd821f0c"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "fiordy_europa_polnocna",
-      "ship": "Mein Schiff 2",
-      "start_date": "2026-08-26",
-      "end_date": "2026-09-05",
-      "nights": 11,
-      "route": "Hamburg (Niemcy) >> Dzień na morzu >> Invergordon (Szkocja/Wielka Brytania) >> Dzień na morzu >> Greenock/Glasgow (Wielka Brytania) >> Belfast (Irlandia Północna/Wielka Brytania) >> Liverpool (Wielka Brytania) >> Dzień na morzu >> Dover/Londyn (Wielka Brytania) >> Dzień na morzu >> Hamburg (Niemcy)",
-      "prices_eur": {
-        "wewnętrzna": 2399,
-        "z_balkonem": 2929
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-hamburga-mein-schiff-2-2026-08-26-11"
     },
     {
       "source": "alerejsy.pl",
@@ -3043,16 +3059,16 @@
     {
       "source": "alerejsy.pl",
       "category": "morze_srodziemne",
-      "ship": "Costa Smeralda (2019)",
+      "ship": "Costa Toscana (2022)",
       "start_date": "2026-08-16",
       "end_date": "2026-08-23",
       "nights": 8,
-      "route": "Marsylia (Francja) >> Barcelona (Hiszpania) >> Ibiza (Hiszpania) >> Zatoka Ibiza - przepłynięcie >> Dzień na morzu >> Palermo/Sycylia (Włochy) >> Civitavecchia/Rzym (Włochy) >> Savona (Włochy) >> Marsylia (Francja)",
+      "route": "Barcelona (Hiszpania) >> Dzień na morzu >> Cagliari/Sardynia (Włochy) >> Neapol (Włochy) >> Zatoka Capri (Włochy) - przepłynięcie widokowe >> Civitavecchia/Rzym (Włochy) >> Genua (Włochy) >> Marsylia (Francja) >> Barcelona (Hiszpania)",
       "prices_eur": {
-        "wewnętrzna": 1903,
-        "z_oknem": 2621,
-        "z_balkonem": 2305,
-        "apartament": null
+        "wewnętrzna": 1628,
+        "z_oknem": null,
+        "z_balkonem": 4923,
+        "apartament": 7297
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-galapagos-z-baltry-na-celebrity-flora-2026-08-16-8"
     },
@@ -3579,22 +3595,6 @@
         "apartament": 3283
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-bajeczne-na-statku-resilient-lady-2026-08-17-6"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Fantasia",
-      "start_date": "2026-08-18",
-      "end_date": "2026-08-27",
-      "nights": 10,
-      "route": "Bari (Włochy) >> Triest (Włochy) >> Dzień na morzu >> Katakolon/Olympia (Grecja) >> Santorini (Grecja) >> Pireus/Ateny (Grecja) >> Stambuł (Turcja) >> Dzień na morzu >> Corfu (Grecja) >> Bari (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": null,
-        "z_balkonem": 2417,
-        "apartament": 3107
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-bari-na-msc-fantasia-2026-08-18-10-0d2d1b767f"
     },
     {
       "source": "alerejsy.pl",
@@ -4441,6 +4441,22 @@
         "apartament": 1969
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-kiel-na-costa-diadema-2026-08-21-8-14b3c2c8df"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "Costa Diadema",
+      "start_date": "2026-08-21",
+      "end_date": "2026-08-28",
+      "nights": 8,
+      "route": "Przejazd autokarem z Poznania >> Kiel (Niemcy) >> Kopenhaga (Dania) >> Dzień na morzu >> Hellesylt (Norwegia) >> Geiranger (Norwegia) >> Bergen (Norwegia) >> Stavanger (Norwegia) >> Dzień na morzu >> Kiel (Niemcy) >> Przyjazd autokarem do Poznania",
+      "prices_eur": {
+        "wewnętrzna": null,
+        "z_oknem": null,
+        "z_balkonem": 1630,
+        "apartament": null
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-fiordy-norweskie-i-kopenhaga-pl-pilot-2026-08-21-8"
     },
     {
       "source": "alerejsy.pl",
@@ -9886,7 +9902,8 @@
       "nights": 7,
       "route": "Kiel",
       "prices_eur": {
-        "z_oknem": null
+        "z_oknem": null,
+        "typu_suite": null
       },
       "url": "https://www.rejsujznami.com/rejsy/z_europa_p%C3%B3%C5%82nocna/m_sierpien_2026/c_costa_cruises/n_costa_diadema/p_kiel/d_14_Sierpien_2026/i_72219/"
     },
