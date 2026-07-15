@@ -132,6 +132,14 @@
     <div class="tab active" data-tab="all">Wszystkie oferty</div>
   </div>
 
+  <div id="sort-row" style="display:flex; gap:8px; margin-bottom:14px;">
+    <select id="sort-select" style="flex:1; background:var(--card); color:var(--foam); border:1px solid var(--line); border-radius:10px; padding:8px 10px; font-size:13px;">
+      <option value="date">Sortuj: data wypłynięcia</option>
+      <option value="price_asc">Sortuj: cena od najniższej</option>
+      <option value="price_desc">Sortuj: cena od najwyższej</option>
+    </select>
+  </div>
+
   <div id="view-changes" style="display:none;"></div>
   <div id="view-all"></div>
 </main>
@@ -223,11 +231,63 @@ function renderChangeCard(kind, item){
   </div>`;
 }
 
+let _latestData = null;
+let _changesData = null;
+
+function minPrice(offer){
+  const vals = Object.values(offer.prices_eur || {}).filter(v => v !== null && v !== undefined);
+  return vals.length ? Math.min(...vals) : null;
+}
+
+function renderAllOffers(sortMode){
+  const allView = document.getElementById('view-all');
+  const latest = _latestData, changes = _changesData;
+
+  if(!latest || !latest.offers.length){
+    allView.innerHTML = `<div class="empty">Jeszcze nie ma danych.</div>`;
+    return;
+  }
+
+  const newUrls = new Set((changes ? changes.new_offers : []).map(o => o.url));
+  const priceChangeByUrl = {};
+  (changes ? changes.price_changes : []).forEach(c => { priceChangeByUrl[c.url] = c; });
+
+  let sorted = [...latest.offers];
+  if(sortMode === 'price_asc' || sortMode === 'price_desc'){
+    sorted.sort((a,b) => {
+      const pa = minPrice(a), pb = minPrice(b);
+      if(pa === null && pb === null) return 0;
+      if(pa === null) return 1;  // oferty bez ceny na koniec
+      if(pb === null) return -1;
+      return sortMode === 'price_asc' ? pa - pb : pb - pa;
+    });
+  } else {
+    sorted.sort((a,b) => a.start_date.localeCompare(b.start_date));
+  }
+
+  const changedCount = newUrls.size + Object.keys(priceChangeByUrl).length;
+  const summaryLine = changedCount > 0
+    ? `${sorted.length} ofert w terminie · <span style="color:var(--brass-soft);">${changedCount} zmienionych od ostatniego sprawdzenia</span>`
+    : `${sorted.length} ofert w terminie`;
+
+  allView.innerHTML = `<div class="section-title">${summaryLine}</div>` +
+    sorted.map(o => renderOfferCard(o, {
+      isNew: newUrls.has(o.url),
+      priceChange: priceChangeByUrl[o.url] || null,
+    })).join('');
+}
+
+document.getElementById('sort-select').addEventListener('change', (e) => {
+  renderAllOffers(e.target.value);
+});
+
 async function init(){
   const [latest, changes] = await Promise.all([
     loadJSON('data/offers_latest.json'),
     loadJSON('data/changes_latest.json'),
   ]);
+  _latestData = latest;
+  _changesData = changes;
 
   const updatedEl = document.getElementById('updated-text');
   if(latest){
@@ -237,7 +297,6 @@ async function init(){
   }
 
   const changesView = document.getElementById('view-changes');
-  const allView = document.getElementById('view-all');
 
   if(!changes || (changes.new_offers.length + changes.removed_offers.length + changes.price_changes.length === 0)){
     changesView.innerHTML = `<div class="empty">Brak zmian od ostatniego sprawdzenia. To normalne przy pierwszym uruchomieniu — zmiany pojawią się po kolejnym scrapowaniu.</div>`;
@@ -258,25 +317,7 @@ async function init(){
     changesView.innerHTML = html;
   }
 
-  if(!latest || !latest.offers.length){
-    allView.innerHTML = `<div class="empty">Jeszcze nie ma danych.</div>`;
-  } else {
-    const newUrls = new Set((changes ? changes.new_offers : []).map(o => o.url));
-    const priceChangeByUrl = {};
-    (changes ? changes.price_changes : []).forEach(c => { priceChangeByUrl[c.url] = c; });
-
-    const sorted = [...latest.offers].sort((a,b) => a.start_date.localeCompare(b.start_date));
-    const changedCount = newUrls.size + Object.keys(priceChangeByUrl).length;
-    const summaryLine = changedCount > 0
-      ? `${sorted.length} ofert w terminie · <span style="color:var(--brass-soft);">${changedCount} zmienionych od ostatniego sprawdzenia</span>`
-      : `${sorted.length} ofert w terminie`;
-
-    allView.innerHTML = `<div class="section-title">${summaryLine}</div>` +
-      sorted.map(o => renderOfferCard(o, {
-        isNew: newUrls.has(o.url),
-        priceChange: priceChangeByUrl[o.url] || null,
-      })).join('');
-  }
+  renderAllOffers(document.getElementById('sort-select').value);
 }
 
 document.querySelectorAll('.tab').forEach(tab => {
