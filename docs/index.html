@@ -107,6 +107,18 @@
   .offer.has-price-change{border-color:rgba(201,162,39,0.5);}
   .offer-badges{display:flex; gap:6px; margin-bottom:8px;}
 
+  .dismiss-btn{
+    background:none; border:1px solid var(--line); color:var(--mist);
+    width:24px; height:24px; border-radius:50%; font-size:12px; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; padding:0; line-height:1;
+  }
+  .dismiss-btn:active{ background:rgba(184,92,74,0.2); color:#e08a76; }
+  .clear-all-row{ text-align:right; margin-bottom:6px; }
+  .clear-all-btn{
+    background:none; border:none; color:var(--mist); font-size:11px;
+    text-decoration:underline; cursor:pointer; padding:4px;
+  }
+
   footer{
     position:fixed; bottom:0; left:0; right:0;
     background:var(--navy-deep); border-top:1px solid var(--line);
@@ -223,16 +235,76 @@ function renderChangeCard(kind, item){
   }
   const badgeClass = kind === 'new' ? 'new' : 'removed';
   const badgeText = kind === 'new' ? 'Nowa oferta' : 'Oferta zniknęła';
+  const dismissBtn = kind === 'removed'
+    ? `<button class="dismiss-btn" data-dismiss-url="${item.url}" title="Ukryj tę kartę">✕</button>`
+    : '';
   return `<div class="change-card">
-    <span class="badge ${badgeClass}">${badgeText}</span>
+    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+      <span class="badge ${badgeClass}">${badgeText}</span>
+      ${dismissBtn}
+    </div>
     <div class="ship">${item.ship || ''}</div>
     <div class="meta">${item.source} · ${fmtDate(item.start_date)} → ${fmtDate(item.end_date)}</div>
     ${kind === 'new' ? `<div class="meta" style="margin-top:8px;"><a href="${item.url}" target="_blank" style="color:var(--brass-soft);">Zobacz ofertę →</a></div>` : ''}
   </div>`;
 }
 
-let _latestData = null;
-let _changesData = null;
+const DISMISSED_KEY = 'dismissedRemovedOffers';
+function getDismissed(){
+  try{ return new Set(JSON.parse(localStorage.getItem(DISMISSED_KEY) || '[]')); }
+  catch(e){ return new Set(); }
+}
+function dismissOffer(url){
+  const s = getDismissed(); s.add(url);
+  localStorage.setItem(DISMISSED_KEY, JSON.stringify([...s]));
+}
+function clearDismissed(){
+  localStorage.removeItem(DISMISSED_KEY);
+}
+
+function renderChangesView(){
+  const changesView = document.getElementById('view-changes');
+  const changes = _changesData;
+  const dismissed = getDismissed();
+
+  if(!changes){
+    changesView.innerHTML = `<div class="empty">Brak zmian od ostatniego sprawdzenia. To normalne przy pierwszym uruchomieniu — zmiany pojawią się po kolejnym scrapowaniu.</div>`;
+    return;
+  }
+
+  const removedVisible = changes.removed_offers.filter(o => !dismissed.has(o.url));
+  const totalVisible = changes.price_changes.length + changes.new_offers.length + removedVisible.length;
+
+  if(totalVisible === 0){
+    const hiddenNote = dismissed.size > 0 ? `<button class="clear-all-btn" id="clear-dismissed-btn">Pokaż ${dismissed.size} ukrytych ponownie</button>` : '';
+    changesView.innerHTML = `<div class="empty">Brak zmian do pokazania.</div>${hiddenNote ? `<div class="clear-all-row">${hiddenNote}</div>` : ''}`;
+  } else {
+    let html = '';
+    if(changes.price_changes.length){
+      html += `<div class="section-title">Zmiany cen (${changes.price_changes.length})</div>`;
+      html += changes.price_changes.map(c => renderChangeCard('price', c)).join('');
+    }
+    if(changes.new_offers.length){
+      html += `<div class="section-title">Nowe oferty (${changes.new_offers.length})</div>`;
+      html += changes.new_offers.map(c => renderChangeCard('new', c)).join('');
+    }
+    if(removedVisible.length){
+      html += `<div class="section-title">Zniknęły (${removedVisible.length})</div>`;
+      html += removedVisible.map(c => renderChangeCard('removed', c)).join('');
+    }
+    changesView.innerHTML = html;
+  }
+
+  changesView.querySelectorAll('.dismiss-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault(); e.stopPropagation();
+      dismissOffer(btn.dataset.dismissUrl);
+      renderChangesView();
+    });
+  });
+  const clearBtn = document.getElementById('clear-dismissed-btn');
+  if(clearBtn) clearBtn.addEventListener('click', () => { clearDismissed(); renderChangesView(); });
+}
 
 function minPrice(offer){
   const vals = Object.values(offer.prices_eur || {}).filter(v => v !== null && v !== undefined);
@@ -296,27 +368,7 @@ async function init(){
     updatedEl.textContent = 'Brak danych — scraper jeszcze się nie uruchomił.';
   }
 
-  const changesView = document.getElementById('view-changes');
-
-  if(!changes || (changes.new_offers.length + changes.removed_offers.length + changes.price_changes.length === 0)){
-    changesView.innerHTML = `<div class="empty">Brak zmian od ostatniego sprawdzenia. To normalne przy pierwszym uruchomieniu — zmiany pojawią się po kolejnym scrapowaniu.</div>`;
-  } else {
-    let html = '';
-    if(changes.price_changes.length){
-      html += `<div class="section-title">Zmiany cen (${changes.price_changes.length})</div>`;
-      html += changes.price_changes.map(c => renderChangeCard('price', c)).join('');
-    }
-    if(changes.new_offers.length){
-      html += `<div class="section-title">Nowe oferty (${changes.new_offers.length})</div>`;
-      html += changes.new_offers.map(c => renderChangeCard('new', c)).join('');
-    }
-    if(changes.removed_offers.length){
-      html += `<div class="section-title">Zniknęły (${changes.removed_offers.length})</div>`;
-      html += changes.removed_offers.map(c => renderChangeCard('removed', c)).join('');
-    }
-    changesView.innerHTML = html;
-  }
-
+  renderChangesView();
   renderAllOffers(document.getElementById('sort-select').value);
 }
 
