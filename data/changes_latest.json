@@ -1,2279 +1,466 @@
 {
-  "generated_at": "2026-07-15T19:48:37.865411+00:00",
+  "generated_at": "2026-07-16T08:18:11.549667+00:00",
   "new_offers": [],
   "removed_offers": [
     {
       "source": "alerejsy.pl",
       "category": "morze_srodziemne",
-      "ship": "MSC Divina",
-      "start_date": "2026-08-20",
-      "end_date": "2026-08-27",
-      "nights": 8,
-      "route": "Neapol (Włochy) >> Civitavecchia/Rzym (Włochy) >> Dzień na morzu >> Mykonos (Grecja) >> Kusadasi (Turcja) >> Marmaris (Turcja) >> Dzień na morzu >> Neapol (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": 1483,
-        "z_balkonem": 1603,
-        "apartament": 1873
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-neapolu-na-msc-divina-2026-08-20-8-69a0570222"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seashore (2021)",
-      "start_date": "2026-08-20",
-      "end_date": "2026-08-23",
-      "nights": 4,
-      "route": "Port Canaveral/Orlando (USA) >> Nassau (Bahamy) >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 314,
-        "z_oknem": 364,
-        "z_balkonem": 404,
-        "apartament": 684
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-msc-seashore-2021-2026-08-20-4-b8e7cb74e8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seashore (2021)",
-      "start_date": "2026-08-20",
-      "end_date": "2026-08-30",
-      "nights": 11,
-      "route": "Port Canaveral/Orlando (USA) >> Nassau (Bahamy) >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Port Canaveral/Orlando (USA) >> Nassau (Bahamy) >> Dzień na morzu >> Cozumel (Meksyk) >> Costa Maya (Meksyk) >> Dzień na morzu >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": null,
-        "z_balkonem": 1159,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-msc-seashore-2021-2026-08-20-11-7e7350485c"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Jewel",
-      "start_date": "2026-08-20",
-      "end_date": "2026-08-27",
-      "nights": 8,
-      "route": "Filadelfia/Pensylwania (USA) >> Dzień na morzu >> King's Wharf (Bermudy) >> Dzień na morzu >> Halifax/Nowa Szkocja (Kanada) >> Dzień na morzu >> Filadelfia/Pensylwania (USA)",
-      "prices_eur": {
-        "wewnętrzna": 729,
-        "z_oknem": 774,
-        "z_balkonem": 1269,
-        "apartament": 1334
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-filadelfiapensylwania-usa-na-norwegian-jewel-2026-08-20-8-a32a733c33"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Radiance of the Seas",
-      "start_date": "2026-08-20",
-      "end_date": "2026-08-24",
-      "nights": 5,
-      "route": "Tampa/Floryda (USA) >> Dzień na morzu. >> Cozumel (Meksyk) >> Dzień na morzu. >> Tampa/Floryda (USA)",
-      "prices_eur": {
-        "wewnętrzna": 445,
-        "z_oknem": 480,
-        "z_balkonem": 576,
-        "apartament": 1485
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-tampafloryda-usa-na-radiance-of-the-seas-2026-08-20-5-742ac5f2b6"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Divina",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-28",
-      "nights": 8,
-      "route": "Civitavecchia/Rzym (Włochy) >> Dzień na morzu >> Mykonos (Grecja) >> Kusadasi (Turcja) >> Marmaris (Turcja) >> Dzień na morzu >> Neapol (Włochy) >> Civitavecchia/Rzym (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": null,
-        "z_balkonem": 1413,
-        "apartament": 1753
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-msc-divina-2026-08-21-8-ec75b49920"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seaside (2018)",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-24",
-      "nights": 4,
-      "route": "Miami (USA) >> Nassau (Bahamy) >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 314,
-        "z_oknem": 354,
-        "z_balkonem": 404,
-        "apartament": 604
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-msc-seaside-2018-2026-08-21-4-89939886d7"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Serena",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-24",
-      "nights": 4,
-      "route": "Naha/Okinawa (Japonia) >> Ishigaki (Japonia) >> Keelung/Taipei (Tajwan) >> Naha/Okinawa (Japonia)",
-      "prices_eur": {
-        "wewnętrzna": 369,
-        "z_oknem": 429,
-        "z_balkonem": 539,
-        "apartament": 759
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-nahaokinawa-japonia-na-costa-serena-2026-08-21-4-c7a65093ae"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Getaway (2014)",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-24",
-      "nights": 4,
-      "route": "Miami (USA) >> Nassau (Bahamy) >> Great Stirup Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 294,
-        "z_oknem": 349,
-        "z_balkonem": 419,
-        "apartament": 449
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-norwegian-getaway-2026-08-21-4-2afd9dde2f"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Adventure of the Seas",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-29",
-      "nights": 9,
-      "route": "Port Canaveral/Orlando (USA) >> Coco Cay (Bahamy) >> Dzień na morzu. >> San Juan - Portoryko (USA) >> Charlotte Amalie/St. Thomas (Wyspy Dziewicze USA) >> St. Croix (Wyspy Dziewicze USA) >> Dzień na morzu. >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 752,
-        "z_oknem": 858,
-        "z_balkonem": 1058,
-        "apartament": 3555
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-adventure-of-the-seas-2026-08-21-9-3143a99008"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Celebrity Summit",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-28",
-      "nights": 8,
-      "route": "Seward/Alaska (USA) >> Lodowiec Hubbard/Alaska (USA) - przepłynięcie widokowe >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Icy Strait Point/Alaska (USA) >> Ketchikan/Alaska (USA) >> Inside Passage/Alaska - przepłynięcie widokowe >> Vancouver (Kanada)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-seward-do-vancouver-celebrity-summit-2026-08-21-8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Utopia of the Seas (2024)",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-24",
-      "nights": 4,
-      "route": "Port Canaveral/Orlando (USA) >> Nassau (Bahamy) >> Coco Cay (Bahamy) >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 515,
-        "z_oknem": 590,
-        "z_balkonem": 636,
-        "apartament": 1577
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-utopia-of-the-seas-2024-2026-08-21-4-57ecad1800"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Wonder of the Seas (2022)",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-24",
-      "nights": 4,
-      "route": "Miami (USA) >> Coco Cay (Bahamy) >> Nassau (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 450,
-        "z_oknem": 544,
-        "z_balkonem": 580,
-        "apartament": 1757
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-wonder-of-the-seas-2026-08-21-4-e55c6d6a1d"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Ovation of the Seas",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-28",
-      "nights": 8,
-      "route": "Vancouver (Kanada) >> Dzień na morzu. >> Icy Strait Point/Alaska (USA) >> Sitka/Alaska (USA) >> Skagway/Alaska (USA) >> Lodowiec Hubbard/Alaska (USA) - przepłynięcie widokowe >> Seward/Alaska (USA)",
-      "prices_eur": {
-        "wewnętrzna": 764,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-vancouver-do-sewardalaska-usa-na-ovation-of-the-seas-2026-08-21-8-eb6ada59ef"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Quantum of the Seas",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-28",
-      "nights": 8,
-      "route": "Los Angeles (USA) >> Dzień na morzu. >> Cabo San Lucas (Meksyk) >> Dzień na morzu. >> Ensenada (Meksyk) >> Los Angeles (USA)",
-      "prices_eur": {
-        "wewnętrzna": 498,
-        "z_oknem": 541,
-        "z_balkonem": 585,
-        "apartament": 1971
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-los-angeles-na-quantum-of-the-seas-2026-08-21-8-5a7ced484b"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Voyager of the Seas",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-28",
-      "nights": 8,
-      "route": "Seattle/Waszyngton (USA) >> Dzień na morzu. >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Lodowiec Endicott Arm & Dawes/Alaska (USA) >> Dzień na morzu. >> Victoria (Kanada) >> Seattle/Waszyngton (USA)",
-      "prices_eur": {
-        "wewnętrzna": 855,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-seattle-na-voyager-of-the-seas-2026-08-21-8-e71dc2fba1"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Navigator of the Seas",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-28",
-      "nights": 8,
-      "route": "Los Angeles (USA) >> Ensenada (Meksyk) >> Dzień na morzu. >> Cabo San Lucas (Meksyk) >> Mazatlan (Meksyk) >> Dzień na morzu. >> Los Angeles (USA)",
-      "prices_eur": {
-        "wewnętrzna": 392,
-        "z_oknem": 497,
-        "z_balkonem": 584,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-los-angeles-na-navigator-of-the-seas-2026-08-21-8-e99a0fb8c5"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Jewel of the Seas",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-24",
-      "nights": 4,
-      "route": "Fort Lauderdale/Floryda (USA) >> Dzień na morzu. >> Coco Cay (Bahamy) >> Fort Lauderdale/Floryda (USA)",
-      "prices_eur": {
-        "wewnętrzna": 296,
-        "z_oknem": 323,
-        "z_balkonem": 366,
-        "apartament": 785
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-fort-lauderdale-na-jewel-of-the-seas-2026-08-21-4-c49609457f"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Ruby Princess",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-31",
-      "nights": 11,
-      "route": "San Francisco (USA) >> Dzień na morzu >> Ketchikan/Alaska (USA) >> Haines/Alaska (USA) >> Juneau/Alaska (USA) >> Lodowiec Endicott Arm & Dawes/Alaska (USA) >> Prince Rupert (Kanada) >> Dzień na morzu >> San Francisco (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1066,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-san-francisco-na-ruby-princess-2026-08-21-11-d8cc2c728b"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC World America (2025)",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 8,
-      "route": "Miami (USA) >> Dzień na morzu >> Puerto Plata (Dominikana) >> San Juan - Portoryko (USA) >> Dzień na morzu >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 794,
-        "z_oknem": 974,
-        "z_balkonem": 1144,
-        "apartament": 2134
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-msc-world-america-2025-2026-08-22-8-843e5f6fd5"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC World America (2025)",
-      "start_date": "2026-08-22",
-      "end_date": "2026-09-05",
-      "nights": 15,
-      "route": "Miami (USA) >> Dzień na morzu >> Puerto Plata (Dominikana) >> San Juan - Portoryko (USA) >> Dzień na morzu >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA) >> Dzień na morzu >> Roatan (Honduras) >> Costa Maya (Meksyk) >> Cozumel (Meksyk) >> Dzień na morzu >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1599,
-        "z_oknem": 1839,
-        "z_balkonem": 2179,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-msc-world-america-2025-2026-08-22-15-439b8b2a89"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Bliss (2018)",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 8,
-      "route": "Seattle/Waszyngton (USA) >> Dzień na morzu >> Sitka/Alaska (USA) >> Lodowiec Endicott Arm & Dawes/Alaska (USA) >> Juneau/Alaska (USA) >> Icy Strait Point/Alaska (USA) >> Ketchikan/Alaska (USA) >> Victoria (Kanada) >> Seattle/Waszyngton (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1028,
-        "z_oknem": 1338,
-        "z_balkonem": 1553,
-        "apartament": 1703
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-po-alasce-na-norwegian-bliss-2026-08-22-8-81e2983caa"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Pride of America",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 8,
-      "route": "Honolulu/Hawaje (USA) >> Kahului - Maui/Hawaje (USA) >> Hilo/Hawaje (USA) >> Kailua-Kona/Hawaje (USA) >> Nawilivili - Kauai/Hawaje (USA) >> Honolulu/Hawaje (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1277,
-        "z_oknem": 1462,
-        "z_balkonem": 2017,
-        "apartament": 3527
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-honolulu-na-hawajach-na-pride-of-america-2026-08-22-8-a7b7ac2060"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Luna (2026)",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 8,
-      "route": "Miami (USA) >> Dzień na morzu >> Puerto Plata (Dominikana) >> Charlotte Amalie/St. Thomas (Wyspy Dziewicze USA) >> Road Town/Tortola (Wyspy Dziewicze UK) >> Dzień na morzu >> Great Stirup Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 738,
-        "z_oknem": 783,
-        "z_balkonem": 1023,
-        "apartament": 2968
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-norwegian-luna-2026-2026-08-22-8-b8b2c24e2c"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Aqua (2025)",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 8,
-      "route": "Nowy Jork (USA) >> Dzień na morzu >> King's Wharf (Bermudy) >> Dzień na morzu >> Nowy Jork (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1024,
-        "z_oknem": 1269,
-        "z_balkonem": 1729,
-        "apartament": 4039
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-nowego-jorku-na-norwegian-aqua-2025-2026-08-22-8-c7322a4960"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Icon of the Seas (2024)",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 8,
-      "route": "Miami (USA) >> Dzień na morzu. >> Philipsburg (Sint Maarten) >> Charlotte Amalie/St. Thomas (Wyspy Dziewicze USA) >> Dzień na morzu. >> Coco Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1177,
-        "z_oknem": 1352,
-        "z_balkonem": 1413,
-        "apartament": 2749
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-icon-of-the-seas-2024-2026-08-22-8-fa2abcc855"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Allure of the Seas",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-30",
-      "nights": 9,
-      "route": "Fort Lauderdale/Floryda (USA) >> Dzień na morzu. >> Basseterre (St. Kitts i Nevis) >> Philipsburg (Sint Maarten) >> San Juan - Portoryko (USA) >> Dzień na morzu. >> Coco Cay (Bahamy) >> Fort Lauderdale/Floryda (USA)",
-      "prices_eur": {
-        "wewnętrzna": 726,
-        "z_oknem": 1121,
-        "z_balkonem": 1104,
-        "apartament": 7732
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-fort-lauderdale-na-allure-of-the-seas-2026-08-22-9-0f0d16a49c"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Harmony of the Seas",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 8,
-      "route": "Port Canaveral/Orlando (USA) >> Dzień na morzu. >> Charlotte Amalie/St. Thomas (Wyspy Dziewicze USA) >> Dzień na morzu. >> Coco Cay (Bahamy) >> Nassau (Bahamy) >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 581,
-        "z_oknem": 722,
-        "z_balkonem": 669,
-        "apartament": 2177
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-harmony-of-the-seas-2026-08-22-8-20512d550e"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Freedom of the Seas",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-27",
-      "nights": 6,
-      "route": "Miami (USA) >> Dzień na morzu. >> Grand Turk (Wyspy Turks i Caicos) >> Dzień na morzu. >> Nassau (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 589,
-        "z_oknem": 610,
-        "z_balkonem": 655,
-        "apartament": 998
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-freedom-of-the-seas-2026-08-22-6-71536d511b"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Mariner of the Seas",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-27",
-      "nights": 6,
-      "route": "Galveston/Texas (USA) >> Dzień na morzu. >> Costa Maya (Meksyk) >> Cozumel (Meksyk) >> Dzień na morzu. >> Galveston/Texas (USA)",
-      "prices_eur": {
-        "wewnętrzna": 334,
-        "z_oknem": 404,
-        "z_balkonem": 653,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-galveston-na-mariner-of-the-seas-2026-08-22-6-f2d2b9b4df"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Rhapsody of the Seas",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 8,
-      "route": "San Juan - Portoryko (USA) >> Charlotte Amalie/St. Thomas (Wyspy Dziewicze USA) >> St. Croix (Wyspy Dziewicze USA) >> Philipsburg (Sint Maarten) >> St. John's (Antigua i Barbuda) >> Roseau (Dominika) >> Dzień na morzu. >> San Juan - Portoryko (USA)",
-      "prices_eur": {
-        "wewnętrzna": 701,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-san-juan-na-rhapsody-of-the-seas-2026-08-22-8-c4c6abfb63"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Regal Princess",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 8,
-      "route": "Fort Lauderdale/Floryda (USA) >> Dzień na morzu >> Cozumel (Meksyk) >> Belize (Belize) >> Roatan (Honduras) >> Dzień na morzu >> Fort Lauderdale/Floryda (USA)",
-      "prices_eur": {
-        "wewnętrzna": 501,
-        "z_balkonem": 603,
-        "apartament": 797
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-fort-lauderdale-na-regal-princess-2026-08-22-8-2f73cbd60f"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Royal Princess",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 8,
-      "route": "Seattle/Waszyngton (USA) >> Dzień na morzu >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Park Narodowy Glacier Bay/Alaska (USA) - przepłynięcie widokowe >> Ketchikan/Alaska (USA) >> Victoria (Kanada) >> Seattle/Waszyngton (USA)",
-      "prices_eur": {
-        "wewnętrzna": 763,
-        "z_balkonem": 1363,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-seattle-na-royal-princess-2026-08-22-8-67f7e6eef8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Discovery Princess",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 8,
-      "route": "Whittier/Anchorage/Alaska (USA) >> Lodowiec Hubbard/Alaska (USA) - przepłynięcie widokowe >> Park Narodowy Glacier Bay/Alaska (USA) - przepłynięcie widokowe >> Icy Strait Point/Alaska (USA) >> Juneau/Alaska (USA) >> Ketchikan/Alaska (USA) >> Dzień na morzu >> Vancouver (Kanada)",
-      "prices_eur": {
-        "wewnętrzna": 873,
-        "z_oknem": null,
-        "z_balkonem": 1550,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-whittier-na-alasce-do-vancouver-na-discovery-princess-2026-08-22-8-4e44a4b18b"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Resilient Lady (2023)",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-27",
-      "nights": 6,
-      "route": "Miami (USA) >> Dzień na morzu >> Grand Turk (Wyspy Turks i Caicos) >> Dzień na morzu >> Bimini (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": 1009,
-        "z_balkonem": 1279,
-        "apartament": 2632
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-rajskie-karaiby-resilient-lady-2026-08-22-6"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Bellissima (2019)",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-27",
-      "nights": 5,
-      "route": "Szanghaj (Chiny) >> Gangjeong (Korea Południowa) >> Busan (Korea Południowa) >> Dzień na morzu >> Szanghaj (Chiny)",
-      "prices_eur": {
-        "wewnętrzna": 567,
-        "z_oknem": null,
-        "z_balkonem": 827,
-        "apartament": 1919
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-szanghaju-na-msc-bellissima-2019-2026-08-23-5-f659e989e6"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seashore (2021)",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 8,
-      "route": "Port Canaveral/Orlando (USA) >> Nassau (Bahamy) >> Dzień na morzu >> Cozumel (Meksyk) >> Costa Maya (Meksyk) >> Dzień na morzu >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 564,
-        "z_oknem": 624,
-        "z_balkonem": 674,
-        "apartament": 1304
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-msc-seashore-2021-2026-08-23-8-b6b2214f70"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seashore (2021)",
-      "start_date": "2026-08-23",
+      "ship": "MSC Magnifica",
+      "start_date": "2026-08-28",
       "end_date": "2026-09-03",
-      "nights": 12,
-      "route": "Port Canaveral/Orlando (USA) >> Nassau (Bahamy) >> Dzień na morzu >> Cozumel (Meksyk) >> Costa Maya (Meksyk) >> Dzień na morzu >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Port Canaveral/Orlando (USA) >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Nassau (Bahamy) >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 994,
-        "z_oknem": 1114,
-        "z_balkonem": 1214,
-        "apartament": 2414
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-msc-seashore-2021-2026-08-23-12-d20423ab59"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seascape (2022)",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 8,
-      "route": "Galveston/Texas (USA) >> Dzień na morzu >> Costa Maya (Meksyk) >> Roatan (Honduras) >> Cozumel (Meksyk) >> Dzień na morzu >> Galveston/Texas (USA)",
-      "prices_eur": {
-        "wewnętrzna": 394,
-        "z_oknem": 524,
-        "z_balkonem": 604,
-        "apartament": 1244
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-galveston-na-msc-seascape-2022-2026-08-23-8-952cc6d718"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Breakaway (2013)",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 8,
-      "route": "Boston (USA) >> Dzień na morzu >> Portland/Maine (USA) >> Bar Harbor (USA) >> Halifax/Nowa Szkocja (Kanada) >> St. John/New Brunswick (Kanada) >> Dzień na morzu >> Boston (USA)",
-      "prices_eur": {
-        "wewnętrzna": 789,
-        "z_oknem": 1159,
-        "z_balkonem": 1509,
-        "apartament": 1829
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-bostonu-na-norwegian-breakaway-2013-2026-08-23-8-a410f0b5ab"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Encore (2019)",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 8,
-      "route": "Seattle/Waszyngton (USA) >> Dzień na morzu >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Park Narodowy Glacier Bay/Alaska (USA) - przepłynięcie widokowe >> Ketchikan/Alaska (USA) >> Victoria (Kanada) >> Seattle/Waszyngton (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1078,
-        "z_oknem": 1488,
-        "z_balkonem": 1908,
-        "apartament": 1998
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-seattle-na-norwegian-encore-2019-2026-08-23-8-fb3079459a"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Prima (2022)",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 8,
-      "route": "Port Canaveral/Orlando (USA) >> Dzień na morzu >> Puerto Plata (Dominikana) >> Charlotte Amalie/St. Thomas (Wyspy Dziewicze USA) >> Road Town/Tortola (Wyspy Dziewicze UK) >> Dzień na morzu >> Great Stirup Cay (Bahamy) >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 695,
-        "z_oknem": 800,
-        "z_balkonem": 935,
-        "apartament": 1270
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-norwegian-prima-2022-2026-08-23-8-8cd339321f"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Celebrity Infinity",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 8,
-      "route": "Pireus/Ateny (Grecja) >> Santorini (Grecja) >> Rodos (Grecja) >> Kusadasi (Turcja) >> Mykonos (Grecja) >> Saloniki (Grecja) >> Dzień na morzu >> Pireus/Ateny (Grecja)",
-      "prices_eur": {},
-      "url": "https://www.alerejsy.pl/rejsy/rejs-po-wyspach-greckich-i-turcji-na-pokladzie-celebrity-infinity-2026-08-23-8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Celebrity Solstice",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 8,
-      "route": "Vancouver (Kanada) >> Inside Passage/Alaska - przepłynięcie widokowe >> Icy Strait Point/Alaska (USA) >> Lodowiec Hubbard/Alaska (USA) - przepłynięcie widokowe >> Juneau/Alaska (USA) >> Ketchikan/Alaska (USA) >> Inside Passage/Alaska - przepłynięcie widokowe >> Vancouver (Kanada)",
-      "prices_eur": {
-        "wewnętrzna": 1054,
-        "z_oknem": 1595,
-        "z_balkonem": 1652,
-        "apartament": 4996
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-alaska-z-vancouver-celebrity-solstice-2026-08-23-8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Star of the Seas (2025)",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 8,
-      "route": "Port Canaveral/Orlando (USA) >> Coco Cay (Bahamy) >> Dzień na morzu. >> San Juan - Portoryko (USA) >> Philipsburg (Sint Maarten) >> Dzień na morzu. >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1167,
-        "z_oknem": 1252,
-        "z_balkonem": 1552,
-        "apartament": 1773
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-star-of-the-seas-2025-2026-08-23-8-8c63adbb4f"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Oasis of the Seas",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 8,
-      "route": "Cape Liberty/Nowy Jork (USA) >> Dzień na morzu. >> Port Canaveral/Orlando (USA) >> Coco Cay (Bahamy) >> Nassau (Bahamy) >> Dzień na morzu. >> Cape Liberty/Nowy Jork (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1328,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-cape-libertynowy-jork-usa-na-oasis-of-the-seas-2026-08-23-8-04fdf06b31"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Symphony of the Seas (2018)",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-29",
       "nights": 7,
-      "route": "Galveston/Texas (USA) >> Dzień na morzu. >> Costa Maya (Meksyk) >> Roatan (Honduras) >> Cozumel (Meksyk) >> Dzień na morzu. >> Galveston/Texas (USA)",
+      "route": "Oslo (Norwegia) >> Kopenhaga (Dania) >> Warnemunde (Niemcy) >> Gdynia (Polska) >> Kłajpeda (Litwa) >> Ryga (Łotwa) >> Sztokholm (Szwecja)",
       "prices_eur": {
-        "wewnętrzna": 605,
+        "wewnętrzna": 1511,
         "z_oknem": null,
-        "z_balkonem": 763,
-        "apartament": 2313
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-galveston-na-symphony-of-the-seas-2026-08-23-7-12a3c4d4cd"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Caribbean Princess",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 8,
-      "route": "Port Canaveral/Orlando (USA) >> Dzień na morzu >> Grand Turk (Wyspy Turks i Caicos) >> Amber Cove (Dominikana) >> San Juan - Portoryko (USA) >> Dzień na morzu >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 428,
-        "z_oknem": 523,
-        "z_balkonem": 726,
-        "apartament": 1499
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-caribbean-princess-2026-08-23-8-6f47fd6691"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Star Princess (2025)",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 8,
-      "route": "Seattle/Waszyngton (USA) >> Dzień na morzu >> Ketchikan/Alaska (USA) >> Lodowiec Endicott Arm & Dawes/Alaska (USA) >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Dzień na morzu >> Victoria (Kanada) >> Seattle/Waszyngton (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1021,
-        "z_oknem": 1328,
-        "z_balkonem": 1507,
-        "apartament": 3524
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-seattle-na-star-princess-2025-2026-08-23-8-e3aadd403e"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Fantasia",
-      "start_date": "2026-08-24",
-      "end_date": "2026-09-02",
-      "nights": 10,
-      "route": "Stambuł (Turcja) >> Dzień na morzu >> Corfu (Grecja) >> Bari (Włochy) >> Triest (Włochy) >> Dzień na morzu >> Katakolon/Olympia (Grecja) >> Pireus/Ateny (Grecja) >> Kusadasi (Turcja) >> Stambuł (Turcja)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": 1587,
-        "z_balkonem": 1687,
-        "apartament": 2507
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-stambulu-na-msc-fantasia-2026-08-24-10-61ae628683"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Divina",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-31",
-      "nights": 8,
-      "route": "Kusadasi (Turcja) >> Marmaris (Turcja) >> Dzień na morzu >> Neapol (Włochy) >> Civitavecchia/Rzym (Włochy) >> Dzień na morzu >> Mykonos (Grecja) >> Kusadasi (Turcja)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": 3181
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-kusadasi-turcja-na-msc-divina-2026-08-24-8-daa0a749a5"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Poesia",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-31",
-      "nights": 8,
-      "route": "Seattle/Waszyngton (USA) >> Dzień na morzu >> Ketchikan/Alaska (USA) >> Tracy Arm Fiord/Alaska (USA) >> Juneau/Alaska (USA) >> Icy Strait Point/Alaska (USA) >> Dzień na morzu >> Victoria (Kanada) >> Seattle/Waszyngton (USA)",
-      "prices_eur": {
-        "wewnętrzna": 884,
-        "z_oknem": 1104,
-        "z_balkonem": 1354,
+        "z_balkonem": 1901,
         "apartament": null
       },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-seattle-na-msc-poesia-2026-08-24-8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seaside (2018)",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-28",
-      "nights": 5,
-      "route": "Miami (USA) >> Nassau (Bahamy) >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 299,
-        "z_oknem": 349,
-        "z_balkonem": 409,
-        "apartament": 719
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-msc-seaside-2018-2026-08-24-5-8e3684a0e4"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seaside (2018)",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-31",
-      "nights": 8,
-      "route": "Miami (USA) >> Nassau (Bahamy) >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA) >> Nassau (Bahamy) >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 664,
-        "z_oknem": 714,
-        "z_balkonem": 824,
-        "apartament": 1274
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-msc-seaside-2018-2026-08-24-8-85b2ff820e"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Serena",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-26",
-      "nights": 3,
-      "route": "Naha/Okinawa (Japonia) >> Ishigaki (Japonia) >> Keelung/Taipei (Tajwan)",
-      "prices_eur": {
-        "wewnętrzna": 189,
-        "z_oknem": 229,
-        "z_balkonem": 249,
-        "apartament": 379
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-nahaokinawa-japonia-do-keelungtaipei-tajwan-na-costa-serena-2026-08-24-3-0acc93076a"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Getaway (2014)",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-28",
-      "nights": 5,
-      "route": "Miami (USA) >> Dzień na morzu >> Nassau (Bahamy) >> Great Stirup Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 314,
-        "z_oknem": 359,
-        "z_balkonem": 429,
-        "apartament": 474
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-norwegian-getaway-2014-2026-08-24-5-ab11bc058d"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Joy (2017)",
-      "start_date": "2026-08-24",
-      "end_date": "2026-09-02",
-      "nights": 10,
-      "route": "Seattle/Waszyngton (USA) >> Dzień na morzu >> Ketchikan/Alaska (USA) >> Icy Strait Point/Alaska (USA) >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Park Narodowy Glacier Bay/Alaska (USA) - przepłynięcie widokowe >> Dzień na morzu >> Victoria (Kanada) >> Seattle/Waszyngton (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1078,
-        "z_oknem": 1153,
-        "z_balkonem": 1473,
-        "apartament": 1683
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-seattle-na-norwegian-joy-2017-2026-08-24-10-f379302661"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Utopia of the Seas (2024)",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-28",
-      "nights": 5,
-      "route": "Port Canaveral/Orlando (USA) >> Nassau (Bahamy) >> Coco Cay (Bahamy) >> Dzień na morzu. >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 527,
-        "z_oknem": 605,
-        "z_balkonem": 546,
-        "apartament": 1390
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-utopia-of-the-seas-2024-2026-08-24-5-01aa2f9e87"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Wonder of the Seas (2022)",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-28",
-      "nights": 5,
-      "route": "Miami (USA) >> Dzień na morzu. >> Nassau (Bahamy) >> Coco Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 453,
-        "z_oknem": 527,
-        "z_balkonem": 538,
-        "apartament": 1068
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-wonder-of-the-seas-2026-08-24-5-f3c665a035"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Spectrum of the Seas (2019)",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-28",
-      "nights": 5,
-      "route": "Baoshan/Szanghaj (Chiny) >> Dzień na morzu. >> Busan (Korea Południowa) >> Dzień na morzu. >> Baoshan/Szanghaj (Chiny)",
-      "prices_eur": {
-        "wewnętrzna": 707,
-        "z_oknem": 759,
-        "z_balkonem": 813,
-        "apartament": 1132
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-baoshanszanghaj-chiny-na-spectrum-of-the-seas-2019-2026-08-24-5-cd823d6311"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Brilliance of the Seas",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-31",
-      "nights": 8,
-      "route": "Pireus/Ateny (Grecja) >> Mykonos (Grecja) >> Stambuł (Turcja) >> Dzień na morzu. >> Kusadasi (Turcja) >> Santorini (Grecja) >> Pireus/Ateny (Grecja)",
-      "prices_eur": {
-        "wewnętrzna": 1252,
-        "z_oknem": null,
-        "z_balkonem": 1574,
-        "apartament": 2029
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-pireusu-k-aten-na-brilliance-of-the-seas-2026-08-24-8-1586505c1e"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Radiance of the Seas",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-29",
-      "nights": 6,
-      "route": "Tampa/Floryda (USA) >> Dzień na morzu. >> Costa Maya (Meksyk) >> Cozumel (Meksyk) >> Dzień na morzu. >> Tampa/Floryda (USA)",
-      "prices_eur": {
-        "wewnętrzna": 369,
-        "z_oknem": 501,
-        "z_balkonem": 614,
-        "apartament": 1022
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-tampafloryda-usa-na-radiance-of-the-seas-2026-08-24-6-00f0c29b41"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Jewel of the Seas",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-28",
-      "nights": 5,
-      "route": "Fort Lauderdale/Floryda (USA) >> Dzień na morzu. >> Key West/Floryda (USA) >> Bimini (Bahamy) >> Fort Lauderdale/Floryda (USA)",
-      "prices_eur": {
-        "wewnętrzna": 254,
-        "z_oknem": 298,
-        "z_balkonem": 384,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-fort-lauderdale-na-jewel-of-the-seas-2026-08-24-5-4319e923d5"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Emerald Princess",
-      "start_date": "2026-08-25",
-      "end_date": "2026-09-01",
-      "nights": 8,
-      "route": "Vancouver (Kanada) >> Dzień na morzu >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Lodowiec Endicott Arm & Dawes/Alaska (USA) >> Ketchikan/Alaska (USA) >> Dzień na morzu >> Vancouver (Kanada)",
-      "prices_eur": {
-        "wewnętrzna": 801,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-vancouver-na-emerald-princess-2026-08-25-8-08066b8caa"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Serena",
-      "start_date": "2026-08-26",
-      "end_date": "2026-08-28",
-      "nights": 3,
-      "route": "Keelung/Taipei (Tajwan) >> Dzień na morzu >> Pusan (Korea Południowa)",
-      "prices_eur": {
-        "wewnętrzna": 179,
-        "z_oknem": 219,
-        "z_balkonem": 259,
-        "apartament": 459
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-keelungtaipei-tajwan-do-pusan-korea-poludniowa-na-costa-serena-2026-08-26-3-f90b32a84c"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Coral Princess",
-      "start_date": "2026-08-26",
-      "end_date": "2026-09-09",
-      "nights": 15,
-      "route": "Vancouver (Kanada) >> Dzień na morzu >> Ketchikan/Alaska (USA) >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Lodowiec Hubbard/Alaska (USA) - przepłynięcie widokowe >> College Fjord/Alaska (USA) - rejs widokowy >> Whittier/Anchorage/Alaska (USA) >> Lodowiec Hubbard/Alaska (USA) - przepłynięcie widokowe >> Park Narodowy Glacier Bay/Alaska (USA) - przepłynięcie widokowe >> Skagway/Alaska (USA) >> Juneau/Alaska (USA) >> Ketchikan/Alaska (USA) >> Dzień na morzu >> Vancouver (Kanada)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": 1300,
-        "z_balkonem": null,
-        "apartament": 3238
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-vancouver-na-coral-princess-2026-08-26-15-5067a7d0a6"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Island Princess",
-      "start_date": "2026-08-26",
-      "end_date": "2026-09-02",
-      "nights": 8,
-      "route": "Whittier/Anchorage/Alaska (USA) >> Lodowiec Hubbard/Alaska (USA) - przepłynięcie widokowe >> Park Narodowy Glacier Bay/Alaska (USA) - przepłynięcie widokowe >> Skagway/Alaska (USA) >> Juneau/Alaska (USA) >> Ketchikan/Alaska (USA) >> Dzień na morzu >> Vancouver (Kanada)",
-      "prices_eur": {
-        "wewnętrzna": 548,
-        "z_oknem": 665,
-        "z_balkonem": 1528,
-        "apartament": 1747
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-whittier-na-alasce-do-vancouver-na-island-princess-2026-08-26-8-42bf938482"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Fantasia",
-      "start_date": "2026-08-27",
-      "end_date": "2026-09-05",
-      "nights": 10,
-      "route": "Bari (Włochy) >> Triest (Włochy) >> Dzień na morzu >> Katakolon/Olympia (Grecja) >> Pireus/Ateny (Grecja) >> Kusadasi (Turcja) >> Stambuł (Turcja) >> Dzień na morzu >> Corfu (Grecja) >> Bari (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": 1827,
-        "z_oknem": 1907,
-        "z_balkonem": 2007,
-        "apartament": 2567
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-bari-na-msc-fantasia-2026-08-27-10-161f4c7002"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Divina",
-      "start_date": "2026-08-27",
-      "end_date": "2026-09-03",
-      "nights": 8,
-      "route": "Neapol (Włochy) >> Civitavecchia/Rzym (Włochy) >> Dzień na morzu >> Mykonos (Grecja) >> Kusadasi (Turcja) >> Marmaris (Turcja) >> Dzień na morzu >> Neapol (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": 1053,
-        "z_oknem": 1183,
-        "z_balkonem": 1283,
-        "apartament": 1623
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-neapolu-na-msc-divina-2026-08-27-8-69a0570222"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Bellissima (2019)",
-      "start_date": "2026-08-27",
-      "end_date": "2026-08-31",
-      "nights": 5,
-      "route": "Szanghaj (Chiny) >> Gangjeong (Korea Południowa) >> Busan (Korea Południowa) >> Dzień na morzu >> Szanghaj (Chiny)",
-      "prices_eur": {
-        "wewnętrzna": 517,
-        "z_oknem": 627,
-        "z_balkonem": 777,
-        "apartament": 3369
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-szanghaju-na-msc-bellissima-2019-2026-08-27-5-f659e989e6"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Jewel",
-      "start_date": "2026-08-27",
-      "end_date": "2026-09-05",
-      "nights": 10,
-      "route": "Filadelfia/Pensylwania (USA) >> Dzień na morzu >> King's Wharf (Bermudy) >> Dzień na morzu >> St. John/New Brunswick (Kanada) >> Halifax/Nowa Szkocja (Kanada) >> Dzień na morzu >> Filadelfia/Pensylwania (USA)",
-      "prices_eur": {
-        "wewnętrzna": 739,
-        "z_oknem": 784,
-        "z_balkonem": 1359,
-        "apartament": 1589
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-filadelfiapensylwania-usa-na-norwegian-jewel-2026-08-27-10-b1886edfe2"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Freedom of the Seas",
-      "start_date": "2026-08-27",
-      "end_date": "2026-08-31",
-      "nights": 5,
-      "route": "Miami (USA) >> Coco Cay (Bahamy) >> Dzień na morzu. >> Nassau (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 341,
-        "z_oknem": 411,
-        "z_balkonem": 472,
-        "apartament": 637
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-freedom-of-the-seas-2026-08-27-5-c248b0b344"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Mariner of the Seas",
-      "start_date": "2026-08-27",
-      "end_date": "2026-08-31",
-      "nights": 5,
-      "route": "Galveston/Texas (USA) >> Dzień na morzu. >> Cozumel (Meksyk) >> Dzień na morzu. >> Galveston/Texas (USA)",
-      "prices_eur": {
-        "wewnętrzna": 484,
-        "z_oknem": 444,
-        "z_balkonem": 549,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-galveston-na-mariner-of-the-seas-2026-08-27-5-e46cd4ac0b"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Vision of the Seas",
-      "start_date": "2026-08-27",
-      "end_date": "2026-09-05",
-      "nights": 10,
-      "route": "Baltimore/Maryland (USA) >> Dzień na morzu. >> Boston (USA) >> Portland/Maine (USA) >> St. John/New Brunswick (Kanada) >> Halifax/Nowa Szkocja (Kanada) >> Dzień na morzu. >> Baltimore/Maryland (USA)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": 3203
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-baltimoremaryland-usa-na-vision-of-the-seas-2026-08-27-10-62b41870b5"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Fantasia",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-06",
-      "nights": 10,
-      "route": "Triest (Włochy) >> Dzień na morzu >> Katakolon/Olympia (Grecja) >> Pireus/Ateny (Grecja) >> Kusadasi (Turcja) >> Stambuł (Turcja) >> Dzień na morzu >> Corfu (Grecja) >> Bari (Włochy) >> Triest (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": 1547,
-        "z_oknem": 1637,
-        "z_balkonem": 1737,
-        "apartament": 2297
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-triestu-k-wenecji-na-msc-fantasia-2026-08-28-10-2d10c3676b"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Divina",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 8,
-      "route": "Civitavecchia/Rzym (Włochy) >> Dzień na morzu >> Mykonos (Grecja) >> Kusadasi (Turcja) >> Marmaris (Turcja) >> Dzień na morzu >> Neapol (Włochy) >> Civitavecchia/Rzym (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": null,
-        "z_balkonem": 1363,
-        "apartament": 1753
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-msc-divina-2026-08-28-8-ec75b49920"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seaside (2018)",
-      "start_date": "2026-08-28",
-      "end_date": "2026-08-31",
-      "nights": 4,
-      "route": "Miami (USA) >> Nassau (Bahamy) >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 324,
-        "z_oknem": 364,
-        "z_balkonem": 414,
-        "apartament": 554
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-msc-seaside-2018-2026-08-28-4-89939886d7"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Serena",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-02",
-      "nights": 6,
-      "route": "Pusan (Korea Południowa) >> Nagasaki (Japonia) >> Dzień na morzu >> Keelung/Taipei (Tajwan) >> Dzień na morzu >> Pusan (Korea Południowa)",
-      "prices_eur": {
-        "wewnętrzna": 1379,
-        "z_oknem": 1479,
-        "z_balkonem": 1679,
-        "apartament": 2109
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-pusan-korea-poludniowa-na-costa-serena-2026-08-28-6-35206a47fa"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Serena",
-      "start_date": "2026-08-28",
-      "end_date": "2026-08-31",
-      "nights": 4,
-      "route": "Pusan (Korea Południowa) >> Nagasaki (Japonia) >> Dzień na morzu >> Keelung/Taipei (Tajwan)",
-      "prices_eur": {
-        "wewnętrzna": 829,
-        "z_oknem": 889,
-        "z_balkonem": 1009,
-        "apartament": 1269
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-pusan-korea-poludniowa-do-keelungtaipei-tajwan-na-costa-serena-2026-08-28-4-45ef9557a7"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Serena",
-      "start_date": "2026-08-28",
-      "end_date": "2026-08-29",
-      "nights": 2,
-      "route": "Pusan (Korea Południowa) >> Nagasaki (Japonia)",
-      "prices_eur": {
-        "wewnętrzna": 269,
-        "z_oknem": 309,
-        "z_balkonem": 349,
-        "apartament": 434
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-pusan-korea-poludniowa-do-nagasaki-japonia-na-costa-serena-2026-08-28-2-93037aab58"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Getaway (2014)",
-      "start_date": "2026-08-28",
-      "end_date": "2026-08-31",
-      "nights": 4,
-      "route": "Miami (USA) >> Nassau (Bahamy) >> Great Stirup Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 314,
-        "z_oknem": 339,
-        "z_balkonem": 394,
-        "apartament": 429
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-norwegian-getaway-2026-08-28-4-2afd9dde2f"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Viva (2023)",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-07",
-      "nights": 11,
-      "route": "Ravenna (Włochy) >> Dubrownik (Chorwacja) >> Bar (Czarnogóra) >> Dzień na morzu >> Pireus/Ateny (Grecja) >> Santorini (Grecja) >> Rodos (Grecja) >> Kusadasi (Turcja) >> Saloniki (Grecja) >> Stambuł (Turcja)",
-      "prices_eur": {
-        "wewnętrzna": 929,
-        "z_oknem": 1064,
-        "z_balkonem": 1254,
-        "apartament": 1692
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-rawenny-do-stambulu-na-norwegian-viva-2023-2026-08-28-11-c265f24221"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Utopia of the Seas (2024)",
-      "start_date": "2026-08-28",
-      "end_date": "2026-08-31",
-      "nights": 4,
-      "route": "Port Canaveral/Orlando (USA) >> Nassau (Bahamy) >> Coco Cay (Bahamy) >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 629,
-        "z_oknem": null,
-        "z_balkonem": 695,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-utopia-of-the-seas-2024-2026-08-28-4-57ecad1800"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Wonder of the Seas (2022)",
-      "start_date": "2026-08-28",
-      "end_date": "2026-08-31",
-      "nights": 4,
-      "route": "Miami (USA) >> Coco Cay (Bahamy) >> Nassau (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 401,
-        "z_oknem": 489,
-        "z_balkonem": 579,
-        "apartament": 1202
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-wonder-of-the-seas-2026-08-28-4-e55c6d6a1d"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Spectrum of the Seas (2019)",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-01",
-      "nights": 5,
-      "route": "Baoshan/Szanghaj (Chiny) >> Dzień na morzu. >> Okinawa (Japonia) >> Dzień na morzu. >> Baoshan/Szanghaj (Chiny)",
-      "prices_eur": {
-        "wewnętrzna": 683,
-        "z_oknem": 737,
-        "z_balkonem": 782,
-        "apartament": 1049
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-baoshanszanghaj-chiny-na-spectrum-of-the-seas-2026-08-28-5-fb80e3d3a2"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Ovation of the Seas",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 8,
-      "route": "Seward/Alaska (USA) >> Lodowiec Hubbard/Alaska (USA) - przepłynięcie widokowe >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Icy Strait Point/Alaska (USA) >> Dzień na morzu. >> Vancouver (Kanada)",
-      "prices_eur": {
-        "wewnętrzna": 449,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-sewardalaska-usa-do-vancouver-na-ovation-of-the-seas-2026-08-28-8-3eec555a13"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Quantum of the Seas",
-      "start_date": "2026-08-28",
-      "end_date": "2026-08-31",
-      "nights": 4,
-      "route": "Los Angeles (USA) >> Dzień na morzu. >> Ensenada (Meksyk) >> Los Angeles (USA)",
-      "prices_eur": {
-        "wewnętrzna": 403,
-        "z_oknem": 490,
-        "z_balkonem": 464,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-los-angeles-na-quantum-of-the-seas-2026-08-28-4-af63f0d0d9"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Navigator of the Seas",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 8,
-      "route": "Los Angeles (USA) >> Dzień na morzu. >> Cabo San Lucas (Meksyk) >> Mazatlan (Meksyk) >> Puerto Vallarta (Meksyk) >> Dzień na morzu. >> Los Angeles (USA)",
-      "prices_eur": {
-        "wewnętrzna": 610,
-        "z_oknem": 671,
-        "z_balkonem": 1112,
-        "apartament": 1458
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-los-angeles-na-navigator-of-the-seas-2026-08-28-8-c9fcfc1dda"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Jewel of the Seas",
-      "start_date": "2026-08-28",
-      "end_date": "2026-08-31",
-      "nights": 4,
-      "route": "Fort Lauderdale/Floryda (USA) >> Dzień na morzu. >> Nassau (Bahamy) >> Fort Lauderdale/Floryda (USA)",
-      "prices_eur": {
-        "wewnętrzna": 279,
-        "z_oknem": 307,
-        "z_balkonem": 332,
-        "apartament": 897
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-fort-lauderdale-na-jewel-of-the-seas-2026-08-28-4-813a2ade1d"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC World America (2025)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-12",
-      "nights": 15,
-      "route": "Miami (USA) >> Dzień na morzu >> Roatan (Honduras) >> Costa Maya (Meksyk) >> Cozumel (Meksyk) >> Dzień na morzu >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA) >> Dzień na morzu >> Puerto Plata (Dominikana) >> San Juan - Portoryko (USA) >> Dzień na morzu >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1529,
-        "z_oknem": 1769,
-        "z_balkonem": 2099,
-        "apartament": 3679
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-msc-world-america-2025-2026-08-29-15-9990357e99"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC World America (2025)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Miami (USA) >> Dzień na morzu >> Roatan (Honduras) >> Costa Maya (Meksyk) >> Cozumel (Meksyk) >> Dzień na morzu >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 684,
-        "z_oknem": 864,
-        "z_balkonem": 1034,
-        "apartament": 1874
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-msc-world-america-2025-2026-08-29-8-d5b5b52351"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Serena",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-02",
-      "nights": 5,
-      "route": "Nagasaki (Japonia) >> Dzień na morzu >> Keelung/Taipei (Tajwan) >> Dzień na morzu >> Pusan (Korea Południowa)",
-      "prices_eur": {
-        "wewnętrzna": 1099,
-        "z_oknem": 1179,
-        "z_balkonem": 1339,
-        "apartament": 1684
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-nagasaki-japonia-do-pusan-korea-poludniowa-na-costa-serena-2026-08-29-5-9f0cbff2e6"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Bliss (2018)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Seattle/Waszyngton (USA) >> Dzień na morzu >> Sitka/Alaska (USA) >> Lodowiec Endicott Arm & Dawes/Alaska (USA) >> Juneau/Alaska (USA) >> Icy Strait Point/Alaska (USA) >> Ketchikan/Alaska (USA) >> Victoria (Kanada) >> Seattle/Waszyngton (USA)",
-      "prices_eur": {
-        "wewnętrzna": 823,
-        "z_oknem": 1248,
-        "z_balkonem": 1443,
-        "apartament": 1553
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-po-alasce-na-norwegian-bliss-2026-08-29-8-81e2983caa"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Escape (2015)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Nowy Jork (USA) >> Dzień na morzu >> Boston (USA) >> Portland/Maine (USA) >> St. John/New Brunswick (Kanada) >> Halifax/Nowa Szkocja (Kanada) >> Dzień na morzu >> Nowy Jork (USA)",
-      "prices_eur": {
-        "wewnętrzna": 914,
-        "z_oknem": 1244,
-        "z_balkonem": 1459,
-        "apartament": 1619
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-nowego-jorku-na-norwegian-escape-2015-2026-08-29-8-fc49d71634"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Pride of America",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Honolulu/Hawaje (USA) >> Kahului - Maui/Hawaje (USA) >> Hilo/Hawaje (USA) >> Kailua-Kona/Hawaje (USA) >> Nawilivili - Kauai/Hawaje (USA) >> Honolulu/Hawaje (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1277,
-        "z_oknem": 1417,
-        "z_balkonem": 1972,
-        "apartament": 3797
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-honolulu-na-hawajach-na-pride-of-america-2026-08-29-8-a7b7ac2060"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Luna (2026)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Miami (USA) >> Dzień na morzu >> Puerto Plata (Dominikana) >> Charlotte Amalie/St. Thomas (Wyspy Dziewicze USA) >> Road Town/Tortola (Wyspy Dziewicze UK) >> Dzień na morzu >> Great Stirup Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 693,
-        "z_oknem": 783,
-        "z_balkonem": 978,
-        "apartament": 3013
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-norwegian-luna-2026-2026-08-29-8-b8b2c24e2c"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Aqua (2025)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-03",
-      "nights": 6,
-      "route": "Nowy Jork (USA) >> Dzień na morzu >> King's Wharf (Bermudy) >> Dzień na morzu >> Nowy Jork (USA)",
-      "prices_eur": {
-        "wewnętrzna": 769,
-        "z_oknem": 959,
-        "z_balkonem": 1244,
-        "apartament": 1699
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-nowego-jorku-na-norwegian-aqua-2025-2026-08-29-6-52d5f498cc"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Adventure of the Seas",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-04",
-      "nights": 7,
-      "route": "Port Canaveral/Orlando (USA) >> Dzień na morzu. >> George Town (Kajmany) >> Falmouth (Jamajka) >> Dzień na morzu. >> Coco Cay (Bahamy) >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 594,
-        "z_oknem": 671,
-        "z_balkonem": 1022,
-        "apartament": 1983
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-adventure-of-the-seas-2026-08-29-7-12e285299d"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Icon of the Seas (2024)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Miami (USA) >> Dzień na morzu. >> Charlotte Amalie/St. Thomas (Wyspy Dziewicze USA) >> San Juan - Portoryko (USA) >> Dzień na morzu. >> Coco Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1050,
-        "z_oknem": 1352,
-        "z_balkonem": 1269,
-        "apartament": 2262
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-icon-of-the-seas-2024-2026-08-29-8-90bf0b43bc"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Harmony of the Seas",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-03",
-      "nights": 6,
-      "route": "Port Canaveral/Orlando (USA) >> Coco Cay (Bahamy) >> Dzień na morzu. >> Cozumel (Meksyk) >> Dzień na morzu. >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 544,
-        "z_oknem": 770,
-        "z_balkonem": 751,
-        "apartament": 2514
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-harmony-of-the-seas-2026-08-29-6-fc5fefa040"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Symphony of the Seas (2018)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-06",
-      "nights": 9,
-      "route": "Galveston/Texas (USA) >> Dzień na morzu. >> Coco Cay (Bahamy) >> Nassau (Bahamy) >> Dzień na morzu. >> Cozumel (Meksyk) >> Dzień na morzu. >> Galveston/Texas (USA)",
-      "prices_eur": {
-        "wewnętrzna": 794,
-        "z_oknem": 954,
-        "z_balkonem": 876,
-        "apartament": 1992
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-galveston-na-symphony-of-the-seas-2026-08-29-9-882a97620d"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Radiance of the Seas",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-03",
-      "nights": 6,
-      "route": "Tampa/Floryda (USA) >> Dzień na morzu. >> Costa Maya (Meksyk) >> Cozumel (Meksyk) >> Dzień na morzu. >> Tampa/Floryda (USA)",
-      "prices_eur": {
-        "wewnętrzna": 448,
-        "z_oknem": 509,
-        "z_balkonem": 624,
-        "apartament": 1762
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-tampafloryda-usa-na-radiance-of-the-seas-2026-08-29-6-00f0c29b41"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Enchantment of the Seas",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Tampa/Floryda (USA) >> Dzień na morzu. >> Costa Maya (Meksyk) >> Belize (Belize) >> Roatan (Honduras) >> Cozumel (Meksyk) >> Dzień na morzu. >> Tampa/Floryda (USA)",
-      "prices_eur": {
-        "wewnętrzna": 517,
-        "z_oknem": 558,
-        "z_balkonem": null,
-        "apartament": 1723
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-tampafloryda-usa-na-enchantment-of-the-seas-2026-08-29-8-2ab6037211"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Rhapsody of the Seas",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "San Juan - Portoryko (USA) >> Road Town/Tortola (Wyspy Dziewicze UK) >> Philipsburg (Sint Maarten) >> St. John's (Antigua i Barbuda) >> Basseterre (St. Kitts i Nevis) >> St. Croix (Wyspy Dziewicze USA) >> Dzień na morzu. >> San Juan - Portoryko (USA)",
-      "prices_eur": {
-        "wewnętrzna": 708,
-        "z_oknem": 740,
-        "z_balkonem": 1129,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-san-juan-na-rhapsody-of-the-seas-2026-08-29-8-1adb0ec8a4"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Regal Princess",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Fort Lauderdale/Floryda (USA) >> Princess Cays (Bahamy) >> Dzień na morzu >> San Juan - Portoryko (USA) >> Charlotte Amalie/St. Thomas (Wyspy Dziewicze USA) >> Dzień na morzu >> Fort Lauderdale/Floryda (USA)",
-      "prices_eur": {
-        "wewnętrzna": 427,
-        "z_balkonem": 595,
-        "apartament": 829
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-fort-lauderdale-na-regal-princess-2026-08-29-8-baa86f532e"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Grand Princess",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Whittier/Anchorage/Alaska (USA) >> Lodowiec Hubbard/Alaska (USA) - przepłynięcie widokowe >> Park Narodowy Glacier Bay/Alaska (USA) - przepłynięcie widokowe >> Skagway/Alaska (USA) >> Juneau/Alaska (USA) >> Ketchikan/Alaska (USA) >> Dzień na morzu >> Vancouver (Kanada)",
-      "prices_eur": {
-        "wewnętrzna": 513,
-        "z_oknem": 795,
-        "z_balkonem": null,
-        "apartament": 2748
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-whittier-na-alasce-do-vancouver-na-grand-princess-2026-08-29-8-73f485d8c0"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Royal Princess",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Seattle/Waszyngton (USA) >> Dzień na morzu >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Park Narodowy Glacier Bay/Alaska (USA) - przepłynięcie widokowe >> Ketchikan/Alaska (USA) >> Victoria (Kanada) >> Seattle/Waszyngton (USA)",
-      "prices_eur": {
-        "wewnętrzna": 743,
-        "z_balkonem": 1291,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-seattle-na-royal-princess-2026-08-29-8-67f7e6eef8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Discovery Princess",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Vancouver (Kanada) >> Dzień na morzu >> Ketchikan/Alaska (USA) >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Park Narodowy Glacier Bay/Alaska (USA) - przepłynięcie widokowe >> College Fjord/Alaska (USA) - rejs widokowy >> Whittier/Anchorage/Alaska (USA)",
-      "prices_eur": {
-        "wewnętrzna": 793,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-vancouver-do-whittier-na-alasce-na-discovery-princess-2026-08-29-8-f7f4020e06"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Discovery Princess",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-12",
-      "nights": 15,
-      "route": "Vancouver (Kanada) >> Dzień na morzu >> Ketchikan/Alaska (USA) >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Park Narodowy Glacier Bay/Alaska (USA) - przepłynięcie widokowe >> College Fjord/Alaska (USA) - rejs widokowy >> Whittier/Anchorage/Alaska (USA) >> Lodowiec Hubbard/Alaska (USA) - przepłynięcie widokowe >> Park Narodowy Glacier Bay/Alaska (USA) - przepłynięcie widokowe >> Icy Strait Point/Alaska (USA) >> Juneau/Alaska (USA) >> Ketchikan/Alaska (USA) >> Dzień na morzu >> Vancouver (Kanada)",
-      "prices_eur": {
-        "wewnętrzna": 1239,
-        "z_oknem": null,
-        "z_balkonem": 2314,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-vancouver-na-discovery-princess-2026-08-29-15-164e5150fb"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seashore (2021)",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-03",
-      "nights": 5,
-      "route": "Port Canaveral/Orlando (USA) >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Nassau (Bahamy) >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 319,
-        "z_oknem": 379,
-        "z_balkonem": 429,
-        "apartament": 809
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-msc-seashore-2021-2026-08-30-5-d49fcc0685"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seascape (2022)",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 8,
-      "route": "Galveston/Texas (USA) >> Dzień na morzu >> Costa Maya (Meksyk) >> Roatan (Honduras) >> Cozumel (Meksyk) >> Dzień na morzu >> Galveston/Texas (USA)",
-      "prices_eur": {
-        "wewnętrzna": 394,
-        "z_oknem": 504,
-        "z_balkonem": 604,
-        "apartament": 1224
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-galveston-na-msc-seascape-2022-2026-08-30-8-952cc6d718"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Breakaway (2013)",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 8,
-      "route": "Boston (USA) >> Portland/Maine (USA) >> Dzień na morzu >> Bar Harbor (USA) >> St. John/New Brunswick (Kanada) >> Halifax/Nowa Szkocja (Kanada) >> Dzień na morzu >> Boston (USA)",
-      "prices_eur": {
-        "wewnętrzna": 739,
-        "z_oknem": 1059,
-        "z_balkonem": 1284,
-        "apartament": 1589
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-bostonu-na-norwegian-breakaway-2013-2026-08-30-8-bf5478c638"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Encore (2019)",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 8,
-      "route": "Seattle/Waszyngton (USA) >> Dzień na morzu >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Park Narodowy Glacier Bay/Alaska (USA) - przepłynięcie widokowe >> Ketchikan/Alaska (USA) >> Victoria (Kanada) >> Seattle/Waszyngton (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1033,
-        "z_oknem": 1378,
-        "z_balkonem": 1683,
-        "apartament": 1763
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-seattle-na-norwegian-encore-2019-2026-08-30-8-fb3079459a"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Prima (2022)",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 8,
-      "route": "Port Canaveral/Orlando (USA) >> Great Stirup Cay (Bahamy) >> Dzień na morzu >> Falmouth (Jamajka) >> George Town (Kajmany) >> Cozumel (Meksyk) >> Dzień na morzu >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 749,
-        "z_oknem": 819,
-        "z_balkonem": 954,
-        "apartament": 1244
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-norwegian-prima-2022-2026-08-30-8-556db1b30d"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Celebrity Millennium",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-11",
-      "nights": 13,
-      "route": "Yokohama/Tokio (Japonia) >> Dzień na morzu >> Kioto (Japonia) - nocleg w hotelu >> Kochi (Japonia) >> Hiroszima (Japonia) >> Dzień na morzu >> Busan (Korea Południowa) >> Nagasaki (Japonia) >> Kagoshima/Kiusiu (Japonia) >> Dzień na morzu >> Shimizu/Góra Fudżi (Japonia) >> Yokohama/Tokio (Japonia)",
-      "prices_eur": {
-        "wewnętrzna": 1551,
-        "z_oknem": null,
-        "z_balkonem": 3021,
-        "apartament": 6899
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-japonia-z-tokio-celebrity-millennium-2026-08-30-13"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Celebrity Infinity",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 8,
-      "route": "Pireus/Ateny (Grecja) >> Santorini (Grecja) >> Rodos (Grecja) >> Kusadasi (Turcja) >> Mykonos (Grecja) >> Saloniki (Grecja) >> Dzień na morzu >> Pireus/Ateny (Grecja)",
-      "prices_eur": {},
-      "url": "https://www.alerejsy.pl/rejsy/rejs-po-wyspach-greckich-i-turcji-na-pokladzie-celebrity-infinity-2026-08-30-8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Celebrity Solstice",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 8,
-      "route": "Vancouver (Kanada) >> Inside Passage/Alaska - przepłynięcie widokowe >> Icy Strait Point/Alaska (USA) >> Lodowiec Hubbard/Alaska (USA) - przepłynięcie widokowe >> Juneau/Alaska (USA) >> Ketchikan/Alaska (USA) >> Inside Passage/Alaska - przepłynięcie widokowe >> Vancouver (Kanada)",
-      "prices_eur": {
-        "wewnętrzna": 896,
-        "z_oknem": 1358,
-        "z_balkonem": 1446,
-        "apartament": 3442
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-alaska-z-vancouver-celebrity-solstice-2026-08-30-8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Celebrity Beyond (2022)",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 8,
-      "route": "Miami (USA) >> Dzień na morzu >> Puerto Plata (Dominikana) >> Saint Thomas (Wyspy Dziewicze USA) >> Basseterre (St. Kitts i Nevis) >> Dzień na morzu >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 973,
-        "z_oknem": 1009,
-        "z_balkonem": 1203,
-        "apartament": 3277
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-po-karaibach-z-miami-statkiem-celebrity-beyond-2026-08-30-8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Star of the Seas (2025)",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 8,
-      "route": "Port Canaveral/Orlando (USA) >> Coco Cay (Bahamy) >> Dzień na morzu. >> Cozumel (Meksyk) >> Roatan (Honduras) >> Costa Maya (Meksyk) >> Dzień na morzu. >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1211,
-        "z_oknem": 1260,
-        "z_balkonem": 1330,
-        "apartament": 1714
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-star-of-the-seas-2025-2026-08-30-8-7b808c5899"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Allure of the Seas",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-05",
-      "nights": 7,
-      "route": "Fort Lauderdale/Floryda (USA) >> Coco Cay (Bahamy) >> Dzień na morzu. >> Falmouth (Jamajka) >> Dzień na morzu. >> Nassau (Bahamy) >> Fort Lauderdale/Floryda (USA)",
-      "prices_eur": {
-        "wewnętrzna": 538,
-        "z_oknem": 713,
-        "z_balkonem": 739,
-        "apartament": 2356
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-fort-lauderdale-na-allure-of-the-seas-2026-08-30-7-08a642c91a"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Oasis of the Seas",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 8,
-      "route": "Cape Liberty/Nowy Jork (USA) >> Dzień na morzu. >> Port Canaveral/Orlando (USA) >> Nassau (Bahamy) >> Coco Cay (Bahamy) >> Dzień na morzu. >> Cape Liberty/Nowy Jork (USA)",
-      "prices_eur": {
-        "wewnętrzna": 874,
-        "z_oknem": 988,
-        "z_balkonem": 1023,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-cape-libertynowy-jork-usa-na-oasis-of-the-seas-2026-08-30-8-bb84dcf2ac"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Odyssey of the Seas (2021)",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 8,
-      "route": "Civitavecchia/Rzym (Włochy) >> Dzień na morzu. >> Santorini (Grecja) >> Kusadasi (Turcja) >> Mykonos (Grecja) >> Dzień na morzu. >> Neapol (Włochy) >> Civitavecchia/Rzym (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": 1622,
-        "z_oknem": 1882,
-        "z_balkonem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-odyssey-of-the-seas-2026-08-30-8-2fe5533380"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Caribbean Princess",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 8,
-      "route": "Port Canaveral/Orlando (USA) >> Nassau (Bahamy) >> Princess Cays (Bahamy) >> Dzień na morzu >> Amber Cove (Dominikana) >> Grand Turk (Wyspy Turks i Caicos) >> Dzień na morzu >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 449,
-        "z_oknem": 486,
-        "z_balkonem": 830,
-        "apartament": 1220
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-caribbean-princess-2026-08-30-8-7c0efd4a26"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Star Princess (2025)",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 8,
-      "route": "Seattle/Waszyngton (USA) >> Dzień na morzu >> Ketchikan/Alaska (USA) >> Lodowiec Endicott Arm & Dawes/Alaska (USA) >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Dzień na morzu >> Victoria (Kanada) >> Seattle/Waszyngton (USA)",
-      "prices_eur": {
-        "wewnętrzna": 973,
-        "z_oknem": 1091,
-        "z_balkonem": 1312,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-seattle-na-star-princess-2025-2026-08-30-8-e3aadd403e"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Fantasia",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-09",
-      "nights": 10,
-      "route": "Pireus/Ateny (Grecja) >> Kusadasi (Turcja) >> Stambuł (Turcja) >> Dzień na morzu >> Corfu (Grecja) >> Bari (Włochy) >> Triest (Włochy) >> Dzień na morzu >> Katakolon/Olympia (Grecja) >> Pireus/Ateny (Grecja)",
-      "prices_eur": {
-        "wewnętrzna": 1287,
-        "z_oknem": 1367,
-        "z_balkonem": 1467,
-        "apartament": 2027
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-pireusu-k-aten-na-msc-fantasia-2026-08-31-10-5e0070bb31"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Fantasia",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-09",
-      "nights": 10,
-      "route": "Pireus/Ateny (Grecja) >> Kusadasi (Turcja) >> Stambuł (Turcja) >> Dzień na morzu >> Corfu (Grecja) >> Bari (Włochy) >> Triest (Włochy) >> Dzień na morzu >> Katakolon/Olympia (Grecja) >> Pireus/Ateny (Grecja)",
-      "prices_eur": {
-        "wewnętrzna": 1927,
-        "z_oknem": 2047,
-        "z_balkonem": 2147,
-        "apartament": 2677
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-pireusu-k-aten-na-msc-fantasia-2026-08-31-10-5e0070bb31-flight"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Divina",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-07",
-      "nights": 8,
-      "route": "Kusadasi (Turcja) >> Marmaris (Turcja) >> Dzień na morzu >> Neapol (Włochy) >> Civitavecchia/Rzym (Włochy) >> Dzień na morzu >> Mykonos (Grecja) >> Kusadasi (Turcja)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": 3091
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-kusadasi-turcja-na-msc-divina-2026-08-31-8-daa0a749a5"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seaside (2018)",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-04",
-      "nights": 5,
-      "route": "Miami (USA) >> Nassau (Bahamy) >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 279,
-        "z_oknem": 329,
-        "z_balkonem": 369,
-        "apartament": 759
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-msc-seaside-2018-2026-08-31-5-8e3684a0e4"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seaside (2018)",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-07",
-      "nights": 8,
-      "route": "Miami (USA) >> Nassau (Bahamy) >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA) >> Nassau (Bahamy) >> Rezerwat Morski MSC Ocean Cay (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 634,
-        "z_oknem": 734,
-        "z_balkonem": 814,
-        "apartament": 1384
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-msc-seaside-2018-2026-08-31-8-85b2ff820e"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Bellissima (2019)",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-04",
-      "nights": 5,
-      "route": "Szanghaj (Chiny) >> Gangjeong (Korea Południowa) >> Busan (Korea Południowa) >> Dzień na morzu >> Szanghaj (Chiny)",
-      "prices_eur": {
-        "wewnętrzna": 567,
-        "z_oknem": 677,
-        "z_balkonem": 827,
-        "apartament": 1207
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-szanghaju-na-msc-bellissima-2019-2026-08-31-5-f659e989e6"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Serena",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-02",
-      "nights": 3,
-      "route": "Keelung/Taipei (Tajwan) >> Dzień na morzu >> Pusan (Korea Południowa)",
-      "prices_eur": {
-        "wewnętrzna": 579,
-        "z_oknem": 619,
-        "z_balkonem": 699,
-        "apartament": 869
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-keelungtaipei-tajwan-do-pusan-korea-poludniowa-na-costa-serena-2026-08-31-3-f90b32a84c"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Getaway (2014)",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-04",
-      "nights": 5,
-      "route": "Miami (USA) >> Great Stirup Cay (Bahamy) >> Dzień na morzu >> Nassau (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 314,
-        "z_oknem": 364,
-        "z_balkonem": 439,
-        "apartament": 464
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-norwegian-getaway-2014-2026-08-31-5-701c9c9e3c"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Jade",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-07",
-      "nights": 8,
-      "route": "Whittier/Anchorage/Alaska (USA) >> Lodowiec Hubbard/Alaska (USA) - przepłynięcie widokowe >> Icy Strait Point/Alaska (USA) >> Juneau/Alaska (USA) >> Skagway/Alaska (USA) >> Ketchikan/Alaska (USA) >> Inside Passage/Alaska - przepłynięcie widokowe >> Vancouver (Kanada)",
-      "prices_eur": {
-        "wewnętrzna": 758,
-        "z_oknem": 848,
-        "z_balkonem": 1948,
-        "apartament": 2148
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-whittier-na-alasce-do-vancouver-na-norwegian-jade-2026-08-31-8-8cacc12484"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Utopia of the Seas (2024)",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-04",
-      "nights": 5,
-      "route": "Port Canaveral/Orlando (USA) >> Nassau (Bahamy) >> Coco Cay (Bahamy) >> Dzień na morzu. >> Port Canaveral/Orlando (USA)",
-      "prices_eur": {
-        "wewnętrzna": 494,
-        "z_oknem": 567,
-        "z_balkonem": 560,
-        "apartament": 1222
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-port-canaveral-k-orlando-na-utopia-of-the-seas-2024-2026-08-31-5-01aa2f9e87"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Wonder of the Seas (2022)",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-04",
-      "nights": 5,
-      "route": "Miami (USA) >> Coco Cay (Bahamy) >> Dzień na morzu. >> Nassau (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 395,
-        "z_oknem": 510,
-        "z_balkonem": 491,
-        "apartament": 1022
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-wonder-of-the-seas-2026-08-31-5-8b367a699b"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Quantum of the Seas",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-04",
-      "nights": 5,
-      "route": "Los Angeles (USA) >> Dzień na morzu. >> Catalina Island/California (USA) >> Ensenada (Meksyk) >> Los Angeles (USA)",
-      "prices_eur": {
-        "wewnętrzna": 316,
-        "z_oknem": 390,
-        "z_balkonem": 351,
-        "apartament": 1019
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-los-angeles-na-quantum-of-the-seas-2026-08-31-5-50d98c237c"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Freedom of the Seas",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-05",
-      "nights": 6,
-      "route": "Miami (USA) >> Dzień na morzu. >> Cozumel (Meksyk) >> Dzień na morzu. >> Nassau (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": 317,
-        "z_oknem": 361,
-        "z_balkonem": 422,
-        "apartament": 728
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-miami-na-freedom-of-the-seas-2026-08-31-6-0be0357671"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Mariner of the Seas",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-05",
-      "nights": 6,
-      "route": "Galveston/Texas (USA) >> Dzień na morzu. >> Costa Maya (Meksyk) >> Cozumel (Meksyk) >> Dzień na morzu. >> Galveston/Texas (USA)",
-      "prices_eur": {
-        "wewnętrzna": 404,
-        "z_oknem": 430,
-        "z_balkonem": 693,
-        "apartament": 1302
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-galveston-na-mariner-of-the-seas-2026-08-31-6-f2d2b9b4df"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Brilliance of the Seas",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-07",
-      "nights": 8,
-      "route": "Pireus/Ateny (Grecja) >> Mykonos (Grecja) >> Kusadasi (Turcja) >> Santorini (Grecja) >> Chania/Kreta (Grecja) >> Katakolon/Olympia (Grecja) >> Dzień na morzu. >> Civitavecchia/Rzym (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": 1641,
-        "z_balkonem": 2027,
-        "apartament": 4297
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-pireusu-k-aten-do-civitavecchi-k-rzymu-na-brilliance-of-the-seas-2026-08-31-8-2a2ea48d37"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Jewel of the Seas",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-04",
-      "nights": 5,
-      "route": "Fort Lauderdale/Floryda (USA) >> Dzień na morzu. >> Coco Cay (Bahamy) >> Nassau (Bahamy) >> Fort Lauderdale/Floryda (USA)",
-      "prices_eur": {
-        "wewnętrzna": 264,
-        "z_oknem": 288,
-        "z_balkonem": 362,
-        "apartament": 781
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-fort-lauderdale-na-jewel-of-the-seas-2026-08-31-5-5c418c1931"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Ruby Princess",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-10",
-      "nights": 11,
-      "route": "San Francisco (USA) >> Dzień na morzu >> Lodowiec Endicott Arm & Dawes/Alaska (USA) >> Juneau/Alaska (USA) >> Icy Strait Point/Alaska (USA) >> Wrangell (Alaska) >> Prince Rupert (Kanada) >> Dzień na morzu >> San Francisco (USA)",
-      "prices_eur": {
-        "wewnętrzna": 1159,
-        "z_oknem": 1251,
-        "z_balkonem": 2083,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-san-francisco-na-ruby-princess-2026-08-31-11-baa8f4869d"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Enchanted Princess (2021)",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-08",
-      "nights": 9,
-      "route": "Przelot z Warszawy >> Civitavecchia/Rzym (Włochy) >> Salerno (Włochy) >> Dzień na morzu >> Santorini (Grecja) >> Kusadasi (Turcja) >> Katakolon/Olympia (Grecja) >> Dzień na morzu >> Civitavecchia/Rzym (Włochy) >> Przylot do Warszawy",
-      "prices_eur": {
-        "z_oknem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/starozytne-skarby-srodziemnomorza-wlochy-grecja-turcja-pl-pilot-2026-08-31-9"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Resilient Lady (2023)",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-05",
-      "nights": 6,
-      "route": "Miami (USA) >> Dzień na morzu >> Puerto Plata (Dominikana) >> Dzień na morzu >> Bimini (Bahamy) >> Miami (USA)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": 779,
-        "z_balkonem": 1049,
-        "apartament": 3283
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-bajeczne-na-statku-resilient-lady-2026-08-31-6"
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-oslo-norwegia-do-sztokholmu-na-msc-magnifica-2026-08-28-7-e6169d9ca2"
     }
   ],
-  "price_changes": []
+  "price_changes": [
+    {
+      "source": "alerejsy.pl",
+      "ship": "Liberty of the Seas",
+      "start_date": "2026-08-23",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-southampton-na-liberty-of-the-seas-2026-08-23-9-5b963666f6",
+      "changes": {
+        "z_oknem": {
+          "old": 2429,
+          "new": 2222,
+          "delta": -207
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "Legend of the Seas (2026)",
+      "start_date": "2026-08-20",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-legend-of-the-seas-2026-2026-08-20-8-3438d00537",
+      "changes": {
+        "apartament": {
+          "old": 8154,
+          "new": 5001,
+          "delta": -3153
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Opera",
+      "start_date": "2026-08-21",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-genui-po-lizbone-2026-08-21-11-875bc035d8",
+      "changes": {
+        "z_oknem": {
+          "old": 1989,
+          "new": 1979,
+          "delta": -10
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Meraviglia (2017)",
+      "start_date": "2026-08-21",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-palermosycylia-wlochy-na-msc-meraviglia-2017-2026-08-21-8-94313af79a",
+      "changes": {
+        "z_balkonem": {
+          "old": 1633,
+          "new": 1533,
+          "delta": -100
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC World Europa (2022)",
+      "start_date": "2026-08-21",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-msc-world-europa-2022-2026-08-21-8-f6518e9646",
+      "changes": {
+        "apartament": {
+          "old": 3671,
+          "new": 2203,
+          "delta": -1468
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Lirica",
+      "start_date": "2026-08-22",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-wenecji-na-msc-lirica-2026-08-22-8-7e08fc56c8",
+      "changes": {
+        "apartament": {
+          "old": 1653,
+          "new": 1723,
+          "delta": 70
+        },
+        "z_balkonem": {
+          "old": 1583,
+          "new": 1653,
+          "delta": 70
+        },
+        "z_oknem": {
+          "old": 1213,
+          "new": 1283,
+          "delta": 70
+        },
+        "wewnętrzna": {
+          "old": 1083,
+          "new": 1213,
+          "delta": 130
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Meraviglia (2017)",
+      "start_date": "2026-08-22",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-neapolu-na-msc-meraviglia-2017-2026-08-22-8-d96f156dc7",
+      "changes": {
+        "z_balkonem": {
+          "old": 1463,
+          "new": 1693,
+          "delta": 230
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Seaview (2019)",
+      "start_date": "2026-08-22",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-genui-na-msc-seaview-2019-2026-08-22-8-1c5818f313",
+      "changes": {
+        "z_balkonem": {
+          "old": 1913,
+          "new": 1843,
+          "delta": -70
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "Explorer of the Seas",
+      "start_date": "2026-08-22",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-rawenny-na-explorer-of-the-seas-2026-08-22-8-7d78e40396",
+      "changes": {
+        "z_balkonem": {
+          "old": 1883,
+          "new": 1490,
+          "delta": -393
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "Grandeur of the Seas",
+      "start_date": "2026-08-22",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-colon-panama-na-grandeur-of-the-seas-2026-08-22-8-720360171d",
+      "changes": {
+        "apartament": {
+          "old": 1333,
+          "new": 1355,
+          "delta": 22
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Armonia",
+      "start_date": "2026-08-23",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-wenecji-na-msc-armonia-2026-08-23-8-2688d32ce2",
+      "changes": {
+        "apartament": {
+          "old": 1753,
+          "new": 1853,
+          "delta": 100
+        },
+        "z_balkonem": {
+          "old": 1513,
+          "new": 1613,
+          "delta": 100
+        },
+        "z_oknem": {
+          "old": 1113,
+          "new": 1213,
+          "delta": 100
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "Legend of the Seas (2026)",
+      "start_date": "2026-08-23",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-legend-of-the-seas-2026-2026-08-23-8-ebfa6575df",
+      "changes": {
+        "apartament": {
+          "old": 4373,
+          "new": 4395,
+          "delta": 22
+        },
+        "z_balkonem": {
+          "old": 3639,
+          "new": 3230,
+          "delta": -409
+        },
+        "z_oknem": {
+          "old": 1842,
+          "new": 2160,
+          "delta": 318
+        },
+        "wewnętrzna": {
+          "old": 1584,
+          "new": 1784,
+          "delta": 200
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "Grandeur of the Seas",
+      "start_date": "2026-08-23",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-cartagena-kolumbia-na-grandeur-of-the-seas-2026-08-23-8-9ef5591e16",
+      "changes": {
+        "apartament": {
+          "old": 1512,
+          "new": 1534,
+          "delta": 22
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Orchestra",
+      "start_date": "2026-08-25",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-msc-orchestra-2026-08-25-8-c6b1e76a82",
+      "changes": {
+        "z_balkonem": {
+          "old": 1273,
+          "new": 1263,
+          "delta": -10
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC World Europa (2022)",
+      "start_date": "2026-08-25",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-mesynasycylia-wlochy-na-msc-world-europa-2022-2026-08-25-8-fd213fe0f0",
+      "changes": {
+        "z_balkonem": {
+          "old": 2203,
+          "new": 2213,
+          "delta": 10
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Orchestra",
+      "start_date": "2026-08-27",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-marsylii-na-msc-orchestra-2026-08-27-8-88ad711cf4",
+      "changes": {
+        "wewnętrzna": {
+          "old": 743,
+          "new": 783,
+          "delta": 40
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "Legend of the Seas (2026)",
+      "start_date": "2026-08-27",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-legend-of-the-seas-2026-2026-08-27-8-8570d6c0e2",
+      "changes": {
+        "apartament": {
+          "old": 5851,
+          "new": 5873,
+          "delta": 22
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Seaview (2019)",
+      "start_date": "2026-08-29",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-genui-na-msc-seaview-2019-2026-08-29-8-1c5818f313",
+      "changes": {
+        "z_balkonem": {
+          "old": 1483,
+          "new": 1543,
+          "delta": 60
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Grandiosa (2019)",
+      "start_date": "2026-08-29",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-msc-grandiosa-2019-2026-08-29-8-550fa55cac",
+      "changes": {
+        "apartament": {
+          "old": 1913,
+          "new": 3251,
+          "delta": 1338
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC World Europa (2022)",
+      "start_date": "2026-08-29",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-marsylii-na-msc-world-europa-2022-2026-08-29-8-f5e8658e94",
+      "changes": {
+        "wewnętrzna": {
+          "old": 1223,
+          "new": 1163,
+          "delta": -60
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "Grandeur of the Seas",
+      "start_date": "2026-08-29",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-colon-panama-na-grandeur-of-the-seas-2026-08-29-8-720360171d",
+      "changes": {
+        "apartament": {
+          "old": 1480,
+          "new": 1502,
+          "delta": 22
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Armonia",
+      "start_date": "2026-08-30",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-wenecji-na-msc-armonia-2026-08-30-8-2688d32ce2",
+      "changes": {
+        "apartament": {
+          "old": 1743,
+          "new": 1843,
+          "delta": 100
+        },
+        "z_balkonem": {
+          "old": 1393,
+          "new": 1493,
+          "delta": 100
+        },
+        "z_oknem": {
+          "old": 993,
+          "new": 1093,
+          "delta": 100
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Musica",
+      "start_date": "2026-08-30",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-cagliarisardynia-wlochy-na-msc-musica-2026-08-30-8-257126821d",
+      "changes": {
+        "z_balkonem": {
+          "old": 1353,
+          "new": 1363,
+          "delta": 10
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "Legend of the Seas (2026)",
+      "start_date": "2026-08-30",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-legend-of-the-seas-2026-2026-08-30-8-808cdb4abe",
+      "changes": {
+        "apartament": {
+          "old": 4285,
+          "new": 6003,
+          "delta": 1718
+        },
+        "z_balkonem": {
+          "old": 2558,
+          "new": 3168,
+          "delta": 610
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "Grandeur of the Seas",
+      "start_date": "2026-08-30",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-cartagena-kolumbia-na-grandeur-of-the-seas-2026-08-30-8-9ef5591e16",
+      "changes": {
+        "apartament": {
+          "old": 1216,
+          "new": 1360,
+          "delta": 144
+        },
+        "z_oknem": {
+          "old": 977,
+          "new": 1073,
+          "delta": 96
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Opera",
+      "start_date": "2026-08-31",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-genui-po-lizbone-2026-08-31-11-875bc035d8",
+      "changes": {
+        "z_balkonem": {
+          "old": 2119,
+          "new": 2479,
+          "delta": 360
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Seaview (2019)",
+      "start_date": "2026-08-31",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-palermosycylia-wlochy-na-msc-seaview-2019-2026-08-31-8-f25bf36ebf",
+      "changes": {
+        "z_balkonem": {
+          "old": 1613,
+          "new": 1553,
+          "delta": -60
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC World Europa (2022)",
+      "start_date": "2026-08-31",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-neapolu-na-msc-world-europa-2022-2026-08-31-8-949933979b",
+      "changes": {
+        "apartament": {
+          "old": 3811,
+          "new": 5111,
+          "delta": 1300
+        },
+        "wewnętrzna": {
+          "old": 1453,
+          "new": 1513,
+          "delta": 60
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "Liberty of the Seas",
+      "start_date": "2026-08-31",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-southampton-na-liberty-of-the-seas-2026-08-31-10-cd25404aaa",
+      "changes": {
+        "apartament": {
+          "old": 5227,
+          "new": 5249,
+          "delta": 22
+        }
+      }
+    }
+  ]
 }
