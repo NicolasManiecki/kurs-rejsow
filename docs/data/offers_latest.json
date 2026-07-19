@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-18T07:54:25.723943+00:00",
+  "generated_at": "2026-07-19T08:23:32.882681+00:00",
   "target_start": "2026-08-20",
   "target_end": "2026-08-31",
-  "offer_count": 442,
+  "offer_count": 441,
   "offers": [
     {
       "source": "alerejsy.pl",
@@ -63,7 +63,7 @@
       "prices_eur": {
         "wewnętrzna": 1283,
         "z_oknem": 1503,
-        "z_balkonem": 2153,
+        "z_balkonem": 2083,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-kiel-na-msc-euribia-2023-2026-08-22-8-d64ff409c5"
@@ -151,22 +151,6 @@
     {
       "source": "alerejsy.pl",
       "category": "fiordy_europa_polnocna",
-      "ship": "Celebrity Apex (2021)",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 8,
-      "route": "Southampton (Wielka Brytania) >> Dzień na morzu >> Nordfjordeid (Norwegia) >> Flaam (Norwegia) >> Geiranger (Norwegia) >> Dzień na morzu >> Zeebrugge (Belgia) >> Southampton (Wielka Brytania)",
-      "prices_eur": {
-        "wewnętrzna": 1614,
-        "z_oknem": 1791,
-        "z_balkonem": 2151,
-        "apartament": 4623
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-fiordy-norweskie-z-southampton-na-pokladzie-celebrity-apex-2026-08-22-8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "fiordy_europa_polnocna",
       "ship": "AIDAnova (2018)",
       "start_date": "2026-08-22",
       "end_date": "2026-09-05",
@@ -183,6 +167,22 @@
     {
       "source": "alerejsy.pl",
       "category": "fiordy_europa_polnocna",
+      "ship": "Celebrity Apex (2021)",
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-29",
+      "nights": 8,
+      "route": "Southampton (Wielka Brytania) >> Dzień na morzu >> Nordfjordeid (Norwegia) >> Flaam (Norwegia) >> Geiranger (Norwegia) >> Dzień na morzu >> Zeebrugge (Belgia) >> Southampton (Wielka Brytania)",
+      "prices_eur": {
+        "wewnętrzna": 1614,
+        "z_oknem": 1791,
+        "z_balkonem": 2151,
+        "apartament": 4623
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-fiordy-norweskie-z-southampton-na-pokladzie-celebrity-apex-2026-08-22-8"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "fiordy_europa_polnocna",
       "ship": "MSC Magnifica",
       "start_date": "2026-08-23",
       "end_date": "2026-08-30",
@@ -191,7 +191,7 @@
       "prices_eur": {
         "wewnętrzna": 1233,
         "z_oknem": 1323,
-        "z_balkonem": 1543,
+        "z_balkonem": 1533,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-warnemunde-na-msc-magnifica-2026-08-23-8-79bf552995"
@@ -205,10 +205,10 @@
       "nights": 12,
       "route": "Hamburg (Niemcy) >> Dzień na morzu >> Invergordon (Szkocja/Wielka Brytania) >> Dzień na morzu >> Reykjavik (Islandia) >> Isafjordur (Islandia) >> Akureyri (Islandia) >> Dzień na morzu >> Kirkwall/Orkady (Szkocja/Wielka Brytania) >> Dzień na morzu >> Hamburg (Niemcy)",
       "prices_eur": {
-        "wewnętrzna": null,
+        "wewnętrzna": 1801,
         "z_oknem": null,
-        "z_balkonem": 2161,
-        "apartament": 3051
+        "z_balkonem": 2211,
+        "apartament": 3101
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-dookola-islandii-na-msc-preziosa-2026-08-23-12-4f34a62719"
     },
@@ -279,6 +279,20 @@
     {
       "source": "alerejsy.pl",
       "category": "fiordy_europa_polnocna",
+      "ship": "Mein Schiff 2",
+      "start_date": "2026-08-26",
+      "end_date": "2026-09-05",
+      "nights": 11,
+      "route": "Hamburg (Niemcy) >> Dzień na morzu >> Invergordon (Szkocja/Wielka Brytania) >> Dzień na morzu >> Greenock/Glasgow (Wielka Brytania) >> Belfast (Irlandia Północna/Wielka Brytania) >> Liverpool (Wielka Brytania) >> Dzień na morzu >> Dover/Londyn (Wielka Brytania) >> Dzień na morzu >> Hamburg (Niemcy)",
+      "prices_eur": {
+        "wewnętrzna": 2399,
+        "z_balkonem": 2929
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-hamburga-mein-schiff-2-2026-08-26-11"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "fiordy_europa_polnocna",
       "ship": "Majestic Princess",
       "start_date": "2026-08-26",
       "end_date": "2026-09-07",
@@ -290,20 +304,6 @@
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-southampton-na-majestic-princess-2026-08-26-13-7edd821f0c"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "fiordy_europa_polnocna",
-      "ship": "Mein Schiff 2",
-      "start_date": "2026-08-26",
-      "end_date": "2026-09-05",
-      "nights": 11,
-      "route": "Hamburg (Niemcy) >> Dzień na morzu >> Invergordon (Szkocja/Wielka Brytania) >> Dzień na morzu >> Greenock/Glasgow (Wielka Brytania) >> Belfast (Irlandia Północna/Wielka Brytania) >> Liverpool (Wielka Brytania) >> Dzień na morzu >> Dover/Londyn (Wielka Brytania) >> Dzień na morzu >> Hamburg (Niemcy)",
-      "prices_eur": {
-        "wewnętrzna": 2399,
-        "z_balkonem": 2929
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-hamburga-mein-schiff-2-2026-08-26-11"
     },
     {
       "source": "alerejsy.pl",
@@ -346,9 +346,9 @@
       "nights": 8,
       "route": "Southampton (Wielka Brytania) >> Dzień na morzu >> Haugesund (Norwegia) >> Olden (Norwegia) >> Alesund (Norwegia) >> Kristiansand (Norwegia) >> Dzień na morzu >> Southampton (Wielka Brytania)",
       "prices_eur": {
-        "wewnętrzna": 973,
-        "z_oknem": null,
-        "z_balkonem": null,
+        "wewnętrzna": 1123,
+        "z_oknem": 1523,
+        "z_balkonem": 1673,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-southampton-na-msc-virtuosa-2020-2026-08-29-8-855ed8d216"
@@ -364,7 +364,7 @@
       "prices_eur": {
         "wewnętrzna": 1183,
         "z_oknem": 1363,
-        "z_balkonem": 1703,
+        "z_balkonem": 1733,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-kiel-na-msc-euribia-2023-2026-08-29-8-44e8676069"
@@ -536,9 +536,9 @@
       "nights": 8,
       "route": "Kopenhaga (Dania) >> Dzień na morzu >> Hellesylt (Norwegia) >> Geiranger (Norwegia) >> Molde (Norwegia) >> Flaam (Norwegia) >> Dzień na morzu >> Kiel (Niemcy) >> Kopenhaga (Dania)",
       "prices_eur": {
-        "wewnętrzna": 963,
-        "z_oknem": 1263,
-        "z_balkonem": null,
+        "wewnętrzna": 1013,
+        "z_oknem": 1313,
+        "z_balkonem": 1793,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-kopenhagi-na-msc-euribia-2023-2026-08-30-8-194c4a4b79"
@@ -633,7 +633,7 @@
       "route": "Palermo/Sycylia (Włochy) >> Valletta (Malta) >> Dzień na morzu >> Barcelona (Hiszpania) >> Marsylia (Francja) >> Livorno (Włochy) >> Cagliari/Sardynia (Włochy) >> Palermo/Sycylia (Włochy)",
       "prices_eur": {
         "wewnętrzna": null,
-        "z_oknem": 1403,
+        "z_oknem": null,
         "z_balkonem": 1683,
         "apartament": 2143
       },
@@ -648,10 +648,10 @@
       "nights": 10,
       "route": "Southampton (Wielka Brytania) >> Brest (Francja) >> Dzień na morzu >> Lizbona (Portugalia) >> Gibraltar (Wielka Brytania) >> Malaga (Hiszpania) >> Kadyks (Hiszpania) >> Dzień na morzu >> Southampton (Wielka Brytania)",
       "prices_eur": {
-        "wewnętrzna": 1497,
+        "wewnętrzna": 1527,
         "z_oknem": null,
-        "z_balkonem": 2107,
-        "apartament": 5173
+        "z_balkonem": 2417,
+        "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-southampton-na-msc-virtuosa-2020-2026-08-20-10-ff7e89b279"
     },
@@ -760,8 +760,8 @@
       "nights": 8,
       "route": "Marsylia (Francja) >> Genua (Włochy) >> Civitavecchia/Rzym (Włochy) >> Palermo/Sycylia (Włochy) >> Dzień na morzu >> Ibiza (Hiszpania) >> Barcelona (Hiszpania) >> Marsylia (Francja)",
       "prices_eur": {
-        "wewnętrzna": 1143,
-        "z_oknem": null,
+        "wewnętrzna": 1193,
+        "z_oknem": 1293,
         "z_balkonem": 1373,
         "apartament": 1873
       },
@@ -776,10 +776,10 @@
       "nights": 8,
       "route": "Valletta (Malta) >> Dzień na morzu >> Barcelona (Hiszpania) >> Marsylia (Francja) >> Livorno (Włochy) >> Cagliari/Sardynia (Włochy) >> Palermo/Sycylia (Włochy) >> Valletta (Malta)",
       "prices_eur": {
-        "wewnętrzna": 1153,
+        "wewnętrzna": 1163,
         "z_oknem": 1233,
         "z_balkonem": 1313,
-        "apartament": null
+        "apartament": 2811
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-valletta-malta-na-msc-splendida-2026-08-21-8-e33b39e845"
     },
@@ -811,7 +811,7 @@
         "wewnętrzna": 1153,
         "z_oknem": null,
         "z_balkonem": 1613,
-        "apartament": null
+        "apartament": 2233
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-msc-world-europa-2022-2026-08-21-8-f6518e9646"
     },
@@ -1003,7 +1003,7 @@
         "wewnętrzna": 933,
         "z_oknem": 1103,
         "z_balkonem": null,
-        "apartament": null
+        "apartament": 1833
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-splitu-w-chorwacji-na-msc-armonia-2026-08-22-8-199d018cac"
     },
@@ -1034,7 +1034,7 @@
       "prices_eur": {
         "wewnętrzna": 1203,
         "z_oknem": 1333,
-        "z_balkonem": 1703,
+        "z_balkonem": 1663,
         "apartament": 1773
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-wenecji-na-msc-lirica-2026-08-22-8-7e08fc56c8"
@@ -1162,7 +1162,7 @@
       "prices_eur": {
         "wewnętrzna": 1283,
         "z_oknem": 1503,
-        "z_balkonem": 2153,
+        "z_balkonem": 2083,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-kiel-na-msc-euribia-2023-2026-08-22-8-d64ff409c5"
@@ -1432,10 +1432,10 @@
       "nights": 8,
       "route": "Ravenna (Włochy) >> Zatoka Kotorska (Czarnogóra) - przepłynięcie widokowe >> Kotor (Czarnogóra) >> Dzień na morzu. >> Pireus/Ateny (Grecja) >> Santorini (Grecja) >> Dzień na morzu. >> Split (Chorwacja) >> Ravenna (Włochy)",
       "prices_eur": {
-        "wewnętrzna": 1248,
+        "wewnętrzna": null,
         "z_oknem": null,
         "z_balkonem": 1883,
-        "apartament": 4351
+        "apartament": 4329
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-rawenny-na-explorer-of-the-seas-2026-08-22-8-7d78e40396"
     },
@@ -1449,9 +1449,9 @@
       "route": "Colon (Panama) >> Cartagena (Kolumbia) >> Dzień na morzu. >> Oranjestad (Aruba) >> Willemstad (Curacao) >> Dzień na morzu. >> Colon (Panama)",
       "prices_eur": {
         "wewnętrzna": 947,
-        "z_oknem": 1060,
+        "z_oknem": 1031,
         "z_balkonem": null,
-        "apartament": 1655
+        "apartament": 1633
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-colon-panama-na-grandeur-of-the-seas-2026-08-22-8-720360171d"
     },
@@ -1492,10 +1492,10 @@
       "nights": 9,
       "route": "Pireus/Ateny (Grecja) >> Stambuł (Turcja) >> Dzień na morzu >> Corfu (Grecja) >> Bari (Włochy) >> Triest (Włochy) >> Dzień na morzu >> Katakolon/Olympia (Grecja) >> Pireus/Ateny (Grecja)",
       "prices_eur": {
-        "wewnętrzna": 1385,
+        "wewnętrzna": 1395,
         "z_oknem": null,
         "z_balkonem": 1575,
-        "apartament": 2005
+        "apartament": 2125
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-pireusu-k-aten-na-msc-fantasia-2026-08-23-9-7bac6d47a0"
     },
@@ -1508,7 +1508,7 @@
       "nights": 8,
       "route": "Wenecja/Marghera (Włochy) >> Dzień na morzu >> Dubrownik (Chorwacja) >> Corfu (Grecja) >> Kotor (Czarnogóra) >> Brindisi (Włochy) >> Split (Chorwacja) >> Wenecja/Marghera (Włochy)",
       "prices_eur": {
-        "wewnętrzna": null,
+        "wewnętrzna": 1113,
         "z_oknem": 1263,
         "z_balkonem": 1663,
         "apartament": 1903
@@ -1526,7 +1526,7 @@
       "prices_eur": {
         "wewnętrzna": 1233,
         "z_oknem": 1323,
-        "z_balkonem": 1543,
+        "z_balkonem": 1533,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-warnemunde-na-msc-magnifica-2026-08-23-8-79bf552995"
@@ -1556,10 +1556,10 @@
       "nights": 12,
       "route": "Hamburg (Niemcy) >> Dzień na morzu >> Invergordon (Szkocja/Wielka Brytania) >> Dzień na morzu >> Reykjavik (Islandia) >> Isafjordur (Islandia) >> Akureyri (Islandia) >> Dzień na morzu >> Kirkwall/Orkady (Szkocja/Wielka Brytania) >> Dzień na morzu >> Hamburg (Niemcy)",
       "prices_eur": {
-        "wewnętrzna": null,
+        "wewnętrzna": 1801,
         "z_oknem": null,
-        "z_balkonem": 2161,
-        "apartament": 3051
+        "z_balkonem": 2211,
+        "apartament": 3101
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-dookola-islandii-na-msc-preziosa-2026-08-23-12-4f34a62719"
     },
@@ -1620,9 +1620,9 @@
       "nights": 8,
       "route": "Cannes (Francja) >> Genua (Włochy) >> La Spezia (Włochy) >> Civitavecchia/Rzym (Włochy) >> Dzień na morzu >> Palma/Majorka (Hiszpania) >> Barcelona (Hiszpania) >> Cannes (Francja)",
       "prices_eur": {
-        "wewnętrzna": 1443,
+        "wewnętrzna": 1483,
         "z_oknem": null,
-        "z_balkonem": 1993,
+        "z_balkonem": null,
         "apartament": 3271
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-cannes-francja-na-msc-grandiosa-2019-2026-08-23-8-ee2a6c32d7"
@@ -1843,9 +1843,9 @@
       "nights": 8,
       "route": "Barcelona (Hiszpania) >> Palma/Majorka (Hiszpania) >> Dzień na morzu. >> La Spezia (Włochy) >> Civitavecchia/Rzym (Włochy) >> Neapol (Włochy) >> Dzień na morzu. >> Barcelona (Hiszpania)",
       "prices_eur": {
-        "wewnętrzna": null,
+        "wewnętrzna": 1784,
         "z_oknem": 2057,
-        "z_balkonem": 3230,
+        "z_balkonem": 3340,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-legend-of-the-seas-2026-2026-08-23-8-ebfa6575df"
@@ -1875,10 +1875,10 @@
       "nights": 8,
       "route": "Cartagena (Kolumbia) >> Dzień na morzu. >> Oranjestad (Aruba) >> Willemstad (Curacao) >> Dzień na morzu. >> Colon (Panama) >> Cartagena (Kolumbia)",
       "prices_eur": {
-        "wewnętrzna": 1000,
-        "z_oknem": 1080,
+        "wewnętrzna": 1038,
+        "z_oknem": 1120,
         "z_balkonem": null,
-        "apartament": 1534
+        "apartament": 1512
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-cartagena-kolumbia-na-grandeur-of-the-seas-2026-08-23-8-9ef5591e16"
     },
@@ -1908,7 +1908,7 @@
       "route": "Civitavecchia/Rzym (Włochy) >> Genua (Włochy) >> Marsylia (Francja) >> Walencja (Hiszpania) >> Ibiza (Hiszpania) >> Dzień na morzu >> Cagliari/Sardynia (Włochy) >> Civitavecchia/Rzym (Włochy)",
       "prices_eur": {
         "wewnętrzna": null,
-        "z_oknem": 1303,
+        "z_oknem": null,
         "z_balkonem": 1383,
         "apartament": 2133
       },
@@ -1923,8 +1923,8 @@
       "nights": 8,
       "route": "Marsylia (Francja) >> Barcelona (Hiszpania) >> Dzień na morzu >> La Goulette/Tunis (Tunezja) >> Palermo/Sycylia (Włochy) >> Neapol (Włochy) >> Livorno (Włochy) >> Marsylia (Francja)",
       "prices_eur": {
-        "wewnętrzna": 1143,
-        "z_oknem": 1163,
+        "wewnętrzna": null,
+        "z_oknem": null,
         "z_balkonem": 1423,
         "apartament": 3001
       },
@@ -1939,7 +1939,7 @@
       "nights": 8,
       "route": "Palermo/Sycylia (Włochy) >> Dzień na morzu >> Ibiza (Hiszpania) >> Barcelona (Hiszpania) >> Marsylia (Francja) >> Genua (Włochy) >> Civitavecchia/Rzym (Włochy) >> Palermo/Sycylia (Włochy)",
       "prices_eur": {
-        "wewnętrzna": 1573,
+        "wewnętrzna": null,
         "z_oknem": 1713,
         "z_balkonem": 1883,
         "apartament": 2383
@@ -1974,7 +1974,7 @@
         "wewnętrzna": null,
         "z_oknem": null,
         "z_balkonem": 1503,
-        "apartament": null
+        "apartament": 3321
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-genui-na-msc-grandiosa-2019-2026-08-24-8-e417e53a57"
     },
@@ -1989,8 +1989,8 @@
       "prices_eur": {
         "wewnętrzna": 1573,
         "z_oknem": null,
-        "z_balkonem": 2193,
-        "apartament": 3721
+        "z_balkonem": null,
+        "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-neapolu-na-msc-world-europa-2022-2026-08-24-8-949933979b"
     },
@@ -2157,7 +2157,7 @@
       "nights": 8,
       "route": "Pireus/Ateny (Grecja) >> Katakolon/Olympia (Grecja) >> Agrostoli/Kefalonia (Grecja) >> Corfu (Grecja) >> Bari (Włochy) >> Dzień na morzu >> Santorini (Grecja) >> Pireus/Ateny (Grecja)",
       "prices_eur": {
-        "wewnętrzna": 943,
+        "wewnętrzna": 883,
         "z_oknem": 1113,
         "z_balkonem": 1383,
         "apartament": 1533
@@ -2189,7 +2189,7 @@
       "nights": 8,
       "route": "Livorno (Włochy) >> Cagliari/Sardynia (Włochy) >> Palermo/Sycylia (Włochy) >> Valletta (Malta) >> Dzień na morzu >> Barcelona (Hiszpania) >> Marsylia (Francja) >> Livorno (Włochy)",
       "prices_eur": {
-        "wewnętrzna": 1213,
+        "wewnętrzna": 1243,
         "z_oknem": 1273,
         "z_balkonem": 1423,
         "apartament": 1983
@@ -2269,7 +2269,7 @@
       "nights": 8,
       "route": "Genua (Włochy) >> Marsylia (Francja) >> Tarragona/Barcelona (Hiszpania) >> Walencja (Hiszpania) >> Dzień na morzu >> Livorno (Włochy) >> Civitavecchia/Rzym (Włochy) >> Genua (Włochy)",
       "prices_eur": {
-        "wewnętrzna": 1013,
+        "wewnętrzna": null,
         "z_oknem": 1083,
         "z_balkonem": 1163,
         "apartament": 1913
@@ -2319,7 +2319,7 @@
       "prices_eur": {
         "wewnętrzna": null,
         "z_oknem": null,
-        "z_balkonem": 1533,
+        "z_balkonem": 1623,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-cagliarisardynia-wlochy-na-msc-splendida-2026-08-26-8-7690008a0f"
@@ -2349,7 +2349,7 @@
       "nights": 8,
       "route": "Valletta (Malta) >> Dzień na morzu >> Barcelona (Hiszpania) >> Marsylia (Francja) >> Genua (Włochy) >> Neapol (Włochy) >> Mesyna/Sycylia (Włochy) >> Valletta (Malta)",
       "prices_eur": {
-        "wewnętrzna": 1393,
+        "wewnętrzna": null,
         "z_oknem": null,
         "z_balkonem": 2193,
         "apartament": 3621
@@ -2442,7 +2442,7 @@
       "nights": 8,
       "route": "Marsylia (Francja) >> Tarragona/Barcelona (Hiszpania) >> Walencja (Hiszpania) >> Dzień na morzu >> Livorno (Włochy) >> Civitavecchia/Rzym (Włochy) >> Genua (Włochy) >> Marsylia (Francja)",
       "prices_eur": {
-        "wewnętrzna": 813,
+        "wewnętrzna": null,
         "z_oknem": 873,
         "z_balkonem": 953,
         "apartament": 1703
@@ -2538,10 +2538,10 @@
       "nights": 8,
       "route": "Civitavecchia/Rzym (Włochy) >> Neapol (Włochy) >> Dzień na morzu. >> Barcelona (Hiszpania) >> Palma/Majorka (Hiszpania) >> Marsylia (Francja) >> La Spezia (Włochy) >> Civitavecchia/Rzym (Włochy)",
       "prices_eur": {
-        "wewnętrzna": 2319,
+        "wewnętrzna": 2193,
         "z_oknem": null,
-        "z_balkonem": 2955,
-        "apartament": 10017
+        "z_balkonem": 3067,
+        "apartament": 5851
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-legend-of-the-seas-2026-2026-08-27-8-8570d6c0e2"
     },
@@ -2584,7 +2584,7 @@
       "nights": 8,
       "route": "Brindisi (Włochy) >> Split (Chorwacja) >> Wenecja/Marghera (Włochy) >> Dzień na morzu >> Dubrownik (Chorwacja) >> Corfu (Grecja) >> Kotor (Czarnogóra) >> Brindisi (Włochy)",
       "prices_eur": {
-        "wewnętrzna": 993,
+        "wewnętrzna": null,
         "z_oknem": 1083,
         "z_balkonem": null,
         "apartament": null
@@ -2617,27 +2617,11 @@
       "route": "Ancona (Włochy) >> Wenecja/Marghera (Włochy) >> Kotor (Czarnogóra) >> Dzień na morzu >> Mykonos (Grecja) >> Siros (Grecja) >> Dzień na morzu >> Ancona (Włochy)",
       "prices_eur": {
         "wewnętrzna": null,
-        "z_oknem": 1093,
+        "z_oknem": 1083,
         "z_balkonem": null,
-        "apartament": null
+        "apartament": 1483
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-ancona-wlochy-na-msc-lirica-2026-08-28-8-d3c3439b9b"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Meraviglia (2017)",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 8,
-      "route": "Palermo/Sycylia (Włochy) >> Neapol (Włochy) >> Livorno (Włochy) >> Marsylia (Francja) >> Barcelona (Hiszpania) >> Dzień na morzu >> La Goulette/Tunis (Tunezja) >> Palermo/Sycylia (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": null,
-        "z_oknem": null,
-        "z_balkonem": 1613,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-palermosycylia-wlochy-na-msc-meraviglia-2017-2026-08-28-8-94313af79a"
     },
     {
       "source": "alerejsy.pl",
@@ -2872,7 +2856,7 @@
       "nights": 8,
       "route": "Walencja (Hiszpania) >> Dzień na morzu >> Livorno (Włochy) >> Civitavecchia/Rzym (Włochy) >> Genua (Włochy) >> Marsylia (Francja) >> Tarragona/Barcelona (Hiszpania) >> Walencja (Hiszpania)",
       "prices_eur": {
-        "wewnętrzna": 753,
+        "wewnętrzna": null,
         "z_oknem": 833,
         "z_balkonem": 933,
         "apartament": 1683
@@ -2953,7 +2937,7 @@
       "route": "Genua (Włochy) >> Civitavecchia/Rzym (Włochy) >> Palermo/Sycylia (Włochy) >> Dzień na morzu >> Ibiza (Hiszpania) >> Barcelona (Hiszpania) >> Marsylia (Francja) >> Genua (Włochy)",
       "prices_eur": {
         "wewnętrzna": null,
-        "z_oknem": 1273,
+        "z_oknem": null,
         "z_balkonem": 1513,
         "apartament": 2013
       },
@@ -2968,7 +2952,7 @@
       "nights": 8,
       "route": "Bari (Włochy) >> Dzień na morzu >> Santorini (Grecja) >> Pireus/Ateny (Grecja) >> Katakolon/Olympia (Grecja) >> Agrostoli/Kefalonia (Grecja) >> Corfu (Grecja) >> Bari (Włochy)",
       "prices_eur": {
-        "wewnętrzna": 1223,
+        "wewnętrzna": null,
         "z_oknem": 1463,
         "z_balkonem": 1723,
         "apartament": 1823
@@ -2987,7 +2971,7 @@
         "wewnętrzna": 1013,
         "z_oknem": 1163,
         "z_balkonem": 1293,
-        "apartament": 1943
+        "apartament": 3251
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-msc-grandiosa-2019-2026-08-29-8-550fa55cac"
     },
@@ -3016,9 +3000,9 @@
       "nights": 8,
       "route": "Southampton (Wielka Brytania) >> Dzień na morzu >> Haugesund (Norwegia) >> Olden (Norwegia) >> Alesund (Norwegia) >> Kristiansand (Norwegia) >> Dzień na morzu >> Southampton (Wielka Brytania)",
       "prices_eur": {
-        "wewnętrzna": 973,
-        "z_oknem": null,
-        "z_balkonem": null,
+        "wewnętrzna": 1123,
+        "z_oknem": 1523,
+        "z_balkonem": 1673,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-southampton-na-msc-virtuosa-2020-2026-08-29-8-855ed8d216"
@@ -3050,7 +3034,7 @@
       "prices_eur": {
         "wewnętrzna": 1183,
         "z_oknem": 1363,
-        "z_balkonem": 1703,
+        "z_balkonem": 1733,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-kiel-na-msc-euribia-2023-2026-08-29-8-44e8676069"
@@ -3387,7 +3371,7 @@
         "wewnętrzna": 700,
         "z_oknem": 716,
         "z_balkonem": 1269,
-        "apartament": 1502
+        "apartament": 1480
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-colon-panama-na-grandeur-of-the-seas-2026-08-29-8-720360171d"
     },
@@ -3428,10 +3412,10 @@
       "nights": 8,
       "route": "Barcelona (Hiszpania) >> Palma/Majorka (Hiszpania) >> Marsylia (Francja) >> Ajaccio/Korsyka (Francja) >> Genua (Włochy) >> La Spezia (Włochy) >> Civitavecchia/Rzym (Włochy)",
       "prices_eur": {
-        "wewnętrzna": 820,
+        "wewnętrzna": 862,
         "z_oknem": 923,
-        "z_balkonem": 1122,
-        "apartament": 2746
+        "z_balkonem": 1103,
+        "apartament": 2767
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-do-civitavecchi-k-rzymu-na-sun-princess-2024-2026-08-29-8-a2affe3fd2"
     },
@@ -3462,7 +3446,7 @@
       "prices_eur": {
         "wewnętrzna": null,
         "z_oknem": null,
-        "z_balkonem": 1393,
+        "z_balkonem": 1433,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-cagliarisardynia-wlochy-na-msc-musica-2026-08-30-8-257126821d"
@@ -3476,7 +3460,7 @@
       "nights": 8,
       "route": "Livorno (Włochy) >> Marsylia (Francja) >> Barcelona (Hiszpania) >> Dzień na morzu >> La Goulette/Tunis (Tunezja) >> Palermo/Sycylia (Włochy) >> Neapol (Włochy) >> Livorno (Włochy)",
       "prices_eur": {
-        "wewnętrzna": 1143,
+        "wewnętrzna": 1133,
         "z_oknem": null,
         "z_balkonem": 1343,
         "apartament": 2423
@@ -3558,7 +3542,7 @@
       "prices_eur": {
         "wewnętrzna": 1413,
         "z_oknem": null,
-        "z_balkonem": 1713,
+        "z_balkonem": 1723,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-genui-na-msc-world-europa-2022-2026-08-30-8-fe59cda104"
@@ -3572,9 +3556,9 @@
       "nights": 8,
       "route": "Kopenhaga (Dania) >> Dzień na morzu >> Hellesylt (Norwegia) >> Geiranger (Norwegia) >> Molde (Norwegia) >> Flaam (Norwegia) >> Dzień na morzu >> Kiel (Niemcy) >> Kopenhaga (Dania)",
       "prices_eur": {
-        "wewnętrzna": 963,
-        "z_oknem": 1263,
-        "z_balkonem": null,
+        "wewnętrzna": 1013,
+        "z_oknem": 1313,
+        "z_balkonem": 1793,
         "apartament": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-kopenhagi-na-msc-euribia-2023-2026-08-30-8-194c4a4b79"
@@ -3779,10 +3763,10 @@
       "nights": 8,
       "route": "Barcelona (Hiszpania) >> Palma/Majorka (Hiszpania) >> Marsylia (Francja) >> La Spezia (Włochy) >> Civitavecchia/Rzym (Włochy) >> Neapol (Włochy) >> Dzień na morzu. >> Barcelona (Hiszpania)",
       "prices_eur": {
-        "wewnętrzna": 1750,
-        "z_oknem": 2322,
-        "z_balkonem": 3168,
-        "apartament": 6003
+        "wewnętrzna": 1802,
+        "z_oknem": 2184,
+        "z_balkonem": 3268,
+        "apartament": 3726
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-legend-of-the-seas-2026-2026-08-30-8-808cdb4abe"
     },
@@ -3795,10 +3779,10 @@
       "nights": 8,
       "route": "Cartagena (Kolumbia) >> Dzień na morzu. >> Oranjestad (Aruba) >> Willemstad (Curacao) >> Dzień na morzu. >> Colon (Panama) >> Cartagena (Kolumbia)",
       "prices_eur": {
-        "wewnętrzna": 958,
+        "wewnętrzna": 993,
         "z_oknem": 1073,
-        "z_balkonem": 1231,
-        "apartament": 1360
+        "z_balkonem": 1279,
+        "apartament": 1338
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-cartagena-kolumbia-na-grandeur-of-the-seas-2026-08-30-8-9ef5591e16"
     },
@@ -3813,7 +3797,7 @@
       "prices_eur": {
         "wewnętrzna": 1459,
         "z_oknem": 1519,
-        "z_balkonem": null,
+        "z_balkonem": 2239,
         "apartament": 3009
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-genui-po-lizbone-2026-08-31-11-875bc035d8"
@@ -3859,7 +3843,7 @@
       "nights": 8,
       "route": "Palermo/Sycylia (Włochy) >> Dzień na morzu >> Ibiza (Hiszpania) >> Barcelona (Hiszpania) >> Marsylia (Francja) >> Genua (Włochy) >> Civitavecchia/Rzym (Włochy) >> Palermo/Sycylia (Włochy)",
       "prices_eur": {
-        "wewnętrzna": 1343,
+        "wewnętrzna": null,
         "z_oknem": 1423,
         "z_balkonem": 1583,
         "apartament": 2083
@@ -3894,7 +3878,7 @@
         "wewnętrzna": 1113,
         "z_oknem": 1263,
         "z_balkonem": 1393,
-        "apartament": null
+        "apartament": 3251
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-genui-na-msc-grandiosa-2019-2026-08-31-8-e417e53a57"
     },
@@ -3908,7 +3892,7 @@
       "route": "Neapol (Włochy) >> Mesyna/Sycylia (Włochy) >> Valletta (Malta) >> Dzień na morzu >> Barcelona (Hiszpania) >> Marsylia (Francja) >> Genua (Włochy) >> Neapol (Włochy)",
       "prices_eur": {
         "wewnętrzna": null,
-        "z_oknem": null,
+        "z_oknem": 1863,
         "z_balkonem": null,
         "apartament": 3811
       },
@@ -4003,7 +3987,7 @@
         "wewnętrzna": 1523,
         "z_oknem": 2529,
         "z_balkonem": 2612,
-        "apartament": 5249
+        "apartament": 5227
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-southampton-na-liberty-of-the-seas-2026-08-31-10-cd25404aaa"
     },
