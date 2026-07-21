@@ -1,6 +1,88 @@
 {
-  "generated_at": "2026-07-20T09:18:41.717652+00:00",
+  "generated_at": "2026-07-21T08:33:40.279863+00:00",
   "new_offers": [
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "Legend of the Seas (2026)",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-27",
+      "nights": 8,
+      "route": "Civitavecchia/Rzym (Włochy) >> Neapol (Włochy) >> Dzień na morzu. >> Barcelona (Hiszpania) >> Palma/Majorka (Hiszpania) >> Dzień na morzu. >> La Spezia (Włochy) >> Civitavecchia/Rzym (Włochy)",
+      "prices_eur": {
+        "wewnętrzna": null,
+        "z_oknem": null,
+        "z_balkonem": 3491,
+        "apartament": null
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-legend-of-the-seas-2026-2026-08-20-8-3438d00537"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "MSC Lirica",
+      "start_date": "2026-08-21",
+      "end_date": "2026-08-28",
+      "nights": 8,
+      "route": "Ancona (Włochy) >> Wenecja/Marghera (Włochy) >> Kotor (Czarnogóra) >> Dzień na morzu >> Mykonos (Grecja) >> Siros (Grecja) >> Dzień na morzu >> Ancona (Włochy)",
+      "prices_eur": {
+        "wewnętrzna": null,
+        "z_oknem": 1373,
+        "z_balkonem": null,
+        "apartament": null
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-ancona-wlochy-na-msc-lirica-2026-08-21-8-d3c3439b9b"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "MSC Musica",
+      "start_date": "2026-08-23",
+      "end_date": "2026-08-30",
+      "nights": 8,
+      "route": "Cagliari/Sardynia (Włochy) >> Civitavecchia/Rzym (Włochy) >> Genua (Włochy) >> Marsylia (Francja) >> Walencja (Hiszpania) >> Ibiza (Hiszpania) >> Dzień na morzu >> Cagliari/Sardynia (Włochy)",
+      "prices_eur": {
+        "wewnętrzna": null,
+        "z_oknem": null,
+        "z_balkonem": 1533,
+        "apartament": null
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-cagliarisardynia-wlochy-na-msc-musica-2026-08-23-8-257126821d"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "MSC Splendida",
+      "start_date": "2026-08-27",
+      "end_date": "2026-09-03",
+      "nights": 8,
+      "route": "Palermo/Sycylia (Włochy) >> Valletta (Malta) >> Dzień na morzu >> Barcelona (Hiszpania) >> Marsylia (Francja) >> Livorno (Włochy) >> Cagliari/Sardynia (Włochy) >> Palermo/Sycylia (Włochy)",
+      "prices_eur": {
+        "wewnętrzna": 1473,
+        "z_oknem": null,
+        "z_balkonem": null,
+        "apartament": null
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-palermosycylia-wlochy-na-msc-splendida-2026-08-27-8-a520a548cd"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "MSC Meraviglia (2017)",
+      "start_date": "2026-08-28",
+      "end_date": "2026-09-04",
+      "nights": 8,
+      "route": "Palermo/Sycylia (Włochy) >> Neapol (Włochy) >> Livorno (Włochy) >> Marsylia (Francja) >> Barcelona (Hiszpania) >> Dzień na morzu >> La Goulette/Tunis (Tunezja) >> Palermo/Sycylia (Włochy)",
+      "prices_eur": {
+        "wewnętrzna": null,
+        "z_oknem": null,
+        "z_balkonem": 1453,
+        "apartament": null
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-palermosycylia-wlochy-na-msc-meraviglia-2017-2026-08-28-8-94313af79a"
+    }
+  ],
+  "removed_offers": [
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
@@ -17,31 +99,16 @@
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_civitavecchia/d_29_Sierpien_2026/i_87549/"
     }
   ],
-  "removed_offers": [
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Fascinosa",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-09",
-      "nights": 10,
-      "route": "Przelot z Warszawy >> Ateny (Grecja) - nocleg w hotelu >> Pireus/Ateny (Grecja) >> Dzień na morzu >> Valletta (Malta) >> Katania/Sycylia (Włochy) >> Taranto (Włochy) >> Argostoli (Grecja) >> Mykonos (Grecja) >> Pireus/Ateny (Grecja) >> Przylot do Warszawy",
-      "prices_eur": {
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/srodziemnomorskie-krajobrazy-z-historia-w-tle-grecja-malta-wlochy-pl-pilot-2026-08-31-10"
-    }
-  ],
   "price_changes": [
     {
       "source": "alerejsy.pl",
-      "ship": "MSC Euribia (2023)",
+      "ship": "MSC Magnifica",
       "start_date": "2026-08-22",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-kiel-na-msc-euribia-2023-2026-08-22-8-d64ff409c5",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-kopenhagi-na-msc-magnifica-2026-08-22-8-e073c07c70",
       "changes": {
         "z_balkonem": {
-          "old": 2083,
-          "new": 2163,
+          "old": 1663,
+          "new": 1743,
           "delta": 80
         }
       }
@@ -53,22 +120,27 @@
       "url": "https://www.alerejsy.pl/rejsy/rejs-dookola-islandii-na-msc-preziosa-2026-08-23-12-4f34a62719",
       "changes": {
         "wewnętrzna": {
-          "old": 1801,
-          "new": 1771,
-          "delta": -30
+          "old": 1771,
+          "new": 1801,
+          "delta": 30
+        },
+        "apartament": {
+          "old": 3101,
+          "new": 3261,
+          "delta": 160
         }
       }
     },
     {
       "source": "alerejsy.pl",
-      "ship": "MSC Opera",
+      "ship": "MSC Armonia",
       "start_date": "2026-08-21",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-genui-po-lizbone-2026-08-21-11-875bc035d8",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-brindisi-wlochy-na-msc-armonia-2026-08-21-8-0ccf2b8a7b",
       "changes": {
         "z_oknem": {
-          "old": 2009,
-          "new": 2019,
-          "delta": 10
+          "old": 1473,
+          "new": 1383,
+          "delta": -90
         }
       }
     },
@@ -79,53 +151,22 @@
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-palermosycylia-wlochy-na-msc-meraviglia-2017-2026-08-21-8-94313af79a",
       "changes": {
         "z_balkonem": {
-          "old": 1813,
-          "new": 1653,
-          "delta": -160
-        }
-      }
-    },
-    {
-      "source": "alerejsy.pl",
-      "ship": "MSC Splendida",
-      "start_date": "2026-08-21",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-valletta-malta-na-msc-splendida-2026-08-21-8-e33b39e845",
-      "changes": {
-        "wewnętrzna": {
-          "old": 1163,
-          "new": 1153,
+          "old": 1653,
+          "new": 1643,
           "delta": -10
         }
       }
     },
     {
       "source": "alerejsy.pl",
-      "ship": "MSC World Europa (2022)",
-      "start_date": "2026-08-21",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-msc-world-europa-2022-2026-08-21-8-f6518e9646",
+      "ship": "MSC Meraviglia (2017)",
+      "start_date": "2026-08-22",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-neapolu-na-msc-meraviglia-2017-2026-08-22-8-d96f156dc7",
       "changes": {
-        "apartament": {
-          "old": 2233,
-          "new": 2633,
-          "delta": 400
-        }
-      }
-    },
-    {
-      "source": "alerejsy.pl",
-      "ship": "MSC Fantasia",
-      "start_date": "2026-08-23",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-pireusu-k-aten-na-msc-fantasia-2026-08-23-9-7bac6d47a0",
-      "changes": {
-        "apartament": {
-          "old": 2125,
-          "new": 2005,
-          "delta": -120
-        },
-        "wewnętrzna": {
-          "old": 1395,
-          "new": 1385,
-          "delta": -10
+        "z_balkonem": {
+          "old": 1723,
+          "new": 1573,
+          "delta": -150
         }
       }
     },
@@ -136,22 +177,9 @@
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-msc-seaview-2019-2026-08-23-8-206821288e",
       "changes": {
         "z_balkonem": {
-          "old": 1733,
-          "new": 1813,
-          "delta": 80
-        }
-      }
-    },
-    {
-      "source": "alerejsy.pl",
-      "ship": "MSC Grandiosa (2019)",
-      "start_date": "2026-08-23",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-cannes-francja-na-msc-grandiosa-2019-2026-08-23-8-ee2a6c32d7",
-      "changes": {
-        "wewnętrzna": {
-          "old": 1483,
-          "new": 1443,
-          "delta": -40
+          "old": 1813,
+          "new": 1803,
+          "delta": -10
         }
       }
     },
@@ -162,14 +190,22 @@
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-do-civitavecchi-k-rzymu-na-norwegian-epic-2026-08-23-8-d9e1d9a8d2",
       "changes": {
         "z_balkonem": {
-          "old": 856,
-          "new": 888,
-          "delta": 32
-        },
-        "wewnętrzna": {
-          "old": 566,
-          "new": 593,
-          "delta": 27
+          "old": 888,
+          "new": 895,
+          "delta": 7
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "Norwegian Dawn",
+      "start_date": "2026-08-23",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-lizbony-do-barcelony-na-norwegian-dawn-2026-08-23-8-497b80df06",
+      "changes": {
+        "apartament": {
+          "old": 1265,
+          "new": 1301,
+          "delta": 36
         }
       }
     },
@@ -179,20 +215,25 @@
       "start_date": "2026-08-23",
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-rawenny-do-pireusu-k-aten-na-norwegian-pearl-2026-08-23-8-99bb5c7fd1",
       "changes": {
-        "z_balkonem": {
-          "old": 1104,
-          "new": 1111,
-          "delta": 7
+        "z_oknem": {
+          "old": 642,
+          "new": 1064,
+          "delta": 422
         },
         "wewnętrzna": {
-          "old": 597,
-          "new": 602,
-          "delta": 5
+          "old": 602,
+          "new": 726,
+          "delta": 124
         },
-        "z_oknem": {
-          "old": 632,
-          "new": 642,
-          "delta": 10
+        "z_balkonem": {
+          "old": 1111,
+          "new": 1163,
+          "delta": 52
+        },
+        "apartament": {
+          "old": 1594,
+          "new": 1629,
+          "delta": 35
         }
       }
     },
@@ -203,35 +244,22 @@
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-msc-musica-2026-08-24-8-547ee17358",
       "changes": {
         "z_balkonem": {
-          "old": 1383,
-          "new": 1523,
-          "delta": 140
+          "old": 1523,
+          "new": 1463,
+          "delta": -60
         }
       }
     },
     {
       "source": "alerejsy.pl",
-      "ship": "MSC Orchestra",
-      "start_date": "2026-08-25",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-msc-orchestra-2026-08-25-8-c6b1e76a82",
+      "ship": "MSC Splendida",
+      "start_date": "2026-08-24",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-marsylii-na-msc-splendida-2026-08-24-8-c873854892",
       "changes": {
-        "z_balkonem": {
-          "old": 1333,
-          "new": 1323,
-          "delta": -10
-        }
-      }
-    },
-    {
-      "source": "alerejsy.pl",
-      "ship": "MSC Sinfonia",
-      "start_date": "2026-08-25",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-pireusu-k-aten-na-msc-sinfonia-2026-08-25-8-cd15941055",
-      "changes": {
-        "wewnętrzna": {
-          "old": 883,
-          "new": 933,
-          "delta": 50
+        "apartament": {
+          "old": 1753,
+          "new": 1853,
+          "delta": 100
         }
       }
     },
@@ -242,79 +270,74 @@
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-livorno-wlochy-na-msc-splendida-2026-08-25-8-e52a2cec11",
       "changes": {
         "wewnętrzna": {
-          "old": 1243,
-          "new": 1253,
-          "delta": 10
-        }
-      }
-    },
-    {
-      "source": "alerejsy.pl",
-      "ship": "MSC World Europa (2022)",
-      "start_date": "2026-08-25",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-mesynasycylia-wlochy-na-msc-world-europa-2022-2026-08-25-8-fd213fe0f0",
-      "changes": {
-        "z_balkonem": {
-          "old": 2243,
-          "new": 2133,
-          "delta": -110
-        }
-      }
-    },
-    {
-      "source": "alerejsy.pl",
-      "ship": "MSC Armonia",
-      "start_date": "2026-08-29",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-splitu-w-chorwacji-na-msc-armonia-2026-08-29-8-199d018cac",
-      "changes": {
-        "wewnętrzna": {
-          "old": 1043,
-          "new": 1033,
+          "old": 1253,
+          "new": 1243,
           "delta": -10
         }
       }
     },
     {
       "source": "alerejsy.pl",
-      "ship": "MSC Meraviglia (2017)",
-      "start_date": "2026-08-30",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-livorno-wlochy-na-msc-meraviglia-2017-2026-08-30-8-77bac05d81",
+      "ship": "MSC Orchestra",
+      "start_date": "2026-08-26",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-genui-na-msc-orchestra-2026-08-26-8-088a010e37",
       "changes": {
-        "wewnętrzna": {
-          "old": 1133,
-          "new": 1143,
-          "delta": 10
+        "z_balkonem": {
+          "old": 1163,
+          "new": 1293,
+          "delta": 130
         }
       }
     },
     {
       "source": "alerejsy.pl",
-      "ship": "Norwegian Gem",
-      "start_date": "2026-08-30",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-rawenny-do-civitavecchi-k-rzymu-na-norwegian-gem-2026-08-30-8-68a36e165f",
-      "changes": {
-        "wewnętrzna": {
-          "old": 616,
-          "new": 634,
-          "delta": 18
-        },
-        "z_oknem": {
-          "old": 700,
-          "new": 688,
-          "delta": -12
-        }
-      }
-    },
-    {
-      "source": "alerejsy.pl",
-      "ship": "Norwegian Sky",
-      "start_date": "2026-08-31",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-do-pireusu-k-aten-na-norwegian-sky-2026-08-31-10-1d90a08399",
+      "ship": "MSC Grandiosa (2019)",
+      "start_date": "2026-08-26",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-msc-grandiosa-2019-2026-08-26-8-fb5a459338",
       "changes": {
         "apartament": {
-          "old": 4944,
-          "new": 4854,
-          "delta": -90
+          "old": 3251,
+          "new": 2193,
+          "delta": -1058
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Meraviglia (2017)",
+      "start_date": "2026-08-29",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-neapolu-na-msc-meraviglia-2017-2026-08-29-8-d96f156dc7",
+      "changes": {
+        "z_balkonem": {
+          "old": 1373,
+          "new": 1353,
+          "delta": -20
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "Sun Princess (2024)",
+      "start_date": "2026-08-29",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-do-civitavecchi-k-rzymu-na-sun-princess-2024-2026-08-29-8-a2affe3fd2",
+      "changes": {
+        "wewnętrzna": {
+          "old": 862,
+          "new": 1228,
+          "delta": 366
+        }
+      }
+    },
+    {
+      "source": "alerejsy.pl",
+      "ship": "MSC Musica",
+      "start_date": "2026-08-30",
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-cagliarisardynia-wlochy-na-msc-musica-2026-08-30-8-257126821d",
+      "changes": {
+        "z_balkonem": {
+          "old": 1433,
+          "new": 1393,
+          "delta": -40
         }
       }
     }
