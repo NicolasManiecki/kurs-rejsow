@@ -1,6 +1,136 @@
 {
-  "generated_at": "2026-07-31T08:53:44.839676+00:00",
+  "generated_at": "2026-08-01T08:22:03.524880+00:00",
   "new_offers": [
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA FORTUNA",
+      "start_date": "2026-08-21",
+      "end_date": "2026-08-28",
+      "nights": 7,
+      "route": "Piraeus-athens",
+      "prices_eur": {
+        "z_balkonem": null,
+        "typu_suite": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fortuna/p_piraeus-athens/d_21_Sierpien_2026/i_72489/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA FASCINOSA",
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-29",
+      "nights": 7,
+      "route": "Catania",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_catania/d_22_Sierpien_2026/i_72637/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA DELIZIOSA",
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-29",
+      "nights": 7,
+      "route": "Venice (marghera)",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_deliziosa/p_venice_(marghera)/d_22_Sierpien_2026/i_73313/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA DELIZIOSA",
+      "start_date": "2026-08-22",
+      "end_date": "2026-09-05",
+      "nights": 14,
+      "route": "Venice (marghera)",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_deliziosa/p_venice_(marghera)/d_22_Sierpien_2026/i_73333/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA FASCINOSA",
+      "start_date": "2026-08-23",
+      "end_date": "2026-08-30",
+      "nights": 7,
+      "route": "Taranto",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_taranto/d_23_Sierpien_2026/i_72551/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA FASCINOSA",
+      "start_date": "2026-08-26",
+      "end_date": "2026-09-02",
+      "nights": 7,
+      "route": "Piraeus-athens",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_piraeus-athens/d_26_Sierpien_2026/i_72475/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA FASCINOSA",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-05",
+      "nights": 7,
+      "route": "Catania",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_catania/d_29_Sierpien_2026/i_72638/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA DELIZIOSA",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-05",
+      "nights": 7,
+      "route": "Venice (marghera)",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_deliziosa/p_venice_(marghera)/d_29_Sierpien_2026/i_73303/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA DELIZIOSA",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-12",
+      "nights": 14,
+      "route": "Venice (marghera)",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_deliziosa/p_venice_(marghera)/d_29_Sierpien_2026/i_73323/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA FASCINOSA",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 7,
+      "route": "Taranto",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_taranto/d_30_Sierpien_2026/i_72552/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA FORTUNA",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 7,
+      "route": "Istanbul",
+      "prices_eur": {
+        "z_oknem": null,
+        "z_balkonem": null,
+        "typu_suite": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fortuna/p_istanbul/d_30_Sierpien_2026/i_72709/"
+    }
+  ],
+  "removed_offers": [
     {
       "source": "alerejsy.pl",
       "category": "morze_srodziemne",
@@ -3342,136 +3472,21 @@
         "z_balkonem": null
       },
       "url": "https://www.alerejsy.pl/rejsy/rejs-rzeczny-z-pasawy-na-pokladzie-statku-ms-bolero-2026-08-31-15"
-    }
-  ],
-  "removed_offers": [
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA FORTUNA",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-28",
-      "nights": 7,
-      "route": "Piraeus-athens",
-      "prices_eur": {
-        "z_balkonem": null,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fortuna/p_piraeus-athens/d_21_Sierpien_2026/i_72489/"
     },
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
-      "ship": "COSTA FASCINOSA",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 7,
-      "route": "Catania",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_catania/d_22_Sierpien_2026/i_72637/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA DELIZIOSA",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 7,
-      "route": "Venice (marghera)",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_deliziosa/p_venice_(marghera)/d_22_Sierpien_2026/i_73313/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA DELIZIOSA",
-      "start_date": "2026-08-22",
-      "end_date": "2026-09-05",
-      "nights": 14,
-      "route": "Venice (marghera)",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_deliziosa/p_venice_(marghera)/d_22_Sierpien_2026/i_73333/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA FASCINOSA",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 7,
-      "route": "Taranto",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_taranto/d_23_Sierpien_2026/i_72551/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA FASCINOSA",
-      "start_date": "2026-08-26",
-      "end_date": "2026-09-02",
-      "nights": 7,
-      "route": "Piraeus-athens",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_piraeus-athens/d_26_Sierpien_2026/i_72475/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA FASCINOSA",
+      "ship": "COSTA PACIFICA",
       "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 7,
-      "route": "Catania",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_catania/d_29_Sierpien_2026/i_72638/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA DELIZIOSA",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 7,
-      "route": "Venice (marghera)",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_deliziosa/p_venice_(marghera)/d_29_Sierpien_2026/i_73303/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA DELIZIOSA",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-12",
-      "nights": 14,
-      "route": "Venice (marghera)",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_deliziosa/p_venice_(marghera)/d_29_Sierpien_2026/i_73323/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA FASCINOSA",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 7,
-      "route": "Taranto",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_taranto/d_30_Sierpien_2026/i_72552/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA FORTUNA",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 7,
-      "route": "Istanbul",
+      "end_date": "2026-09-01",
+      "nights": 3,
+      "route": "Civitavecchia",
       "prices_eur": {
         "z_oknem": null,
         "z_balkonem": null,
         "typu_suite": null
       },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fortuna/p_istanbul/d_30_Sierpien_2026/i_72709/"
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_civitavecchia/d_29_Sierpien_2026/i_87549/"
     }
   ],
   "price_changes": []
