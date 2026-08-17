@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T06:41:54.423302+00:00",
+  "generated_at": "2026-08-17T06:58:29.402841+00:00",
   "target_start": "2026-08-20",
   "target_end": "2026-08-31",
-  "offer_count": 312,
+  "offer_count": 310,
   "offers": [
     {
       "source": "alerejsy.pl",
@@ -2532,6 +2532,17 @@
     {
       "source": "rejsujznami.com",
       "category": "europa_polnocna",
+      "ship": "COSTA DIADEMA",
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-29",
+      "nights": 7,
+      "route": "Copenhagen",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_europa_p%C3%B3%C5%82nocna/m_sierpien_2026/c_costa_cruises/n_costa_diadema/p_copenhagen/d_22_Sierpien_2026/i_72244/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "europa_polnocna",
       "ship": "MSC EURIBIA",
       "start_date": "2026-08-23",
       "end_date": "2026-08-30",
@@ -2554,20 +2565,6 @@
       "route": "Civitavecchia (rome)",
       "prices_eur": {},
       "url": "https://www.rejsujznami.com/rejsy/z_europa_p%C3%B3%C5%82nocna/m_sierpien_2026/c_explora_journeys/n_explora_i/p_civitavecchia_(rome)/d_24_Sierpien_2026/i_78604/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "europa_polnocna",
-      "ship": "COSTA DIADEMA",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 7,
-      "route": "Kiel",
-      "prices_eur": {
-        "z_oknem": null,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_europa_p%C3%B3%C5%82nocna/m_sierpien_2026/c_costa_cruises/n_costa_diadema/p_kiel/d_28_Sierpien_2026/i_72232/"
     },
     {
       "source": "rejsujznami.com",
@@ -2606,7 +2603,10 @@
       "end_date": "2026-09-05",
       "nights": 7,
       "route": "Copenhagen",
-      "prices_eur": {},
+      "prices_eur": {
+        "z_balkonem": null,
+        "typu_suite": null
+      },
       "url": "https://www.rejsujznami.com/rejsy/z_europa_p%C3%B3%C5%82nocna/m_sierpien_2026/c_costa_cruises/n_costa_diadema/p_copenhagen/d_29_Sierpien_2026/i_72250/"
     },
     {
@@ -2638,31 +2638,6 @@
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
-      "ship": "MSC SPLENDIDA",
-      "start_date": "2026-08-20",
-      "end_date": "2026-08-27",
-      "nights": 7,
-      "route": "Palermo Italy",
-      "prices_eur": {
-        "wewnetrzna": null,
-        "z_oknem": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_splendida/p_palermo_italy/d_20_Sierpien_2026/i_78132/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "NORWEGIAN SKY",
-      "start_date": "2026-08-20",
-      "end_date": "2026-08-31",
-      "nights": 11,
-      "route": "London (southampton), England, Great Britain",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_norwegian_cruises/n_norwegian_sky/p_london_(southampton)/d_20_Sierpien_2026/i_78263/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
       "ship": "MSC MUSICA",
       "start_date": "2026-08-20",
       "end_date": "2026-08-27",
@@ -2687,6 +2662,31 @@
         "typu_suite": null
       },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_orchestra_/p_marsiglia_(provenza)_francia/d_20_Sierpien_2026/i_75085/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "MSC SPLENDIDA",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-27",
+      "nights": 7,
+      "route": "Palermo Italy",
+      "prices_eur": {
+        "wewnetrzna": null,
+        "z_oknem": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_splendida/p_palermo_italy/d_20_Sierpien_2026/i_78132/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "NORWEGIAN SKY",
+      "start_date": "2026-08-20",
+      "end_date": "2026-08-31",
+      "nights": 11,
+      "route": "London (southampton), England, Great Britain",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_norwegian_cruises/n_norwegian_sky/p_london_(southampton)/d_20_Sierpien_2026/i_78263/"
     },
     {
       "source": "rejsujznami.com",
@@ -2740,17 +2740,6 @@
         "typu_suite": null
       },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_world_europa/p_barcelona_spain/d_21_Sierpien_2026/i_69211/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA TOSCANA",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-28",
-      "nights": 7,
-      "route": "Genoa",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_toscana/p_genoa/d_21_Sierpien_2026/i_72674/"
     },
     {
       "source": "rejsujznami.com",
@@ -2810,30 +2799,6 @@
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
-      "ship": "COSTA SMERALDA",
-      "start_date": "2026-08-21",
-      "end_date": "2026-08-28",
-      "nights": 7,
-      "route": "Civitavecchia",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_civitavecchia/d_21_Sierpien_2026/i_77229/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA PACIFICA",
-      "start_date": "2026-08-22",
-      "end_date": "2026-08-29",
-      "nights": 7,
-      "route": "Civitavecchia",
-      "prices_eur": {
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_civitavecchia/d_22_Sierpien_2026/i_77051/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
       "ship": "MSC WORLD EUROPA",
       "start_date": "2026-08-22",
       "end_date": "2026-08-29",
@@ -2870,13 +2835,48 @@
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
+      "ship": "COSTA FASCINOSA",
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-29",
+      "nights": 7,
+      "route": "Catania",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_catania/d_22_Sierpien_2026/i_72637/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
       "ship": "COSTA SMERALDA",
       "start_date": "2026-08-22",
       "end_date": "2026-08-29",
       "nights": 7,
       "route": "Savona",
-      "prices_eur": {},
+      "prices_eur": {
+        "typu_suite": null
+      },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_savona/d_22_Sierpien_2026/i_72823/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA DELIZIOSA",
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-29",
+      "nights": 7,
+      "route": "Venice (marghera)",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_deliziosa/p_venice_(marghera)/d_22_Sierpien_2026/i_73313/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA DELIZIOSA",
+      "start_date": "2026-08-22",
+      "end_date": "2026-09-05",
+      "nights": 14,
+      "route": "Venice (marghera)",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_deliziosa/p_venice_(marghera)/d_22_Sierpien_2026/i_73333/"
     },
     {
       "source": "rejsujznami.com",
@@ -2940,6 +2940,45 @@
         "typu_suite": null
       },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_meraviglia/p_naples_(pompeii)_italy/d_22_Sierpien_2026/i_75364/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA PACIFICA",
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-29",
+      "nights": 7,
+      "route": "Civitavecchia",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_civitavecchia/d_22_Sierpien_2026/i_77051/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA PACIFICA",
+      "start_date": "2026-08-23",
+      "end_date": "2026-08-30",
+      "nights": 7,
+      "route": "Savona",
+      "prices_eur": {
+        "typu_suite": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_savona/d_23_Sierpien_2026/i_77031/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "MSC SPLENDIDA",
+      "start_date": "2026-08-23",
+      "end_date": "2026-08-30",
+      "nights": 7,
+      "route": "Barcelona Spania",
+      "prices_eur": {
+        "wewnetrzna": null,
+        "z_oknem": null,
+        "z_balkonem": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_splendida/p_barcelona_spania/d_23_Sierpien_2026/i_78134/"
     },
     {
       "source": "rejsujznami.com",
@@ -3021,19 +3060,12 @@
       "end_date": "2026-08-30",
       "nights": 7,
       "route": "Marseilles",
-      "prices_eur": {},
+      "prices_eur": {
+        "z_oknem": null,
+        "z_balkonem": null,
+        "typu_suite": null
+      },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_marseilles/d_23_Sierpien_2026/i_72442/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA TOSCANA",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 7,
-      "route": "Barcelona",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_toscana/p_barcelona/d_23_Sierpien_2026/i_72755/"
     },
     {
       "source": "rejsujznami.com",
@@ -3100,34 +3132,6 @@
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
-      "ship": "COSTA PACIFICA",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 7,
-      "route": "Savona",
-      "prices_eur": {
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_savona/d_23_Sierpien_2026/i_77031/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "MSC SPLENDIDA",
-      "start_date": "2026-08-23",
-      "end_date": "2026-08-30",
-      "nights": 7,
-      "route": "Barcelona Spania",
-      "prices_eur": {
-        "wewnetrzna": null,
-        "z_oknem": null,
-        "z_balkonem": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_splendida/p_barcelona_spania/d_23_Sierpien_2026/i_78134/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
       "ship": "RCC LEGEND OF THE SEAS",
       "start_date": "2026-08-23",
       "end_date": "2026-08-30",
@@ -3149,34 +3153,6 @@
         "z_oknem": null
       },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_fantasia/p_piraeus_greece/d_23_Sierpien_2026/i_86896/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA PACIFICA",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-31",
-      "nights": 7,
-      "route": "Toulon-la Seyne Sur Mer",
-      "prices_eur": {
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_toulon-la_seyne_sur_mer/d_24_Sierpien_2026/i_77191/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "MSC SPLENDIDA",
-      "start_date": "2026-08-24",
-      "end_date": "2026-08-31",
-      "nights": 7,
-      "route": "Marsella (provenza) Francia",
-      "prices_eur": {
-        "wewnetrzna": null,
-        "z_oknem": null,
-        "z_balkonem": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_splendida/p_marsella_(provenza)_francia/d_24_Sierpien_2026/i_78135/"
     },
     {
       "source": "rejsujznami.com",
@@ -3226,7 +3202,9 @@
       "end_date": "2026-08-31",
       "nights": 7,
       "route": "Barcelona",
-      "prices_eur": {},
+      "prices_eur": {
+        "typu_suite": null
+      },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_barcelona/d_24_Sierpien_2026/i_72399/"
     },
     {
@@ -3322,15 +3300,30 @@
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
-      "ship": "COSTA SMERALDA",
+      "ship": "COSTA PACIFICA",
       "start_date": "2026-08-24",
-      "end_date": "2026-08-27",
-      "nights": 3,
-      "route": "Barcelona",
+      "end_date": "2026-08-31",
+      "nights": 7,
+      "route": "Toulon-la Seyne Sur Mer",
       "prices_eur": {
         "typu_suite": null
       },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_barcelona/d_24_Sierpien_2026/i_90299/"
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_toulon-la_seyne_sur_mer/d_24_Sierpien_2026/i_77191/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "MSC SPLENDIDA",
+      "start_date": "2026-08-24",
+      "end_date": "2026-08-31",
+      "nights": 7,
+      "route": "Marsella (provenza) Francia",
+      "prices_eur": {
+        "wewnetrzna": null,
+        "z_oknem": null,
+        "z_balkonem": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_splendida/p_marsella_(provenza)_francia/d_24_Sierpien_2026/i_78135/"
     },
     {
       "source": "rejsujznami.com",
@@ -3423,19 +3416,6 @@
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
-      "ship": "COSTA PACIFICA",
-      "start_date": "2026-08-25",
-      "end_date": "2026-09-01",
-      "nights": 7,
-      "route": "Palma De Mallorca",
-      "prices_eur": {
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_palma_de_mallorca/d_25_Sierpien_2026/i_77000/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
       "ship": "MSC SPLENDIDA",
       "start_date": "2026-08-25",
       "end_date": "2026-09-01",
@@ -3496,9 +3476,7 @@
       "end_date": "2026-09-02",
       "nights": 7,
       "route": "Piraeus-athens",
-      "prices_eur": {
-        "typu_suite": null
-      },
+      "prices_eur": {},
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_piraeus-athens/d_26_Sierpien_2026/i_72475/"
     },
     {
@@ -3588,9 +3566,7 @@
       "end_date": "2026-09-03",
       "nights": 7,
       "route": "Civitavecchia",
-      "prices_eur": {
-        "typu_suite": null
-      },
+      "prices_eur": {},
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_toscana/p_civitavecchia/d_27_Sierpien_2026/i_72861/"
     },
     {
@@ -3633,6 +3609,17 @@
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
+      "ship": "RCC LEGEND OF THE SEAS",
+      "start_date": "2026-08-27",
+      "end_date": "2026-09-03",
+      "nights": 7,
+      "route": "Civitavecchia, Italy",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_royal_caribbean/n_rcc_legend_of_the_seas/p_civitavecchia/d_27_Sierpien_2026/i_81478/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
       "ship": "MSC SEAVIEW",
       "start_date": "2026-08-27",
       "end_date": "2026-09-03",
@@ -3643,17 +3630,6 @@
         "z_oknem": null
       },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_seaview/p_barcelona_spanien/d_27_Sierpien_2026/i_75899/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "RCC LEGEND OF THE SEAS",
-      "start_date": "2026-08-27",
-      "end_date": "2026-09-03",
-      "nights": 7,
-      "route": "Civitavecchia, Italy",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_royal_caribbean/n_rcc_legend_of_the_seas/p_civitavecchia/d_27_Sierpien_2026/i_81478/"
     },
     {
       "source": "rejsujznami.com",
@@ -3872,7 +3848,9 @@
       "end_date": "2026-09-05",
       "nights": 7,
       "route": "Marseilles",
-      "prices_eur": {},
+      "prices_eur": {
+        "typu_suite": null
+      },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_toscana/p_marseilles/d_29_Sierpien_2026/i_72600/"
     },
     {
@@ -3894,7 +3872,11 @@
       "end_date": "2026-09-05",
       "nights": 7,
       "route": "Savona",
-      "prices_eur": {},
+      "prices_eur": {
+        "z_oknem": null,
+        "z_balkonem": null,
+        "typu_suite": null
+      },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_savona/d_29_Sierpien_2026/i_72824/"
     },
     {
@@ -4029,6 +4011,7 @@
       "nights": 7,
       "route": "Savona",
       "prices_eur": {
+        "z_balkonem": null,
         "typu_suite": null
       },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_savona/d_30_Sierpien_2026/i_77032/"
@@ -4126,7 +4109,9 @@
       "end_date": "2026-09-06",
       "nights": 7,
       "route": "Marseilles",
-      "prices_eur": {},
+      "prices_eur": {
+        "typu_suite": null
+      },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_marseilles/d_30_Sierpien_2026/i_72443/"
     },
     {
@@ -4148,9 +4133,7 @@
       "end_date": "2026-09-06",
       "nights": 7,
       "route": "Istanbul",
-      "prices_eur": {
-        "typu_suite": null
-      },
+      "prices_eur": {},
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fortuna/p_istanbul/d_30_Sierpien_2026/i_72709/"
     },
     {
@@ -4235,6 +4218,68 @@
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
+      "ship": "COSTA PACIFICA",
+      "start_date": "2026-08-31",
+      "end_date": "2026-09-07",
+      "nights": 7,
+      "route": "Toulon-la Seyne Sur Mer",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_toulon-la_seyne_sur_mer/d_31_Sierpien_2026/i_77192/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "MSC SPLENDIDA",
+      "start_date": "2026-08-31",
+      "end_date": "2026-09-07",
+      "nights": 7,
+      "route": "Marsella (provenza) Francia",
+      "prices_eur": {
+        "wewnetrzna": null,
+        "z_oknem": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_splendida/p_marsella_(provenza)_francia/d_31_Sierpien_2026/i_78141/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "NORWEGIAN SKY",
+      "start_date": "2026-08-31",
+      "end_date": "2026-09-09",
+      "nights": 9,
+      "route": "Barcelona, Spain",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_norwegian_cruises/n_norwegian_sky/p_barcelona/d_31_Sierpien_2026/i_78264/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "EXPLORA I",
+      "start_date": "2026-08-31",
+      "end_date": "2026-09-14",
+      "nights": 14,
+      "route": "Barcelona",
+      "prices_eur": {},
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_explora_journeys/n_explora_i/p_barcelona/d_31_Sierpien_2026/i_78605/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA SMERALDA",
+      "start_date": "2026-08-31",
+      "end_date": "2026-09-03",
+      "nights": 3,
+      "route": "Barcelona",
+      "prices_eur": {
+        "z_oknem": null,
+        "z_balkonem": null,
+        "typu_suite": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_barcelona/d_31_Sierpien_2026/i_89409/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
       "ship": "MSC DIVINA",
       "start_date": "2026-08-31",
       "end_date": "2026-09-07",
@@ -4281,7 +4326,9 @@
       "end_date": "2026-09-07",
       "nights": 7,
       "route": "Barcelona",
-      "prices_eur": {},
+      "prices_eur": {
+        "typu_suite": null
+      },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_barcelona/d_31_Sierpien_2026/i_72400/"
     },
     {
@@ -4385,68 +4432,6 @@
         "typu_suite": null
       },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_grandiosa/p_g%C3%AAnova_(portofino)_it%C3%A1lia/d_31_Sierpien_2026/i_75240/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA PACIFICA",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-07",
-      "nights": 7,
-      "route": "Toulon-la Seyne Sur Mer",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_toulon-la_seyne_sur_mer/d_31_Sierpien_2026/i_77192/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "MSC SPLENDIDA",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-07",
-      "nights": 7,
-      "route": "Marsella (provenza) Francia",
-      "prices_eur": {
-        "wewnetrzna": null,
-        "z_oknem": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_splendida/p_marsella_(provenza)_francia/d_31_Sierpien_2026/i_78141/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "NORWEGIAN SKY",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-09",
-      "nights": 9,
-      "route": "Barcelona, Spain",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_norwegian_cruises/n_norwegian_sky/p_barcelona/d_31_Sierpien_2026/i_78264/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "EXPLORA I",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-14",
-      "nights": 14,
-      "route": "Barcelona",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_explora_journeys/n_explora_i/p_barcelona/d_31_Sierpien_2026/i_78605/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA SMERALDA",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-03",
-      "nights": 3,
-      "route": "Barcelona",
-      "prices_eur": {
-        "z_oknem": null,
-        "z_balkonem": null,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_barcelona/d_31_Sierpien_2026/i_89409/"
     }
   ]
 }
