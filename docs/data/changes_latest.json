@@ -1,6 +1,373 @@
 {
-  "generated_at": "2026-08-29T12:28:00.806809+00:00",
-  "new_offers": [
+  "generated_at": "2026-08-30T11:26:55.510670+00:00",
+  "new_offers": [],
+  "removed_offers": [
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "MSC Seaview (2019)",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 8,
+      "route": "Civitavecchia/Rzym (Włochy) >> Palermo/Sycylia (Włochy) >> Dzień na morzu >> Ibiza (Hiszpania) >> Barcelona (Hiszpania) >> Marsylia (Francja) >> Genua (Włochy) >> Civitavecchia/Rzym (Włochy)",
+      "prices_eur": {
+        "wewnętrzna": 1143,
+        "z_oknem": 1283,
+        "z_balkonem": 1353,
+        "apartament": 2253
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-msc-seaview-2019-2026-08-30-8-206821288e"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "MSC Grandiosa (2019)",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 8,
+      "route": "Cannes (Francja) >> Genua (Włochy) >> La Spezia (Włochy) >> Civitavecchia/Rzym (Włochy) >> Dzień na morzu >> Palma/Majorka (Hiszpania) >> Barcelona (Hiszpania) >> Cannes (Francja)",
+      "prices_eur": {
+        "wewnętrzna": null,
+        "z_oknem": 1263,
+        "z_balkonem": null,
+        "apartament": null
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-cannes-francja-na-msc-grandiosa-2019-2026-08-30-8-ee2a6c32d7"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "Costa Fascinosa",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 8,
+      "route": "Taranto (Włochy) >> Argostoli (Grecja) >> Mykonos (Grecja) >> Pireus/Ateny (Grecja) >> Dzień na morzu >> Valletta (Malta) >> Morze Jońskie (36.5°N, 15.3°E) >> Katania/Sycylia (Włochy) >> Taranto (Włochy)",
+      "prices_eur": {
+        "wewnętrzna": 1129,
+        "z_oknem": 1329,
+        "z_balkonem": 1479,
+        "apartament": 2079
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-taranto-na-costa-fascinosa-2026-08-30-8-710ab6046b"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "Costa Fortuna",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 8,
+      "route": "Stambuł (Turcja) >> Mykonos (Grecja) >> Heraklion/Kreta (Grecja) >> Rodos (Grecja) >> Santorini (Grecja) >> Archipelag Santorini - przepłynięcie widokowe >> Pireus/Ateny (Grecja) >> Dzień na morzu >> Stambuł (Turcja)",
+      "prices_eur": {
+        "wewnętrzna": 1189,
+        "z_oknem": 1389,
+        "z_balkonem": 1639,
+        "apartament": 1889
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-stambulu-na-costa-fortuna-2026-08-30-8-b4611726d0"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "Costa Smeralda (2019)",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-03",
+      "nights": 5,
+      "route": "Marsylia (Francja) >> Barcelona (Hiszpania) >> Ibiza (Hiszpania) >> Zatoka Ibiza - przepłynięcie >> Dzień na morzu >> Palermo/Sycylia (Włochy)",
+      "prices_eur": {
+        "wewnętrzna": 639,
+        "z_oknem": 709,
+        "z_balkonem": 759,
+        "apartament": 1244
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-marsylii-do-palermosycylia-wlochy-na-costa-smeralda-2019-2026-08-30-5-a6e2faa911"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "Costa Toscana (2022)",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 8,
+      "route": "Barcelona (Hiszpania) >> Dzień na morzu >> Cagliari/Sardynia (Włochy) >> Neapol (Włochy) >> Zatoka Capri (Włochy) - przepłynięcie widokowe >> Civitavecchia/Rzym (Włochy) >> Genua (Włochy) >> Marsylia (Francja) >> Barcelona (Hiszpania)",
+      "prices_eur": {
+        "wewnętrzna": 599,
+        "z_oknem": 649,
+        "z_balkonem": 689,
+        "apartament": 2149
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-costa-toscana-2022-2026-08-30-8-fb45be848a"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "Costa Toscana (2022)",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 8,
+      "route": "Barcelona (Hiszpania) >> Dzień na morzu >> Cagliari/Sardynia (Włochy) >> Neapol (Włochy) >> Zatoka Capri (Włochy) - przepłynięcie widokowe >> Civitavecchia/Rzym (Włochy) >> Genua (Włochy) >> Marsylia (Francja) >> Barcelona (Hiszpania)",
+      "prices_eur": {
+        "wewnętrzna": 1489,
+        "z_oknem": 1669,
+        "z_balkonem": 1789,
+        "apartament": 2399
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-costa-toscana-2022-2026-08-30-8-fb45be848a-flight"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "Norwegian Dawn",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 8,
+      "route": "Barcelona (Hiszpania) >> Palma/Majorka (Hiszpania) >> Walencja (Hiszpania) >> Motril (Hiszpania) >> Gibraltar (Wielka Brytania) >> Kadyks (Hiszpania) >> Portimao (Portugalia) >> Lizbona (Portugalia)",
+      "prices_eur": {
+        "wewnętrzna": 999,
+        "z_oknem": null,
+        "z_balkonem": null,
+        "apartament": 6124
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-do-lizbony-na-norwegian-dawn-2026-08-30-8-86c11f7d02"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "AIDAbella",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 8,
+      "route": "Kiel (Niemcy) >> Fredericia (Dania) >> Kopenhaga (Dania) >> Kiel (Niemcy) >> Oslo (Norwegia) >> Skagen (Dania) >> Kiel (Niemcy)",
+      "prices_eur": {
+        "wewnętrzna": 1045,
+        "z_oknem": 1405,
+        "z_balkonem": 1585,
+        "apartament": 2660
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-skandynawia-z-oslo-z-kilonii-i-aidabella-2026-08-30-8"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "AIDAbella",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-02",
+      "nights": 4,
+      "route": "Kiel (Niemcy) >> Fredericia (Dania) >> Kopenhaga (Dania) >> Kiel (Niemcy)",
+      "prices_eur": {
+        "wewnętrzna": 429,
+        "z_oknem": 499,
+        "z_balkonem": 599,
+        "apartament": null
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-kilonii-na-pokladzie-statku-aidabella-2026-08-30-4"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "Legend of the Seas (2026)",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 8,
+      "route": "Barcelona (Hiszpania) >> Palma/Majorka (Hiszpania) >> Marsylia (Francja) >> La Spezia (Włochy) >> Civitavecchia/Rzym (Włochy) >> Neapol (Włochy) >> Dzień na morzu. >> Barcelona (Hiszpania)",
+      "prices_eur": {
+        "wewnętrzna": null,
+        "z_oknem": null,
+        "z_balkonem": null,
+        "apartament": 6162
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-legend-of-the-seas-2026-2026-08-30-8-808cdb4abe"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "MSC Seaview (2019)",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 8,
+      "route": "Civitavecchia/Rzym (Włochy) >> Palermo/Sycylia (Włochy) >> Dzień na morzu >> Ibiza (Hiszpania) >> Barcelona (Hiszpania) >> Marsylia (Francja) >> Genua (Włochy) >> Civitavecchia/Rzym (Włochy)",
+      "prices_eur": {
+        "wewnętrzna": 1318,
+        "z_oknem": null,
+        "z_balkonem": null,
+        "apartament": null
+      },
+      "url": "https://www.alerejsy.pl/rejsy/sloneczne-morze-srodziemne-pl-pilot-2026-10-01-8"
+    },
+    {
+      "source": "alerejsy.pl",
+      "category": "morze_srodziemne",
+      "ship": "Costa Pacifica",
+      "start_date": "2026-08-31",
+      "end_date": "2026-09-07",
+      "nights": 8,
+      "route": "Tulon (Francja) >> Palma/Majorka (Hiszpania) >> Jungle Party >> Walencja (Hiszpania) >> Dzień na morzu >> Olbia/Sardynia (Włochy) >> Zatoka Aranci - przepłynięcie widokowe >> Civitavecchia/Rzym (Włochy) >> Savona (Włochy) >> Tulon (Francja)",
+      "prices_eur": {
+        "wewnętrzna": 779,
+        "z_oknem": 959,
+        "z_balkonem": 1079,
+        "apartament": 1799
+      },
+      "url": "https://www.alerejsy.pl/rejsy/rejs-z-tulon-na-costa-pacifica-2026-08-31-8-f7fdd9acf2"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "europa_polnocna",
+      "ship": "MSC MAGNIFICA",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-05",
+      "nights": 7,
+      "route": "Copenhagen Denmark",
+      "prices_eur": {
+        "wewnetrzna": null,
+        "z_oknem": null,
+        "typu_suite": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_europa_p%C3%B3%C5%82nocna/m_sierpien_2026/c_msc_cruises/n_msc_magnifica/p_copenhagen_denmark/d_29_Sierpien_2026/i_70873/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "europa_polnocna",
+      "ship": "COSTA DIADEMA",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-05",
+      "nights": 7,
+      "route": "Copenhagen",
+      "prices_eur": {
+        "wewnetrzna": null,
+        "z_oknem": null,
+        "typu_suite": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_europa_p%C3%B3%C5%82nocna/m_sierpien_2026/c_costa_cruises/n_costa_diadema/p_copenhagen/d_29_Sierpien_2026/i_72250/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "MSC SEAVIEW",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-05",
+      "nights": 7,
+      "route": "Genua (portofino) Italien",
+      "prices_eur": {
+        "wewnetrzna": null,
+        "z_oknem": 1189,
+        "z_balkonem": 1429,
+        "typu_suite": 2429
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_seaview/p_genua_(portofino)_italien/d_29_Sierpien_2026/i_68621/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "NORWEGIAN SUN",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-05",
+      "nights": 7,
+      "route": "Helsinki, Finland",
+      "prices_eur": {
+        "wewnetrzna": 1560,
+        "z_oknem": 1634,
+        "z_balkonem": 2300,
+        "typu_suite": 4334
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_norwegian_cruises/n_norwegian_sun/p_helsinki/d_29_Sierpien_2026/i_71739/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "CELEBRITY APEX",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-12",
+      "nights": 14,
+      "route": "London, Southampton, England",
+      "prices_eur": {
+        "wewnetrzna": 4906,
+        "z_oknem": 4978,
+        "z_balkonem": 6255,
+        "typu_suite": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_celebrity_cruises/n_celebrity_apex/p_london/d_29_Sierpien_2026/i_73723/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "RCC EXPLORER OF THE SEAS",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-05",
+      "nights": 7,
+      "route": "Ravenna",
+      "prices_eur": {
+        "wewnetrzna": 1483,
+        "z_oknem": 2157,
+        "z_balkonem": 2505,
+        "typu_suite": 4725
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_royal_caribbean/n_rcc_explorer_of_the_seas/p_ravenna/d_29_Sierpien_2026/i_73724/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "MSC LIRICA",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-05",
+      "nights": 7,
+      "route": "Venice - Marghera Italy",
+      "prices_eur": {
+        "wewnetrzna": null,
+        "z_oknem": 889,
+        "z_balkonem": null,
+        "typu_suite": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_lirica/p_venice_-_marghera_italy/d_29_Sierpien_2026/i_74875/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "MSC ORCHESTRA",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-05",
+      "nights": 7,
+      "route": "Valencia Spain",
+      "prices_eur": {
+        "wewnetrzna": null,
+        "z_oknem": null,
+        "z_balkonem": 919,
+        "typu_suite": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_orchestra_/p_valencia_spain/d_29_Sierpien_2026/i_75093/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "MSC GRANDIOSA",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-05",
+      "nights": 7,
+      "route": "Barcelona Spanien",
+      "prices_eur": {
+        "wewnetrzna": 899,
+        "z_oknem": null,
+        "z_balkonem": null,
+        "typu_suite": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_grandiosa/p_barcelona_spanien/d_29_Sierpien_2026/i_75238/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "MSC MERAVIGLIA",
+      "start_date": "2026-08-29",
+      "end_date": "2026-09-05",
+      "nights": 7,
+      "route": "Naples (pompeii) Italy",
+      "prices_eur": {
+        "wewnetrzna": 919,
+        "z_oknem": 1039,
+        "z_balkonem": 1169,
+        "typu_suite": 3209
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_meraviglia/p_naples_(pompeii)_italy/d_29_Sierpien_2026/i_75369/"
+    },
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
@@ -16,6 +383,70 @@
         "typu_suite": 2328
       },
       "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_marseilles/d_30_Sierpien_2026/i_72443/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA FASCINOSA",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 7,
+      "route": "Taranto",
+      "prices_eur": {
+        "wewnetrzna": 1129,
+        "z_oknem": 1329,
+        "z_balkonem": 1479,
+        "typu_suite": 2008
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_taranto/d_30_Sierpien_2026/i_72552/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA FORTUNA",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 7,
+      "route": "Istanbul",
+      "prices_eur": {
+        "wewnetrzna": 1249,
+        "z_oknem": 1449,
+        "z_balkonem": 1699,
+        "typu_suite": 2268
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fortuna/p_istanbul/d_30_Sierpien_2026/i_72709/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA TOSCANA",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-06",
+      "nights": 7,
+      "route": "Barcelona",
+      "prices_eur": {
+        "wewnetrzna": 1128,
+        "z_oknem": 1308,
+        "z_balkonem": 1428,
+        "typu_suite": 2298
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_toscana/p_barcelona/d_30_Sierpien_2026/i_72756/"
+    },
+    {
+      "source": "rejsujznami.com",
+      "category": "morze_srodziemne",
+      "ship": "COSTA TOSCANA",
+      "start_date": "2026-08-30",
+      "end_date": "2026-09-02",
+      "nights": 3,
+      "route": "Barcelona",
+      "prices_eur": {
+        "wewnetrzna": 249,
+        "z_oknem": null,
+        "z_balkonem": null,
+        "typu_suite": null
+      },
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_toscana/p_barcelona/d_30_Sierpien_2026/i_90460/"
     },
     {
       "source": "rejsujznami.com",
@@ -36,680 +467,47 @@
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
-      "ship": "COSTA PACIFICA",
-      "start_date": "2026-08-31",
-      "end_date": "2026-09-02",
-      "nights": 2,
-      "route": "Toulon-la Seyne Sur Mer",
-      "prices_eur": {
-        "wewnetrzna": 309,
-        "z_oknem": 379,
-        "z_balkonem": 429,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_toulon-la_seyne_sur_mer/d_31_Sierpien_2026/i_90596/"
-    }
-  ],
-  "removed_offers": [
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Seaview (2019)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Genua (Włochy) >> Civitavecchia/Rzym (Włochy) >> Palermo/Sycylia (Włochy) >> Dzień na morzu >> Ibiza (Hiszpania) >> Barcelona (Hiszpania) >> Marsylia (Francja) >> Genua (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": 1123,
-        "z_oknem": 1273,
-        "z_balkonem": 1513,
-        "apartament": 2513
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-genui-na-msc-seaview-2019-2026-08-29-8-1c5818f313"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Grandiosa (2019)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Barcelona (Hiszpania) >> Cannes (Francja) >> Genua (Włochy) >> La Spezia (Włochy) >> Civitavecchia/Rzym (Włochy) >> Dzień na morzu >> Palma/Majorka (Hiszpania) >> Barcelona (Hiszpania)",
-      "prices_eur": {
-        "wewnętrzna": 983,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-msc-grandiosa-2019-2026-08-29-8-550fa55cac"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Grandiosa (2019)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Barcelona (Hiszpania) >> Cannes (Francja) >> Genua (Włochy) >> La Spezia (Włochy) >> Civitavecchia/Rzym (Włochy) >> Dzień na morzu >> Palma/Majorka (Hiszpania) >> Barcelona (Hiszpania)",
-      "prices_eur": {
-        "wewnętrzna": 1743,
-        "z_oknem": 1893,
-        "z_balkonem": 2023,
-        "apartament": 2673
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-na-msc-grandiosa-2019-2026-08-29-8-550fa55cac-flight"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "MSC Virtuosa (2021)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Southampton (Wielka Brytania) >> Dzień na morzu >> Haugesund (Norwegia) >> Olden (Norwegia) >> Alesund (Norwegia) >> Kristiansand (Norwegia) >> Dzień na morzu >> Southampton (Wielka Brytania)",
-      "prices_eur": {
-        "wewnętrzna": 1123,
-        "z_oknem": null,
-        "z_balkonem": null,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-southampton-na-msc-virtuosa-2020-2026-08-29-8-855ed8d216"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Diadema",
-      "start_date": "2026-08-29",
+      "ship": "COSTA SMERALDA",
+      "start_date": "2026-08-30",
       "end_date": "2026-09-04",
-      "nights": 7,
-      "route": "Kopenhaga (Dania) >> Dzień na morzu >> Hellesylt (Norwegia) >> Geiranger (Norwegia) >> Alesund (Norwegia) >> Stavanger (Norwegia) >> Dzień na morzu >> Kiel (Niemcy)",
-      "prices_eur": {
-        "wewnętrzna": 939,
-        "z_oknem": 1139,
-        "z_balkonem": 1309,
-        "apartament": 1824
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-kopenhagi-do-kiel-na-costa-diadema-2026-08-29-7-f198746d77"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Fascinosa",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Katania/Sycylia (Włochy) >> Taranto (Włochy) >> Argostoli (Grecja) >> Mykonos (Grecja) >> Pireus/Ateny (Grecja) >> Dzień na morzu >> Valletta (Malta) >> Morze Jońskie (36.5°N, 15.3°E) >> Katania/Sycylia (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": 1129,
-        "z_oknem": 1329,
-        "z_balkonem": 1479,
-        "apartament": 2079
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-cataniasycylia-wlochy-na-costa-fascinosa-2026-08-29-8-d02e4d2403"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Deliziosa",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Wenecja/Marghera (Włochy) >> Wenecja Lido - przepłynięcie widokowe >> Bari (Włochy) >> Głębia Calypso - przepłynięcie widokowe >> Santorini (Grecja) >> Mykonos (Grecja) >> Katakolon/Olympia (Grecja) >> Dzień na morzu >> Wenecja/Marghera (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": 999,
-        "z_oknem": 1099,
-        "z_balkonem": 1199,
-        "apartament": 2149
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-wenecji-na-costa-deliziosa-2026-08-29-8-a917435665"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Deliziosa",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Wenecja/Marghera (Włochy) >> Wenecja Lido - przepłynięcie widokowe >> Bari (Włochy) >> Głębia Calypso - przepłynięcie widokowe >> Santorini (Grecja) >> Mykonos (Grecja) >> Katakolon/Olympia (Grecja) >> Dzień na morzu >> Wenecja/Marghera (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": 1829,
-        "z_oknem": 1929,
-        "z_balkonem": 2079,
-        "apartament": 2399
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-wenecji-na-costa-deliziosa-2026-08-29-8-a917435665-flight"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Deliziosa",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-12",
-      "nights": 15,
-      "route": "Wenecja/Marghera (Włochy) >> Wenecja Lido - przepłynięcie widokowe >> Bari (Włochy) >> Głębia Calypso - przepłynięcie widokowe >> Santorini (Grecja) >> Mykonos (Grecja) >> Katakolon/Olympia (Grecja) >> Dzień na morzu >> Wenecja/Marghera (Włochy) >> Wenecja Lido - przepłynięcie widokowe >> Bari (Włochy) >> Corfu (Grecja) >> Argostoli (Grecja) >> Dubrownik (Chorwacja) >> Kotor (Czarnogóra) >> Zadar (Chorwacja) >> Wenecja/Marghera (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": 1749,
-        "z_oknem": 1949,
-        "z_balkonem": 2149,
-        "apartament": 4204
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-wenecji-na-costa-deliziosa-2026-08-29-15-4221608b28"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Deliziosa",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-12",
-      "nights": 15,
-      "route": "Wenecja/Marghera (Włochy) >> Wenecja Lido - przepłynięcie widokowe >> Bari (Włochy) >> Głębia Calypso - przepłynięcie widokowe >> Santorini (Grecja) >> Mykonos (Grecja) >> Katakolon/Olympia (Grecja) >> Dzień na morzu >> Wenecja/Marghera (Włochy) >> Wenecja Lido - przepłynięcie widokowe >> Bari (Włochy) >> Corfu (Grecja) >> Argostoli (Grecja) >> Dubrownik (Chorwacja) >> Kotor (Czarnogóra) >> Zadar (Chorwacja) >> Wenecja/Marghera (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": 3239,
-        "z_oknem": 3439,
-        "z_balkonem": 3739,
-        "apartament": 4199
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-wenecji-na-costa-deliziosa-2026-08-29-15-4221608b28-flight"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Smeralda (2019)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Savona (Włochy) >> Marsylia (Francja) >> Barcelona (Hiszpania) >> Ibiza (Hiszpania) >> Zatoka Ibiza - przepłynięcie >> Dzień na morzu >> Palermo/Sycylia (Włochy) >> Civitavecchia/Rzym (Włochy) >> Savona (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": 699,
-        "z_oknem": 769,
-        "z_balkonem": 869,
-        "apartament": 2179
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-savony-na-costa-smeralda-2019-2026-08-29-8-69f695782f"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Costa Toscana (2022)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Marsylia (Francja) >> Barcelona (Hiszpania) >> Dzień na morzu >> Cagliari/Sardynia (Włochy) >> Neapol (Włochy) >> Zatoka Capri (Włochy) - przepłynięcie widokowe >> Civitavecchia/Rzym (Włochy) >> Genua (Włochy) >> Marsylia (Francja)",
-      "prices_eur": {
-        "wewnętrzna": 879,
-        "z_oknem": 1059,
-        "z_balkonem": 1179,
-        "apartament": 2149
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-marsylii-na-costa-toscana-2022-2026-08-29-8-c61e88a63d"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Sun",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Helsinki (Finlandia) >> Tallinn (Estonia) >> Nynashamn/Sztokholm (Szwecja) >> Ryga (Łotwa) >> Dzień na morzu >> Warnemunde (Niemcy) >> Kiel (Niemcy) >> Kopenhaga (Dania)",
-      "prices_eur": {
-        "wewnętrzna": 742,
-        "z_oknem": 1479,
-        "z_balkonem": 1402,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-helsinki-finlandia-do-kopenhagi-na-norwegian-sun-2026-08-29-8-ca9f0327a9"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Norwegian Sun",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Helsinki (Finlandia) >> Tallinn (Estonia) >> Nynashamn/Sztokholm (Szwecja) >> Ryga (Łotwa) >> Dzień na morzu >> Warnemunde (Niemcy) >> Kiel (Niemcy) >> Kopenhaga (Dania)",
-      "prices_eur": {
-        "wewnętrzna": 1127,
-        "z_oknem": 1235,
-        "z_balkonem": 1679,
-        "apartament": 4134
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-helsinki-finlandia-do-kopenhagi-na-norwegian-sun-2026-08-29-8-ca9f0327a9-flight"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "AIDAnova (2018)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Kiel (Niemcy) >> Kopenhaga (Dania) >> Dzień na morzu >> Oslo (Norwegia) >> Kristiansand (Norwegia) >> Skagen (Dania) >> Aarhus (Dania) >> Kiel (Niemcy)",
-      "prices_eur": {
-        "wewnętrzna": 995,
-        "z_oknem": 1245,
-        "z_balkonem": 1430,
-        "apartament": 2265
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-skandynawskie-skarby-z-kilonii-xiii-aidanova-2026-08-29-8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "AIDAnova (2018)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-12",
-      "nights": 15,
-      "route": "Kiel (Niemcy) >> Kopenhaga (Dania) >> Dzień na morzu >> Oslo (Norwegia) >> Kristiansand (Norwegia) >> Skagen (Dania) >> Aarhus (Dania) >> Kiel (Niemcy) >> Dzień na morzu >> Bergen (Norwegia) >> Flaam (Norwegia) >> Alesund (Norwegia) >> Stavanger (Norwegia) >> Dzień na morzu >> Kiel (Niemcy)",
-      "prices_eur": {
-        "wewnętrzna": 1835,
-        "z_oknem": 2455,
-        "z_balkonem": 2645,
-        "apartament": 4205
-      },
-      "url": "https://www.alerejsy.pl/rejsy/wielki-rejs-skandynawia-z-kilonii-xxii-aidanova-2026-08-29-15"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "AIDAcosma (2022)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Palma/Majorka (Hiszpania) >> Dzień na morzu >> Cagliari/Sardynia (Włochy) >> Civitavecchia/Rzym (Włochy) >> Ajaccio/Korsyka (Francja) >> Marsylia (Francja) >> Barcelona (Hiszpania) >> Palma/Majorka (Hiszpania)",
-      "prices_eur": {
-        "wewnętrzna": 1149,
-        "z_oknem": 1519,
-        "z_balkonem": 1529,
-        "apartament": 2099
-      },
-      "url": "https://www.alerejsy.pl/rejsy/skarby-morza-srodziemnego-z-sardynia-z-majorki-aidacosma-2026-08-29-8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Celebrity Apex (2020)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-12",
-      "nights": 15,
-      "route": "Southampton (Wielka Brytania) >> Dzień na morzu >> Stavanger (Norwegia) >> Alesund (Norwegia) >> Olden (Norwegia) >> Przepłynięcie koła podbiegunowego >> Tromso (Norwegia) >> Honningsvag - Przylądek Północy (Norwegia) >> Przepłynięcie koła podbiegunowego >> Trondheim (Norwegia) >> Molde (Norwegia) >> Geiranger (Norwegia) >> Bergen (Norwegia) >> Dzień na morzu >> Southampton (Wielka Brytania)",
-      "prices_eur": {
-        "wewnętrzna": 3132,
-        "z_oknem": 3370,
-        "z_balkonem": 3846,
-        "apartament": 7130
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-fiordy-norweskie-z-southampton-na-statku-celebrity-apex-2026-08-29-15"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "Explorer of the Seas",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Ravenna (Włochy) >> Dzień na morzu. >> Santorini (Grecja) >> Pireus/Ateny (Grecja) >> Mykonos (Grecja) >> Agrostoli/Kefalonia (Grecja) >> Dzień na morzu. >> Ravenna (Włochy)",
-      "prices_eur": {
-        "wewnętrzna": 1079,
-        "z_oknem": null,
-        "z_balkonem": 1672,
-        "apartament": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-rawenny-na-explorer-of-the-seas-2026-08-29-8-bd9ac7318c"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "NICKO / ms Seine Comtesse",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Paryż (Francja) >> Les Andelys (Francja) >> Caudebec-en-Caux (Francja) >> Rouen (Francja) >> Conflans-Sainte-Honorine (Francja) >> Paryż (Francja)",
-      "prices_eur": {
-        "z_oknem": 1555,
-        "z_balkonem": 1905
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-rzeczny-z-paryza-na-ms-seine-comtesse-2026-08-29-8"
-    },
-    {
-      "source": "alerejsy.pl",
-      "category": "morze_srodziemne",
-      "ship": "NICKO / nickoSPIRIT (2020)",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 8,
-      "route": "Kolonia (Niemcy) >> Gorinchem (Holandia) >> Rotterdam (Holandia) >> Enkhuizen/Amsterdam (Holandia) >> Amsterdam (Holandia) >> Nijmegen (Holandia) >> Kolonia (Niemcy)",
-      "prices_eur": {
-        "z_oknem": 2355,
-        "z_balkonem": null
-      },
-      "url": "https://www.alerejsy.pl/rejsy/rejs-rzeczny-z-kolonii-na-pokladzie-nickospirit-2026-08-29-8"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "europa_polnocna",
-      "ship": "COSTA DIADEMA",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 7,
-      "route": "Kiel",
-      "prices_eur": {
-        "z_balkonem": null,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_europa_p%C3%B3%C5%82nocna/m_sierpien_2026/c_costa_cruises/n_costa_diadema/p_kiel/d_28_Sierpien_2026/i_72232/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "MSC SPLENDIDA",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 7,
-      "route": "Valletta Malta",
-      "prices_eur": {
-        "wewnetrzna": null,
-        "z_oknem": null,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_splendida/p_valletta_malta/d_28_Sierpien_2026/i_78139/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "MSC DIVINA",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 7,
-      "route": "Civitavecchia (rome) Italy",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_divina/p_civitavecchia_(rome)_italy/d_28_Sierpien_2026/i_68595/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "MSC SEAVIEW",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 7,
-      "route": "Marsiglia (provenza) Francia",
-      "prices_eur": {
-        "z_oknem": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_seaview/p_marsiglia_(provenza)_francia/d_28_Sierpien_2026/i_69091/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "MSC WORLD EUROPA",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 7,
-      "route": "Barcelona Spain",
-      "prices_eur": {
-        "z_oknem": null,
-        "z_balkonem": null,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_world_europa/p_barcelona_spain/d_28_Sierpien_2026/i_69216/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "NORWEGIAN VIVA",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-07",
-      "nights": 10,
-      "route": "Ravenna",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_norwegian_cruises/n_norwegian_viva/p_ravenna/d_28_Sierpien_2026/i_71737/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "CELEBRITY ASCENT",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-07",
-      "nights": 10,
-      "route": "Civitavecchia, Italy",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_celebrity_cruises/n_celebrity_ascent/p_civitavecchia/d_28_Sierpien_2026/i_73722/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "MSC FANTASIA",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-06",
-      "nights": 9,
-      "route": "Trieste",
-      "prices_eur": {
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_fantasia/p_trieste/d_28_Sierpien_2026/i_74138/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "MSC OPERA",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-07",
-      "nights": 10,
-      "route": "Alicante Spain",
-      "prices_eur": {
-        "z_oknem": null,
-        "z_balkonem": null,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_opera/p_alicante_spain/d_28_Sierpien_2026/i_74508/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "MSC ARMONIA",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 7,
-      "route": "Brindisi (lecce) Italy",
-      "prices_eur": {
-        "z_balkonem": null,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_armonia/p_brindisi_(lecce)_italy/d_28_Sierpien_2026/i_74811/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "MSC ORCHESTRA",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 7,
-      "route": "Tarragona Spain",
-      "prices_eur": {
-        "wewnetrzna": null,
-        "z_oknem": null,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_orchestra_/p_tarragona_spain/d_28_Sierpien_2026/i_75092/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "MSC GRANDIOSA",
-      "start_date": "2026-08-28",
-      "end_date": "2026-09-04",
-      "nights": 7,
-      "route": "Palma De Mallorca Spain",
-      "prices_eur": {
-        "z_balkonem": null,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_msc_cruises/n_msc_grandiosa/p_palma_de_mallorca_spain/d_28_Sierpien_2026/i_75237/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA TOSCANA",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 7,
+      "nights": 5,
       "route": "Marseilles",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_toscana/p_marseilles/d_29_Sierpien_2026/i_72600/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA FASCINOSA",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 7,
-      "route": "Catania",
       "prices_eur": {
-        "z_oknem": null,
-        "z_balkonem": null,
+        "wewnetrzna": 769,
+        "z_oknem": 859,
+        "z_balkonem": 919,
         "typu_suite": null
       },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_fascinosa/p_catania/d_29_Sierpien_2026/i_72638/"
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_marseilles/d_30_Sierpien_2026/i_90465/"
     },
     {
       "source": "rejsujznami.com",
       "category": "morze_srodziemne",
       "ship": "COSTA SMERALDA",
-      "start_date": "2026-08-29",
+      "start_date": "2026-08-30",
       "end_date": "2026-09-05",
-      "nights": 7,
-      "route": "Savona",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_savona/d_29_Sierpien_2026/i_72824/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA DELIZIOSA",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 7,
-      "route": "Venice (marghera)",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_deliziosa/p_venice_(marghera)/d_29_Sierpien_2026/i_73303/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA DELIZIOSA",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-12",
-      "nights": 14,
-      "route": "Venice (marghera)",
-      "prices_eur": {
-        "z_oknem": null,
-        "z_balkonem": null,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_deliziosa/p_venice_(marghera)/d_29_Sierpien_2026/i_73323/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA PACIFICA",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-05",
-      "nights": 7,
-      "route": "Civitavecchia",
-      "prices_eur": {
-        "z_oknem": null,
-        "z_balkonem": null,
-        "typu_suite": null
-      },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_civitavecchia/d_29_Sierpien_2026/i_77052/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA TOSCANA",
-      "start_date": "2026-08-29",
-      "end_date": "2026-09-02",
-      "nights": 4,
+      "nights": 6,
       "route": "Marseilles",
       "prices_eur": {
-        "typu_suite": null
+        "wewnetrzna": 919,
+        "z_oknem": 1323,
+        "z_balkonem": 1403,
+        "typu_suite": 2013
       },
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_toscana/p_marseilles/d_29_Sierpien_2026/i_90464/"
-    },
-    {
-      "source": "rejsujznami.com",
-      "category": "morze_srodziemne",
-      "ship": "COSTA PACIFICA",
-      "start_date": "2026-08-30",
-      "end_date": "2026-09-06",
-      "nights": 7,
-      "route": "Savona",
-      "prices_eur": {},
-      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_pacifica/p_savona/d_30_Sierpien_2026/i_77032/"
+      "url": "https://www.rejsujznami.com/rejsy/z_morze_%C5%9Br%C3%B3dziemne/m_sierpien_2026/c_costa_cruises/n_costa_smeralda/p_marseilles/d_30_Sierpien_2026/i_90467/"
     }
   ],
   "price_changes": [
-    {
-      "source": "alerejsy.pl",
-      "ship": "MSC Seaview (2019)",
-      "start_date": "2026-08-30",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-civitavecchi-k-rzymu-na-msc-seaview-2019-2026-08-30-8-206821288e",
-      "changes": {
-        "apartament": {
-          "old": 1853,
-          "new": 2253,
-          "delta": 400
-        }
-      }
-    },
-    {
-      "source": "alerejsy.pl",
-      "ship": "Norwegian Dawn",
-      "start_date": "2026-08-30",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-barcelony-do-lizbony-na-norwegian-dawn-2026-08-30-8-86c11f7d02",
-      "changes": {
-        "apartament": {
-          "old": 1559,
-          "new": 6124,
-          "delta": 4565
-        }
-      }
-    },
-    {
-      "source": "alerejsy.pl",
-      "ship": "MSC Seaview (2019)",
-      "start_date": "2026-08-30",
-      "url": "https://www.alerejsy.pl/rejsy/sloneczne-morze-srodziemne-pl-pilot-2026-10-01-8",
-      "changes": {
-        "wewnętrzna": {
-          "old": 995,
-          "new": 1318,
-          "delta": 323
-        }
-      }
-    },
-    {
-      "source": "alerejsy.pl",
-      "ship": "MSC Seaview (2019)",
-      "start_date": "2026-08-31",
-      "url": "https://www.alerejsy.pl/rejsy/rejs-z-palermosycylia-wlochy-na-msc-seaview-2019-2026-08-31-8-f25bf36ebf",
-      "changes": {
-        "z_balkonem": {
-          "old": 1823,
-          "new": 1733,
-          "delta": -90
-        }
-      }
-    },
     {
       "source": "alerejsy.pl",
       "ship": "MSC Splendida",
       "start_date": "2026-08-31",
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-marsylii-na-msc-splendida-2026-08-31-8-c873854892",
       "changes": {
-        "z_balkonem": {
-          "old": 1603,
-          "new": 1513,
-          "delta": -90
+        "apartament": {
+          "old": 1963,
+          "new": 1913,
+          "delta": -50
         }
       }
     },
@@ -720,9 +518,9 @@
       "url": "https://www.alerejsy.pl/rejsy/rejs-z-genui-na-msc-grandiosa-2019-2026-08-31-8-e417e53a57",
       "changes": {
         "wewnętrzna": {
-          "old": 973,
-          "new": 1023,
-          "delta": 50
+          "old": 1023,
+          "new": 863,
+          "delta": -160
         }
       }
     }
